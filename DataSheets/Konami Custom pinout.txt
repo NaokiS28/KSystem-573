@@ -1,0 +1,120 @@
+GND
+P2-B1
+P2-B2
+P2-B3
+P2-Start
+Coin 1
+Coin 2
+PCMCIA Inserted 1
+PCMCIA Inserted 2
+P1-B4
+GND
+P1-B5
+P2-B4
+P2-B5
+Service
+5V
+??
+??
+P1-B6
+P2-B6
+GND
+DIP1
+DIP2
+DIP3
+DIP4
+H8-Pin 12
+H8-Pin 13
+H8-Pin 14
+H8-Pin 15
+Security cart Pin 40? (Cart inserted?)
+GND
+Security cart Pin 39
+Security cart Pin 38
+Security cart Pin 37
+Security cart Pin 36
+Security cart Pin 35 (And pullup on RA27)
+Security cart Pin 34
+Security cart Pin 33
+H8 Pin 25
+GND
+H8 Pin 27
+H8 Pin 28
+H8 Pin 29
+H8 Pin 30
+5V
+H8 Pin 31
+H8 Pin 32
+H8 Pin 17
+H8 Pin 18
+GND
+H8 Pin 19
+H8 Pin 20
+H8 Pin 21
+H8 Pin 22
+H8 Pin 23
+H8 Pin 24
+H8 Pin 2
+Test Button
+???
+5V
+GND
+Data 0: 22E Pin 3 (74LS273) & 26E (74LS74) pin 2 & 22G ROM Pin 13
+Data 1: 22E Pin 4 (74LS273) & 22G ROM Pin 14
+Data 2: 22E Pin 7 (74LS273) & 22G ROM Pin 15
+Data 3: 22E Pin 8 (74LS273) & 22G ROM Pin 17
+Data 4: 22E Pin 13 (74LS273) & 22G ROM Pin 18
+Data 5: 22E Pin 14 (74LS273) & 22G ROM Pin 19
+Data 6: 22E Pin 17 (74LS273) & 22G ROM Pin 20
+Data 7: 22E Pin 18 (74LS273) & 22G ROM Pin 21
+Data 8?: 22D (74LS273) Pin 3 & 26E (74LS74) pin 12 & Flash ROM bank Pin 31 (DQ0)
+GND
+Data 9?: 22D Pin 4 & Flash ROM bank Pin 32 (DQ1)
+Data 10?: 22D Pin 7 & Flash ROM bank Pin 33 (DQ2)
+Data 11?: 22D Pin 8 & Flash ROM bank Pin 34 (DQ3)
+Data 12?: 22D Pin 11 & Flash ROM bank Pin 38 (DQ4)
+Data 13?: 22D Pin 12 & Flash ROM bank Pin 39 (DQ5)
+Data 14?: 22D Pin 7 & Flash ROM bank Pin 40 (DQ6)
+Data 15?: 22D Pin 4 & Flash ROM bank Pin 41 (DQ7)
+ADC Pin 13 Data In 
+ADC Pin 12 CLK
+GND
+ADC Pin 2 !CS 24D (ADC0834) 
+Konami Custom 058232/058460 Pin 11
+Konami Custom 058232/058460 Pin 10
+5V
+24E (74LS14) Pin 10
+32D (SM5877AM) Pin 1 (Mute)
+??
+ADC Pin 10 Data Out
+RESET: 22E Pin 1 (74LS273) & 22D (74LS273) Pin 1 & 27F&G (74LS273) Pin 1 & 26E (74LS74) Pin 1&13 & 32D Pin 22 & Flash ROMs Pin 14
+GND
+ADC Pin 11 SARS
+Security Cart Pin 20
+JVS-Sense Input (High = No IO, Low = IO connected)
+??
+??
+Security Cart Pin 97
+??
+5V
+26E (74LS74) Pin 11 & Somewhere around ROM and RTC
+GND
+??
+Address 1: A1 of BIOS ROM 10 & A0 Flash Bank Pin 30 (Not RTC?)
+Address 2: A2 of BIOS ROM 9 & A1 Flash Bank Pin 29
+Address 3: A3 of BIOS ROM 8 & A2 Flash Bank Pin 28
+5V
+P1 Left
+P1 Right
+P1 Up
+P1 Down
+GND
+P1 Button 1
+P1 Button 2
+P1 Button 3
+P1 Start
+P2 Left
+P2 Right
+P2 Up
+P2 Down
+5V

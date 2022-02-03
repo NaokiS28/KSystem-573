@@ -1,0 +1,544 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Hitachi:HD6433640 18E?
+U 1 1 64ADE90A
+P 5050 4050
+F 0 "18E?" H 5025 6315 50  0000 C CNN
+F 1 "HD6433640" H 5025 6224 50  0000 C CNN
+F 2 "Package_QFP:TQFP-64_10x10mm_P0.5mm" H 5000 2100 50  0001 C CNN
+F 3 "" H 5000 2100 50  0001 C CNN
+	1    5050 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 64ADE910
+P 4050 1950
+F 0 "#PWR?" H 4050 1800 50  0001 C CNN
+F 1 "+5V" H 4065 2123 50  0000 C CNN
+F 2 "" H 4050 1950 50  0001 C CNN
+F 3 "" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 2150 4050 2150
+Wire Wire Line
+	4050 2150 4050 1950
+Wire Wire Line
+	4200 2250 4050 2250
+Wire Wire Line
+	4050 2250 4050 2150
+Connection ~ 4050 2150
+$Comp
+L Arcade:KONAMI_056879 13E?
+U 6 1 64ADE91B
+P 2550 5550
+F 0 "13E?" H 2728 6246 50  0000 L CNN
+F 1 "KONAMI_056879" H 2728 6155 50  0000 L CNN
+F 2 "Package_QFP:TQFP-120_14x14mm_P0.4mm" H 2550 5550 50  0001 C CNN
+F 3 "" H 2550 5550 50  0001 C CNN
+	6    2550 5550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4050 7050 4050
+Wire Wire Line
+	7050 3950 7150 3950
+Wire Wire Line
+	7150 3850 7050 3850
+Wire Wire Line
+	7050 3750 7150 3750
+Text GLabel 7050 3750 0    50   Input ~ 0
+DIP-1
+$Comp
+L Arcade:KONAMI_056879 13E?
+U 3 1 64ADE926
+P 7500 4750
+F 0 "13E?" H 7417 6115 50  0000 C CNN
+F 1 "KONAMI_056879" H 7417 6024 50  0000 C CNN
+F 2 "Package_QFP:TQFP-120_14x14mm_P0.4mm" H 7500 4750 50  0001 C CNN
+F 3 "" H 7500 4750 50  0001 C CNN
+	3    7500 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 64ADE92C
+P 7050 3650
+F 0 "#PWR?" H 7050 3400 50  0001 C CNN
+F 1 "GND" V 7050 3450 50  0000 C CNN
+F 2 "" H 7050 3650 50  0001 C CNN
+F 3 "" H 7050 3650 50  0001 C CNN
+	1    7050 3650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7050 3650 7150 3650
+Text GLabel 7050 4050 0    50   Input ~ 0
+DIP-4
+Text GLabel 7050 3950 0    50   Input ~ 0
+DIP-3
+Text GLabel 7050 3850 0    50   Input ~ 0
+DIP-2
+Text GLabel 7050 4550 0    50   Input ~ 0
+CART-40
+Wire Wire Line
+	7050 4550 7150 4550
+$Comp
+L Arcade:KONAMI_056879 13E?
+U 5 1 64ADE938
+P 7550 3400
+F 0 "13E?" H 7350 4750 50  0000 L CNN
+F 1 "KONAMI_056879" H 7100 4650 50  0000 L CNN
+F 2 "Package_QFP:TQFP-120_14x14mm_P0.4mm" H 7550 3400 50  0001 C CNN
+F 3 "" H 7550 3400 50  0001 C CNN
+	5    7550 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 2900 6650 2900
+Wire Wire Line
+	7200 3000 6700 3000
+$Comp
+L power:+5V #PWR?
+U 1 1 64ADE940
+P 7100 2800
+F 0 "#PWR?" H 7100 2650 50  0001 C CNN
+F 1 "+5V" V 7100 3000 50  0000 C CNN
+F 2 "" H 7100 2800 50  0001 C CNN
+F 3 "" H 7100 2800 50  0001 C CNN
+	1    7100 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7100 2800 7200 2800
+Text GLabel 7100 3100 0    50   Input ~ 0
+18E-17
+Text GLabel 7100 3200 0    50   Input ~ 0
+18E-18
+Wire Wire Line
+	7100 3200 7200 3200
+Wire Wire Line
+	7200 3100 7100 3100
+$Comp
+L power:GND #PWR?
+U 1 1 64ADE94B
+P 7100 2300
+F 0 "#PWR?" H 7100 2050 50  0001 C CNN
+F 1 "GND" V 7100 2100 50  0000 C CNN
+F 2 "" H 7100 2300 50  0001 C CNN
+F 3 "" H 7100 2300 50  0001 C CNN
+	1    7100 2300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2300 7200 2300
+Text GLabel 6000 5350 2    50   Input ~ 0
+JVS-RX
+Text GLabel 6000 5450 2    50   Input ~ 0
+JVS-TX
+Wire Wire Line
+	6000 5350 5850 5350
+Wire Wire Line
+	5850 5450 6000 5450
+Text GLabel 6000 5250 2    50   Input ~ 0
+JVS-RTS
+Wire Wire Line
+	6000 5250 5850 5250
+Text GLabel 3050 5050 2    50   Input ~ 0
+18E-2
+Text GLabel 3050 5150 2    50   Input ~ 0
+TESTBTN
+$Comp
+L power:+5V #PWR?
+U 1 1 64ADE95A
+P 3050 5350
+F 0 "#PWR?" H 3050 5200 50  0001 C CNN
+F 1 "+5V" V 3050 5550 50  0000 C CNN
+F 2 "" H 3050 5350 50  0001 C CNN
+F 3 "" H 3050 5350 50  0001 C CNN
+	1    3050 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3050 5350 2900 5350
+Wire Wire Line
+	2900 5050 3050 5050
+Wire Wire Line
+	2900 5150 3050 5150
+Text GLabel 3050 5250 2    50   Input ~ 0
+13E-59
+Wire Wire Line
+	3050 5250 2900 5250
+Text GLabel 4050 4250 0    50   Input ~ 0
+18E-17
+Text GLabel 4050 4350 0    50   Input ~ 0
+18E-18
+Wire Wire Line
+	4050 4350 4200 4350
+Wire Wire Line
+	4050 4250 4200 4250
+Wire Wire Line
+	4100 5850 4100 5750
+Wire Wire Line
+	4100 5750 4200 5750
+$Comp
+L power:GND #PWR?
+U 1 1 64ADE96B
+P 4100 5850
+F 0 "#PWR?" H 4100 5600 50  0001 C CNN
+F 1 "GND" H 4105 5677 50  0000 C CNN
+F 2 "" H 4100 5850 50  0001 C CNN
+F 3 "" H 4100 5850 50  0001 C CNN
+	1    4100 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 5650 4100 5650
+Wire Wire Line
+	4100 5650 4100 5750
+Connection ~ 4100 5750
+$Comp
+L power:+5V #PWR?
+U 1 1 64ADE974
+P 4050 2850
+F 0 "#PWR?" H 4050 2700 50  0001 C CNN
+F 1 "+5V" V 4050 3100 50  0000 C CNN
+F 2 "" H 4050 2850 50  0001 C CNN
+F 3 "" H 4050 2850 50  0001 C CNN
+	1    4050 2850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4050 2850 4200 2850
+$Comp
+L power:GND #PWR?
+U 1 1 64ADE97B
+P 4050 2950
+F 0 "#PWR?" H 4050 2700 50  0001 C CNN
+F 1 "GND" V 4050 2700 50  0000 C CNN
+F 2 "" H 4050 2950 50  0001 C CNN
+F 3 "" H 4050 2950 50  0001 C CNN
+	1    4050 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2950 4200 2950
+Wire Notes Line
+	4150 3000 3600 3000
+Wire Notes Line
+	3600 3000 3600 2700
+Wire Notes Line
+	3600 2700 4150 2700
+Wire Notes Line
+	4150 2700 4150 3000
+Text Notes 3700 2800 0    50   ~ 0
+0 Ohms?
+$Comp
+L power:GND #PWR?
+U 1 1 64ADE987
+P 4050 2650
+F 0 "#PWR?" H 4050 2400 50  0001 C CNN
+F 1 "GND" V 4050 2400 50  0000 C CNN
+F 2 "" H 4050 2650 50  0001 C CNN
+F 3 "" H 4050 2650 50  0001 C CNN
+	1    4050 2650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4050 2650 4200 2650
+Text GLabel 4050 3350 0    50   Input ~ 0
+22E-19
+Wire Wire Line
+	4050 3350 4200 3350
+Text GLabel 4050 3850 0    50   Input ~ 0
+22E-6
+Wire Wire Line
+	4050 3850 4200 3850
+Text GLabel 4050 3650 0    50   Input ~ 0
+22E-12
+Wire Wire Line
+	4050 3650 4200 3650
+Text GLabel 4050 3750 0    50   Input ~ 0
+22E-9
+Wire Wire Line
+	4050 3750 4200 3750
+Text GLabel 4050 3550 0    50   Input ~ 0
+22E-15
+Text GLabel 4050 3450 0    50   Input ~ 0
+22E-16
+Wire Wire Line
+	4050 3550 4200 3550
+Wire Wire Line
+	4050 3450 4200 3450
+Text GLabel 4050 3950 0    50   Input ~ 0
+22E-5
+Wire Wire Line
+	4050 3950 4200 3950
+Text GLabel 4050 4050 0    50   Input ~ 0
+22E-2
+Wire Wire Line
+	4050 4050 4200 4050
+Text GLabel 6000 5100 2    50   Input ~ 0
+22D-19
+Text GLabel 6000 4600 2    50   Input ~ 0
+22D-6
+Text GLabel 6000 4800 2    50   Input ~ 0
+22D-12
+Text GLabel 6000 4700 2    50   Input ~ 0
+22D-9
+Text GLabel 6000 4900 2    50   Input ~ 0
+22D-15
+Text GLabel 6000 5000 2    50   Input ~ 0
+22D-16
+Text GLabel 6000 4500 2    50   Input ~ 0
+22D-5
+Text GLabel 6000 4400 2    50   Input ~ 0
+22D-2
+Wire Wire Line
+	5850 4400 6000 4400
+Wire Wire Line
+	5850 4900 6000 4900
+Wire Wire Line
+	5850 4700 6000 4700
+Wire Wire Line
+	5850 4800 6000 4800
+Wire Wire Line
+	5850 4600 6000 4600
+Wire Wire Line
+	5850 4500 6000 4500
+Wire Wire Line
+	5850 5000 6000 5000
+Wire Wire Line
+	5850 5100 6000 5100
+Wire Wire Line
+	5850 3150 6650 3150
+Wire Wire Line
+	5850 3250 6700 3250
+Text Notes 6400 5150 0    50   ~ 0
+PSX\nD8-15
+Text Notes 3450 4100 0    50   ~ 0
+PSX\nD0-7
+Wire Notes Line
+	4100 3250 3550 3250
+Wire Notes Line
+	3550 3250 3550 3900
+Wire Notes Line
+	3550 3900 3350 3900
+Wire Notes Line
+	3350 3900 3350 4150
+Wire Notes Line
+	3350 4150 4100 4150
+Wire Notes Line
+	4100 4150 4100 3250
+Wire Notes Line
+	5900 5200 6700 5200
+Wire Notes Line
+	6700 5200 6700 4950
+Wire Notes Line
+	6700 4950 6400 4950
+Wire Notes Line
+	6400 4950 6400 4300
+Wire Notes Line
+	6400 4300 5900 4300
+Wire Notes Line
+	5900 4300 5900 5200
+Wire Wire Line
+	6700 3000 6700 3250
+Wire Wire Line
+	6650 2900 6650 3150
+Wire Wire Line
+	7200 2700 6600 2700
+Wire Wire Line
+	6600 2700 6600 3050
+Wire Wire Line
+	6600 3050 5850 3050
+Wire Wire Line
+	7200 2600 6550 2600
+Wire Wire Line
+	6550 2600 6550 2950
+Wire Wire Line
+	6550 2950 5850 2950
+Wire Wire Line
+	7200 2500 6500 2500
+Wire Wire Line
+	6500 2500 6500 2850
+Wire Wire Line
+	6500 2850 5850 2850
+Wire Wire Line
+	7200 2400 6450 2400
+Wire Wire Line
+	6450 2400 6450 2750
+Wire Wire Line
+	6450 2750 5850 2750
+Wire Wire Line
+	5850 2550 5950 2550
+Text GLabel 5950 2650 2    50   Input ~ 0
+18E-26
+Text GLabel 5950 2550 2    50   Input ~ 0
+18E-25
+Wire Wire Line
+	5850 2650 5950 2650
+NoConn ~ 4200 3150
+Text GLabel 4050 2400 0    50   Input ~ 0
+JVS-S-IN
+Wire Wire Line
+	6700 4150 7150 4150
+Wire Wire Line
+	5850 4150 6600 4150
+Wire Wire Line
+	6550 4250 6550 4450
+Wire Wire Line
+	6550 4250 5850 4250
+Wire Wire Line
+	6550 4450 7150 4450
+Wire Wire Line
+	6600 4150 6600 4350
+Wire Wire Line
+	6600 4350 7150 4350
+Wire Wire Line
+	5850 4050 6650 4050
+Wire Wire Line
+	6650 4050 6650 4250
+Wire Wire Line
+	6650 4250 7150 4250
+Wire Wire Line
+	6700 3950 6700 4150
+Wire Wire Line
+	5850 3950 6700 3950
+Wire Wire Line
+	4050 2400 4200 2400
+Text GLabel 4050 3050 0    50   Input ~ 0
+EXO-CLK
+Wire Wire Line
+	4050 3050 4200 3050
+Text GLabel 6000 5550 2    50   Input ~ 0
+18E-50
+Wire Wire Line
+	6000 5550 5850 5550
+Text GLabel 6000 5650 2    50   Input ~ 0
+18E-51
+Text GLabel 6000 5750 2    50   Input ~ 0
+18E-52
+Wire Wire Line
+	6000 5650 5850 5650
+Wire Wire Line
+	5850 5750 6000 5750
+Text Notes 6400 5700 0    50   ~ 0
+Unused?
+Wire Notes Line
+	6750 5500 5950 5500
+Wire Notes Line
+	5950 5500 5950 5800
+Wire Notes Line
+	5950 5800 6750 5800
+Wire Notes Line
+	6750 5800 6750 5500
+Text GLabel 4000 5150 0    50   Input ~ 0
+21C-1
+Wire Wire Line
+	2900 4450 4200 4450
+Wire Wire Line
+	2900 4550 4200 4550
+Wire Wire Line
+	2900 4650 4200 4650
+Wire Wire Line
+	2900 4750 4200 4750
+Wire Wire Line
+	2900 4850 4200 4850
+Wire Wire Line
+	2900 4950 4200 4950
+Wire Wire Line
+	4000 5150 4200 5150
+Wire Wire Line
+	4000 5250 4200 5250
+Text GLabel 5950 3600 2    50   Input ~ 0
+18E-36
+Text GLabel 5950 3700 2    50   Input ~ 0
+18E-37
+Text GLabel 5950 3800 2    50   Input ~ 0
+18E-38
+Text Notes 6350 3750 0    50   ~ 0
+Unused?
+Wire Wire Line
+	5850 3800 5950 3800
+Wire Wire Line
+	5950 3700 5850 3700
+Wire Wire Line
+	5850 3600 5950 3600
+Text GLabel 5950 3400 2    50   Input ~ 0
+18E-34
+Text GLabel 5950 3500 2    50   Input ~ 0
+18E-35
+Wire Wire Line
+	5950 3500 5850 3500
+Wire Wire Line
+	5850 3400 5950 3400
+$Comp
+L 74xx:74LS74 21C?
+U 2 1 64ADEA00
+P 3050 2150
+F 0 "21C?" H 3050 2631 50  0000 C CNN
+F 1 "74LS74" H 3050 2540 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 3050 2150 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 3050 2150 50  0001 C CNN
+	2    3050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 64ADEA06
+P 2600 1850
+F 0 "#PWR?" H 2600 1700 50  0001 C CNN
+F 1 "+5V" V 2600 2100 50  0000 C CNN
+F 2 "" H 2600 1850 50  0001 C CNN
+F 3 "" H 2600 1850 50  0001 C CNN
+	1    2600 1850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2750 2050 2600 2050
+Wire Wire Line
+	2600 2050 2600 1850
+Wire Wire Line
+	2600 1850 3050 1850
+Connection ~ 2600 1850
+Text GLabel 3500 2050 2    50   Input ~ 0
+18E-35
+Wire Wire Line
+	2550 2150 2750 2150
+Wire Wire Line
+	3500 2050 3350 2050
+NoConn ~ 3350 2250
+Text GLabel 4000 5250 0    50   Input ~ 0
+21C-11
+Text GLabel 2550 2150 0    50   Input ~ 0
+21C-11
+Wire Notes Line
+	5900 3550 6700 3550
+Wire Notes Line
+	6700 3550 6700 3850
+Wire Notes Line
+	6700 3850 5900 3850
+Wire Notes Line
+	5900 3850 5900 3550
+Text GLabel 2550 2450 0    50   Input ~ 0
+U71-5
+Wire Wire Line
+	2550 2450 3050 2450
+$EndSCHEMATC
