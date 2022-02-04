@@ -1,0 +1,18 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NPRF10
+D NRP Series PC Board Circuit Protector
+K fuse circuit protector
+$ENDCMP
+#
+$CMP NRPS10
+D NRP Series PC Board Circuit Protector
+K fuse circuit protector
+$ENDCMP
+#
+$CMP NRPS11
+D NRP Series PC Board Circuit Protector
+K fuse circuit protector
+$ENDCMP
+#
+#End Doc Library
