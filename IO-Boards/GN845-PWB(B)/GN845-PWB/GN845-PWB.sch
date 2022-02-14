@@ -535,23 +535,23 @@ Wire Wire Line
 Wire Wire Line
 	6800 3400 6800 2050
 Text GLabel 6300 2400 0    50   Input ~ 0
-10E-7
+BT-C
 Wire Wire Line
 	6300 2400 7500 2400
 Text GLabel 6300 2700 0    50   Input ~ 0
-10E-8
+J-RT
 Wire Wire Line
 	6300 2700 7500 2700
 Text GLabel 6300 3000 0    50   Input ~ 0
-10E-9
+J-LT
 Wire Wire Line
 	6300 3000 7500 3000
 Text GLabel 6300 3300 0    50   Input ~ 0
-10E-10
+J-DN
 Wire Wire Line
 	6300 3300 7500 3300
 Text GLabel 6300 3600 0    50   Input ~ 0
-10E-11
+J-UP
 Wire Wire Line
 	6300 3600 7500 3600
 $Comp
@@ -798,8 +798,6 @@ Wire Wire Line
 	8850 2800 8100 2800
 Wire Notes Line
 	7400 2450 9100 2450
-Wire Notes Line
-	9250 2800 10550 2800
 Wire Notes Line
 	10550 2800 10550 2500
 Wire Notes Line
@@ -2842,15 +2840,15 @@ Wire Notes Line
 Wire Notes Line
 	10850 4500 10850 7800
 Text GLabel 13250 7400 0    50   Input ~ 0
-10E-7
+BT-C
 Text GLabel 13250 7500 0    50   Input ~ 0
-10E-8
+J-RT
 Text GLabel 13250 7600 0    50   Input ~ 0
-10E-9
+J-LF
 Text GLabel 13250 7700 0    50   Input ~ 0
-10E-10
+J-DN
 Text GLabel 13250 7800 0    50   Input ~ 0
-10E-11
+J-UP
 Wire Wire Line
 	13350 7400 13250 7400
 Wire Wire Line
@@ -3355,10 +3353,6 @@ Wire Wire Line
 	9250 3300 9250 3800
 Wire Wire Line
 	9250 3800 9400 3800
-Wire Notes Line
-	9100 4150 9250 4150
-Wire Notes Line
-	9250 4150 9250 2800
 Wire Notes Line
 	9100 2450 9100 4150
 Wire Notes Line
@@ -3968,4 +3962,22 @@ F 3 "" H 13050 9650 50  0001 C CNN
 	1    13050 9650
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8550 3600 8700 3600
+Connection ~ 8550 3600
+Connection ~ 8700 3600
+Wire Wire Line
+	8700 3600 8850 3600
+Connection ~ 8850 3600
+Wire Wire Line
+	8850 3600 9000 3600
+Connection ~ 9000 3600
+Wire Wire Line
+	9000 3600 9150 3600
+Wire Notes Line
+	9200 2800 9200 4150
+Wire Notes Line
+	9200 2800 10550 2800
+Wire Notes Line
+	9200 4150 9100 4150
 $EndSCHEMATC
