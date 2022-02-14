@@ -596,8 +596,6 @@ Wire Wire Line
 	5650 7500 5050 7500
 Wire Wire Line
 	5050 7800 5850 7800
-Text GLabel 4300 8000 0    50   Input ~ 0
-EH?
 Wire Wire Line
 	4300 8000 4400 8000
 Connection ~ 4400 8000
@@ -1194,8 +1192,6 @@ Wire Wire Line
 	5650 3700 5050 3700
 Wire Wire Line
 	5050 4000 5850 4000
-Text GLabel 4300 4200 0    50   Input ~ 0
-EH?
 Wire Wire Line
 	4300 4200 4400 4200
 Connection ~ 4400 4200
@@ -1750,7 +1746,7 @@ Wire Wire Line
 Wire Wire Line
 	11200 4000 12000 4000
 Text GLabel 10450 4200 0    50   Input ~ 0
-EH?
+ISOLATED-COMMON
 Wire Wire Line
 	10450 4200 10550 4200
 Connection ~ 10550 4200
@@ -2140,8 +2136,6 @@ Wire Wire Line
 	10600 6800 10600 7100
 Wire Wire Line
 	10600 7100 10950 7100
-Text GLabel 10500 7100 0    50   Input ~ 0
-EH?
 Wire Wire Line
 	10500 7100 10600 7100
 Connection ~ 10600 7100
@@ -2524,4 +2518,18 @@ Wire Notes Line
 	650  8200 12950 8200
 Text Notes 12400 8050 0    50   ~ 0
 OUTPUT 4
+Text GLabel 10500 7100 0    50   Input ~ 0
+ISOLATED-COMMON
+Text GLabel 4300 4200 0    50   Input ~ 0
+ISOLATED-COMMON
+Text GLabel 4300 8000 0    50   Input ~ 0
+ISOLATED-COMMON
+Text Notes 6900 7750 0    50   ~ 0
+On DDR this is the Neon ouput
+Text Notes 750  4050 0    50   ~ 0
+On DDR this is the P1 pad ouput
+Text Notes 750  7850 0    50   ~ 0
+On DDR this is the P2 pad ouput
+Text Notes 6950 4050 0    50   ~ 0
+On DDR this is the cabinet lighting ouput
 $EndSCHEMATC
