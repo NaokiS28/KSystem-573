@@ -1,0 +1,2462 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 5 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Memory_EPROM:27C040 22G?
+U 1 1 624D79FB
+P 6350 9450
+AR Path="/624D79FB" Ref="22G?"  Part="1" 
+AR Path="/62CF9562/624D79FB" Ref="22G?"  Part="1" 
+F 0 "22G?" H 6350 10931 50  0000 C CNN
+F 1 "27C040" H 6350 10840 50  0000 C CNN
+F 2 "Package_DIP:DIP-32_W15.24mm_Socket" H 6350 9450 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/devicedoc/doc0189.pdf" H 6350 9450 50  0001 C CNN
+	1    6350 9450
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	7300 8350 7400 8450
+Entry Wire Line
+	7300 8450 7400 8550
+Entry Wire Line
+	7300 8550 7400 8650
+Entry Wire Line
+	7300 8650 7400 8750
+Entry Wire Line
+	7300 8750 7400 8850
+Entry Wire Line
+	7300 8850 7400 8950
+Entry Wire Line
+	7300 8950 7400 9050
+Entry Wire Line
+	7300 9050 7400 9150
+Text Label 6800 8350 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	6750 8350 7300 8350
+Text Label 6800 8450 0    50   ~ 0
+IO-DATA-1
+Text Label 6800 8550 0    50   ~ 0
+IO-DATA-2
+Text Label 6800 8650 0    50   ~ 0
+IO-DATA-3
+Text Label 6800 8750 0    50   ~ 0
+IO-DATA-4
+Text Label 6800 8850 0    50   ~ 0
+IO-DATA-5
+Text Label 6800 8950 0    50   ~ 0
+IO-DATA-6
+Text Label 6800 9050 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	6750 9050 7300 9050
+Wire Wire Line
+	6750 8950 7300 8950
+Wire Wire Line
+	6750 8850 7300 8850
+Wire Wire Line
+	6750 8750 7300 8750
+Wire Wire Line
+	6750 8650 7300 8650
+Wire Wire Line
+	6750 8550 7300 8550
+Wire Wire Line
+	6750 8450 7300 8450
+$Comp
+L power:+5V #PWR?
+U 1 1 624D7A19
+P 6050 8150
+AR Path="/624D7A19" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624D7A19" Ref="#PWR0111"  Part="1" 
+F 0 "#PWR0111" H 6050 8000 50  0001 C CNN
+F 1 "+5V" H 6065 8323 50  0000 C CNN
+F 2 "" H 6050 8150 50  0001 C CNN
+F 3 "" H 6050 8150 50  0001 C CNN
+	1    6050 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 624D7A1F
+P 6050 10800
+AR Path="/624D7A1F" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624D7A1F" Ref="#PWR0113"  Part="1" 
+F 0 "#PWR0113" H 6050 10550 50  0001 C CNN
+F 1 "GND" H 6055 10627 50  0000 C CNN
+F 2 "" H 6050 10800 50  0001 C CNN
+F 3 "" H 6050 10800 50  0001 C CNN
+	1    6050 10800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 8150 6350 8150
+Wire Wire Line
+	6350 10800 6350 10750
+Wire Wire Line
+	6050 10800 6350 10800
+Text Label 5450 8350 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	5300 8450 5400 8350
+Wire Wire Line
+	5400 8350 5950 8350
+Text Label 5300 9750 2    50   ~ 0
+IO-ADDR
+Text Label 5450 8450 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	5300 8550 5400 8450
+Wire Wire Line
+	5400 8450 5950 8450
+Text Label 5450 8550 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	5300 8650 5400 8550
+Wire Wire Line
+	5400 8550 5950 8550
+Text Label 5450 8650 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	5300 8750 5400 8650
+Wire Wire Line
+	5400 8650 5950 8650
+Text Label 5450 8750 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	5300 8850 5400 8750
+Wire Wire Line
+	5400 8750 5950 8750
+Text Label 5450 8850 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	5300 8950 5400 8850
+Wire Wire Line
+	5400 8850 5950 8850
+Text Label 5450 8950 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	5300 9050 5400 8950
+Wire Wire Line
+	5400 8950 5950 8950
+Text Label 5450 9050 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	5300 9150 5400 9050
+Wire Wire Line
+	5400 9050 5950 9050
+Text Label 5450 9150 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	5300 9250 5400 9150
+Wire Wire Line
+	5400 9150 5950 9150
+Text Label 5450 9250 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	5300 9350 5400 9250
+Wire Wire Line
+	5400 9250 5950 9250
+Text Label 5450 9350 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	5300 9450 5400 9350
+Wire Wire Line
+	5400 9350 5950 9350
+Text Label 5450 9450 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	5300 9550 5400 9450
+Wire Wire Line
+	5400 9450 5950 9450
+Text Label 5450 9550 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	5300 9650 5400 9550
+Wire Wire Line
+	5400 9550 5950 9550
+Text Label 5450 9650 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	5300 9750 5400 9650
+Wire Wire Line
+	5400 9650 5950 9650
+Text Label 5450 9750 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	5300 9850 5400 9750
+Wire Wire Line
+	5400 9750 5950 9750
+Text Label 5450 9850 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	5300 9950 5400 9850
+Wire Wire Line
+	5400 9850 5950 9850
+Text Label 5450 9950 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	5300 10050 5400 9950
+Wire Wire Line
+	5400 9950 5950 9950
+Text Label 5450 10050 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	5300 10150 5400 10050
+Wire Wire Line
+	5400 10050 5950 10050
+Text Label 5450 10150 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	5300 10250 5400 10150
+Wire Wire Line
+	5400 10150 5950 10150
+$Comp
+L Arcade:KONAMI_056879 13E?
+U 11 1 624D7A62
+P 4300 9250
+AR Path="/624D7A62" Ref="13E?"  Part="11" 
+AR Path="/62CF9562/624D7A62" Ref="13E?"  Part="11" 
+F 0 "13E?" H 4478 9946 50  0000 L CNN
+F 1 "KONAMI_056879" H 4478 9855 50  0000 L CNN
+F 2 "Package_QFP:TQFP-120_14x14mm_P0.4mm" H 4300 9250 50  0001 C CNN
+F 3 "" H 4300 9250 50  0001 C CNN
+	11   4300 9250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 624D7A68
+P 4800 8650
+AR Path="/624D7A68" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624D7A68" Ref="#PWR0114"  Part="1" 
+F 0 "#PWR0114" H 4800 8500 50  0001 C CNN
+F 1 "+5V" V 4800 8850 50  0000 C CNN
+F 2 "" H 4800 8650 50  0001 C CNN
+F 3 "" H 4800 8650 50  0001 C CNN
+	1    4800 8650
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4800 8650 4650 8650
+Text Label 5150 8350 2    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	5200 8350 5300 8450
+Wire Wire Line
+	5200 8350 4650 8350
+Text Label 4700 8450 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	5300 8550 5200 8450
+Wire Wire Line
+	4650 8450 5200 8450
+Text Label 4700 8550 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	5300 8650 5200 8550
+Wire Wire Line
+	4650 8550 5200 8550
+Text GLabel 4750 8750 2    50   Input ~ 0
+P1LFIN
+Wire Wire Line
+	4750 8750 4650 8750
+Text GLabel 4750 8850 2    50   Input ~ 0
+P1RTIN
+Text GLabel 4750 8950 2    50   Input ~ 0
+P1UPIN
+Text GLabel 4750 9050 2    50   Input ~ 0
+P1DNIN
+Wire Wire Line
+	4750 9050 4650 9050
+Wire Wire Line
+	4650 8950 4750 8950
+Wire Wire Line
+	4750 8850 4650 8850
+Wire Notes Line
+	4700 8700 5250 8700
+Wire Notes Line
+	5250 8700 5250 9400
+Wire Notes Line
+	5250 9400 4100 9400
+Wire Notes Line
+	4100 9400 4100 9150
+Wire Notes Line
+	4100 9150 4700 9150
+Wire Notes Line
+	4700 9150 4700 8700
+Text Notes 4200 9300 0    50   ~ 0
+Details in JAMMA.sch
+$Comp
+L power:GND #PWR?
+U 1 1 624D7A87
+P 4750 8150
+AR Path="/624D7A87" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624D7A87" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 4750 7900 50  0001 C CNN
+F 1 "GND" V 4750 7950 50  0000 C CNN
+F 2 "" H 4750 8150 50  0001 C CNN
+F 3 "" H 4750 8150 50  0001 C CNN
+	1    4750 8150
+	0    -1   -1   0   
+$EndComp
+Text GLabel 5100 8150 2    50   Input ~ 0
+13E-102
+Wire Wire Line
+	4750 8150 4650 8150
+Wire Wire Line
+	4650 8250 5100 8250
+Wire Wire Line
+	5100 8250 5100 8150
+$Comp
+L power:+5V #PWR?
+U 1 1 624D7A91
+P 5850 10350
+AR Path="/624D7A91" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624D7A91" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 5850 10200 50  0001 C CNN
+F 1 "+5V" V 5850 10550 50  0000 C CNN
+F 2 "" H 5850 10350 50  0001 C CNN
+F 3 "" H 5850 10350 50  0001 C CNN
+	1    5850 10350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5850 10350 5950 10350
+$Comp
+L power:GND #PWR?
+U 1 1 624D7A98
+P 5850 10450
+AR Path="/624D7A98" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624D7A98" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5850 10200 50  0001 C CNN
+F 1 "GND" V 5850 10250 50  0000 C CNN
+F 2 "" H 5850 10450 50  0001 C CNN
+F 3 "" H 5850 10450 50  0001 C CNN
+	1    5850 10450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5850 10450 5950 10450
+Text GLabel 5550 10550 0    50   Input ~ 0
+PCPU-~BIOS
+Wire Wire Line
+	5550 10550 5950 10550
+Text Label 7400 9200 0    50   ~ 0
+IO-DATA
+$Comp
+L RTC_ST:M48T58Y U?
+U 1 1 624FCC4C
+P 9500 10500
+AR Path="/624FCC4C" Ref="U?"  Part="1" 
+AR Path="/62CF9562/624FCC4C" Ref="U?"  Part="1" 
+F 0 "U?" H 9500 13065 50  0000 C CNN
+F 1 "M48T58Y" H 9500 12974 50  0000 C CNN
+F 2 "Package_DIP:DIP-28_W15.24mm_Socket" H 9600 10450 50  0001 C CNN
+F 3 "" H 9500 10500 50  0001 C CNN
+	1    9500 10500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 624FCC52
+P 9000 8100
+AR Path="/624FCC52" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624FCC52" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 9000 7950 50  0001 C CNN
+F 1 "+5V" H 9015 8273 50  0000 C CNN
+F 2 "" H 9000 8100 50  0001 C CNN
+F 3 "" H 9000 8100 50  0001 C CNN
+	1    9000 8100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 8200 9000 8200
+Wire Wire Line
+	9000 8200 9000 8100
+Entry Wire Line
+	10450 8350 10550 8450
+Entry Wire Line
+	10450 8450 10550 8550
+Entry Wire Line
+	10450 8550 10550 8650
+Entry Wire Line
+	10450 8650 10550 8750
+Entry Wire Line
+	10450 8750 10550 8850
+Entry Wire Line
+	10450 8850 10550 8950
+Entry Wire Line
+	10450 8950 10550 9050
+Entry Wire Line
+	10450 9050 10550 9150
+Text Label 9950 8350 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	9900 8350 10450 8350
+Text Label 9950 8450 0    50   ~ 0
+IO-DATA-1
+Text Label 9950 8550 0    50   ~ 0
+IO-DATA-2
+Text Label 9950 8650 0    50   ~ 0
+IO-DATA-3
+Text Label 9950 8750 0    50   ~ 0
+IO-DATA-4
+Text Label 9950 8850 0    50   ~ 0
+IO-DATA-5
+Text Label 9950 8950 0    50   ~ 0
+IO-DATA-6
+Text Label 9950 9050 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	9900 9050 10450 9050
+Wire Wire Line
+	9900 8950 10450 8950
+Wire Wire Line
+	9900 8850 10450 8850
+Wire Wire Line
+	9900 8750 10450 8750
+Wire Wire Line
+	9900 8650 10450 8650
+Wire Wire Line
+	9900 8550 10450 8550
+Wire Wire Line
+	9900 8450 10450 8450
+Text Label 10550 9200 0    50   ~ 0
+IO-DATA
+$Comp
+L power:+5V #PWR?
+U 1 1 624FCC73
+P 8950 9850
+AR Path="/624FCC73" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624FCC73" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 8950 9700 50  0001 C CNN
+F 1 "+5V" V 8950 10100 50  0000 C CNN
+F 2 "" H 8950 9850 50  0001 C CNN
+F 3 "" H 8950 9850 50  0001 C CNN
+	1    8950 9850
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8950 9850 9100 9850
+$Comp
+L power:GND #PWR?
+U 1 1 624FCC7A
+P 9000 10450
+AR Path="/624FCC7A" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/624FCC7A" Ref="#PWR0126"  Part="1" 
+F 0 "#PWR0126" H 9000 10200 50  0001 C CNN
+F 1 "GND" H 9005 10277 50  0000 C CNN
+F 2 "" H 9000 10450 50  0001 C CNN
+F 3 "" H 9000 10450 50  0001 C CNN
+	1    9000 10450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 10350 9000 10350
+Wire Wire Line
+	9000 10350 9000 10450
+Wire Wire Line
+	8950 10100 9100 10100
+Text GLabel 8950 10100 0    50   Input ~ 0
+NVRAM-~WR
+Text Label 8500 8350 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	8350 8450 8450 8350
+Wire Wire Line
+	8450 8350 9000 8350
+Text Label 8500 8450 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	8350 8550 8450 8450
+Wire Wire Line
+	8450 8450 9000 8450
+Text Label 8500 8550 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	8350 8650 8450 8550
+Wire Wire Line
+	8450 8550 9000 8550
+Text Label 8500 8650 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	8350 8750 8450 8650
+Wire Wire Line
+	8450 8650 9000 8650
+Text Label 8500 8750 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	8350 8850 8450 8750
+Wire Wire Line
+	8450 8750 9000 8750
+Text Label 8500 8850 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	8350 8950 8450 8850
+Wire Wire Line
+	8450 8850 9000 8850
+Text Label 8500 8950 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	8350 9050 8450 8950
+Wire Wire Line
+	8450 8950 9000 8950
+Text Label 8500 9050 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	8350 9150 8450 9050
+Wire Wire Line
+	8450 9050 9000 9050
+Text Label 8500 9150 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	8350 9250 8450 9150
+Wire Wire Line
+	8450 9150 9000 9150
+Text Label 8500 9250 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	8350 9350 8450 9250
+Wire Wire Line
+	8450 9250 9000 9250
+Text Label 8500 9350 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	8350 9450 8450 9350
+Wire Wire Line
+	8450 9350 9000 9350
+Text Label 8500 9450 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	8350 9550 8450 9450
+Wire Wire Line
+	8450 9450 9000 9450
+Text Label 8500 9550 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	8350 9650 8450 9550
+Wire Wire Line
+	8450 9550 9000 9550
+$Comp
+L Memory_Flash:29F016-TSOP-SP U?
+U 1 1 6252D6CF
+P 3100 6050
+AR Path="/6252D6CF" Ref="U?"  Part="1" 
+AR Path="/62CF9562/6252D6CF" Ref="31H"  Part="1" 
+F 0 "31H" H 3300 7550 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 3600 7400 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 3100 6050 50  0001 C CNN
+F 3 "" H 3100 6050 50  0001 C CNN
+	1    3100 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6252D6D5
+P 3100 7300
+AR Path="/6252D6D5" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6252D6D5" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 3100 7050 50  0001 C CNN
+F 1 "GND" V 3100 7100 50  0000 C CNN
+F 2 "" H 3100 7300 50  0001 C CNN
+F 3 "" H 3100 7300 50  0001 C CNN
+	1    3100 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 7300 3100 7300
+Connection ~ 3100 7300
+Wire Wire Line
+	3100 7300 3050 7300
+$Comp
+L power:+5V #PWR?
+U 1 1 6252D6DE
+P 3100 4500
+AR Path="/6252D6DE" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6252D6DE" Ref="#PWR0130"  Part="1" 
+F 0 "#PWR0130" H 3100 4350 50  0001 C CNN
+F 1 "+5V" H 3115 4673 50  0000 C CNN
+F 2 "" H 3100 4500 50  0001 C CNN
+F 3 "" H 3100 4500 50  0001 C CNN
+	1    3100 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 4500 3100 4500
+Connection ~ 3100 4500
+Wire Wire Line
+	3100 4500 3050 4500
+Text GLabel 3850 6000 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	3700 6000 3850 6000
+Entry Wire Line
+	4250 4900 4350 5000
+Entry Wire Line
+	4250 5000 4350 5100
+Entry Wire Line
+	4250 5100 4350 5200
+Entry Wire Line
+	4250 5200 4350 5300
+Entry Wire Line
+	4250 5300 4350 5400
+Entry Wire Line
+	4250 5400 4350 5500
+Entry Wire Line
+	4250 5500 4350 5600
+Entry Wire Line
+	4250 5600 4350 5700
+Text Label 3750 4900 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	3700 4900 4250 4900
+Text Label 3750 5000 0    50   ~ 0
+IO-DATA-1
+Text Label 3750 5100 0    50   ~ 0
+IO-DATA-2
+Text Label 3750 5200 0    50   ~ 0
+IO-DATA-3
+Text Label 3750 5300 0    50   ~ 0
+IO-DATA-4
+Text Label 3750 5400 0    50   ~ 0
+IO-DATA-5
+Text Label 3750 5500 0    50   ~ 0
+IO-DATA-6
+Text Label 3750 5600 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	3700 5600 4250 5600
+Wire Wire Line
+	3700 5500 4250 5500
+Wire Wire Line
+	3700 5400 4250 5400
+Wire Wire Line
+	3700 5300 4250 5300
+Wire Wire Line
+	3700 5200 4250 5200
+Wire Wire Line
+	3700 5100 4250 5100
+Wire Wire Line
+	3700 5000 4250 5000
+Text Label 4350 5800 0    50   ~ 0
+IO-DATA
+Text Notes 6450 11000 0    50   ~ 0
+BIOS ROM
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31H?
+U 1 1 65788479
+P 6350 6050
+AR Path="/65788479" Ref="31H?"  Part="1" 
+AR Path="/62CF9562/65788479" Ref="31J"  Part="1" 
+F 0 "31J" H 6550 7550 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 6850 7400 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 6350 6050 50  0001 C CNN
+F 3 "" H 6350 6050 50  0001 C CNN
+	1    6350 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65788483
+P 6350 7300
+AR Path="/65788483" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65788483" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 7050 50  0001 C CNN
+F 1 "GND" V 6350 7100 50  0000 C CNN
+F 2 "" H 6350 7300 50  0001 C CNN
+F 3 "" H 6350 7300 50  0001 C CNN
+	1    6350 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 7300 6350 7300
+Connection ~ 6350 7300
+Wire Wire Line
+	6350 7300 6300 7300
+$Comp
+L power:+5V #PWR?
+U 1 1 65788490
+P 6350 4500
+AR Path="/65788490" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65788490" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 4350 50  0001 C CNN
+F 1 "+5V" H 6365 4673 50  0000 C CNN
+F 2 "" H 6350 4500 50  0001 C CNN
+F 3 "" H 6350 4500 50  0001 C CNN
+	1    6350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4500 6350 4500
+Connection ~ 6350 4500
+Wire Wire Line
+	6350 4500 6300 4500
+Text GLabel 7100 6000 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	6950 6000 7100 6000
+Entry Wire Line
+	7500 4900 7600 5000
+Entry Wire Line
+	7500 5000 7600 5100
+Entry Wire Line
+	7500 5100 7600 5200
+Entry Wire Line
+	7500 5200 7600 5300
+Entry Wire Line
+	7500 5300 7600 5400
+Entry Wire Line
+	7500 5400 7600 5500
+Entry Wire Line
+	7500 5500 7600 5600
+Entry Wire Line
+	7500 5600 7600 5700
+Text Label 7000 4900 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	6950 4900 7500 4900
+Text Label 7000 5000 0    50   ~ 0
+IO-DATA-1
+Text Label 7000 5100 0    50   ~ 0
+IO-DATA-2
+Text Label 7000 5200 0    50   ~ 0
+IO-DATA-3
+Text Label 7000 5300 0    50   ~ 0
+IO-DATA-4
+Text Label 7000 5400 0    50   ~ 0
+IO-DATA-5
+Text Label 7000 5500 0    50   ~ 0
+IO-DATA-6
+Text Label 7000 5600 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	6950 5600 7500 5600
+Wire Wire Line
+	6950 5500 7500 5500
+Wire Wire Line
+	6950 5400 7500 5400
+Wire Wire Line
+	6950 5300 7500 5300
+Wire Wire Line
+	6950 5200 7500 5200
+Wire Wire Line
+	6950 5100 7500 5100
+Wire Wire Line
+	6950 5000 7500 5000
+Text Label 7600 5750 0    50   ~ 0
+IO-DATA
+Text Label 2000 4900 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	1850 5000 1950 4900
+Wire Wire Line
+	1950 4900 2500 4900
+Text Label 2000 5000 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	1850 5100 1950 5000
+Wire Wire Line
+	1950 5000 2500 5000
+Text Label 2000 5100 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	1850 5200 1950 5100
+Wire Wire Line
+	1950 5100 2500 5100
+Text Label 2000 5200 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	1850 5300 1950 5200
+Wire Wire Line
+	1950 5200 2500 5200
+Text Label 2000 5300 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	1850 5400 1950 5300
+Wire Wire Line
+	1950 5300 2500 5300
+Text Label 2000 5400 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	1850 5500 1950 5400
+Wire Wire Line
+	1950 5400 2500 5400
+Text Label 2000 5500 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	1850 5600 1950 5500
+Wire Wire Line
+	1950 5500 2500 5500
+Text Label 2000 5600 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	1850 5700 1950 5600
+Wire Wire Line
+	1950 5600 2500 5600
+Text Label 2000 5700 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	1850 5800 1950 5700
+Wire Wire Line
+	1950 5700 2500 5700
+Text Label 2000 5800 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	1850 5900 1950 5800
+Wire Wire Line
+	1950 5800 2500 5800
+Text Label 2000 5900 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	1850 6000 1950 5900
+Wire Wire Line
+	1950 5900 2500 5900
+Text Label 2000 6000 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	1850 6100 1950 6000
+Wire Wire Line
+	1950 6000 2500 6000
+Text Label 2000 6100 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	1850 6200 1950 6100
+Wire Wire Line
+	1950 6100 2500 6100
+Text Label 2000 6200 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	1850 6300 1950 6200
+Wire Wire Line
+	1950 6200 2500 6200
+Text Label 2000 6300 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	1850 6400 1950 6300
+Wire Wire Line
+	1950 6300 2500 6300
+Text Label 2000 6400 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	1850 6500 1950 6400
+Wire Wire Line
+	1950 6400 2500 6400
+Text Label 2000 6500 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	1850 6600 1950 6500
+Wire Wire Line
+	1950 6500 2500 6500
+Text Label 2000 6600 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	1850 6700 1950 6600
+Wire Wire Line
+	1950 6600 2500 6600
+Text Label 2000 6700 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	1850 6800 1950 6700
+Wire Wire Line
+	1950 6700 2500 6700
+Text Label 2000 6800 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	1950 6800 2500 6800
+Entry Wire Line
+	1850 6900 1950 6800
+Entry Wire Line
+	1850 7000 1950 6900
+Wire Wire Line
+	1950 6900 2500 6900
+Text Label 2000 6900 0    50   ~ 0
+IO-ADDR-20
+Text Label 5250 4900 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	5100 5000 5200 4900
+Wire Wire Line
+	5200 4900 5750 4900
+Text Label 5250 5000 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	5100 5100 5200 5000
+Wire Wire Line
+	5200 5000 5750 5000
+Text Label 5250 5100 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	5100 5200 5200 5100
+Wire Wire Line
+	5200 5100 5750 5100
+Text Label 5250 5200 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	5100 5300 5200 5200
+Wire Wire Line
+	5200 5200 5750 5200
+Text Label 5250 5300 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	5100 5400 5200 5300
+Wire Wire Line
+	5200 5300 5750 5300
+Text Label 5250 5400 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	5100 5500 5200 5400
+Wire Wire Line
+	5200 5400 5750 5400
+Text Label 5250 5500 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	5100 5600 5200 5500
+Wire Wire Line
+	5200 5500 5750 5500
+Text Label 5250 5600 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	5100 5700 5200 5600
+Wire Wire Line
+	5200 5600 5750 5600
+Text Label 5250 5700 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	5100 5800 5200 5700
+Wire Wire Line
+	5200 5700 5750 5700
+Text Label 5250 5800 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	5100 5900 5200 5800
+Wire Wire Line
+	5200 5800 5750 5800
+Text Label 5250 5900 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	5100 6000 5200 5900
+Wire Wire Line
+	5200 5900 5750 5900
+Text Label 5250 6000 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	5100 6100 5200 6000
+Wire Wire Line
+	5200 6000 5750 6000
+Text Label 5250 6100 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	5100 6200 5200 6100
+Wire Wire Line
+	5200 6100 5750 6100
+Text Label 5250 6200 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	5100 6300 5200 6200
+Wire Wire Line
+	5200 6200 5750 6200
+Text Label 5250 6300 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	5100 6400 5200 6300
+Wire Wire Line
+	5200 6300 5750 6300
+Text Label 5250 6400 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	5100 6500 5200 6400
+Wire Wire Line
+	5200 6400 5750 6400
+Text Label 5250 6500 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	5100 6600 5200 6500
+Wire Wire Line
+	5200 6500 5750 6500
+Text Label 5250 6600 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	5100 6700 5200 6600
+Wire Wire Line
+	5200 6600 5750 6600
+Text Label 5250 6700 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	5100 6800 5200 6700
+Wire Wire Line
+	5200 6700 5750 6700
+Text Label 5250 6800 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	5200 6800 5750 6800
+Entry Wire Line
+	5100 6900 5200 6800
+Entry Wire Line
+	5100 7000 5200 6900
+Wire Wire Line
+	5200 6900 5750 6900
+Text Label 5250 6900 0    50   ~ 0
+IO-ADDR-20
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31H?
+U 1 1 659DD311
+P 9450 6050
+AR Path="/659DD311" Ref="31H?"  Part="1" 
+AR Path="/62CF9562/659DD311" Ref="31L"  Part="1" 
+F 0 "31L" H 9650 7550 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 9950 7400 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 9450 6050 50  0001 C CNN
+F 3 "" H 9450 6050 50  0001 C CNN
+	1    9450 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 659DD36D
+P 9450 7300
+AR Path="/659DD36D" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/659DD36D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9450 7050 50  0001 C CNN
+F 1 "GND" V 9450 7100 50  0000 C CNN
+F 2 "" H 9450 7300 50  0001 C CNN
+F 3 "" H 9450 7300 50  0001 C CNN
+	1    9450 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 7300 9450 7300
+Connection ~ 9450 7300
+Wire Wire Line
+	9450 7300 9400 7300
+$Comp
+L power:+5V #PWR?
+U 1 1 659DD37A
+P 9450 4500
+AR Path="/659DD37A" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/659DD37A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9450 4350 50  0001 C CNN
+F 1 "+5V" H 9465 4673 50  0000 C CNN
+F 2 "" H 9450 4500 50  0001 C CNN
+F 3 "" H 9450 4500 50  0001 C CNN
+	1    9450 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 4500 9450 4500
+Connection ~ 9450 4500
+Wire Wire Line
+	9450 4500 9400 4500
+Text GLabel 10200 6000 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	10050 6000 10200 6000
+Entry Wire Line
+	10600 4900 10700 5000
+Entry Wire Line
+	10600 5000 10700 5100
+Entry Wire Line
+	10600 5100 10700 5200
+Entry Wire Line
+	10600 5200 10700 5300
+Entry Wire Line
+	10600 5300 10700 5400
+Entry Wire Line
+	10600 5400 10700 5500
+Entry Wire Line
+	10600 5500 10700 5600
+Entry Wire Line
+	10600 5600 10700 5700
+Text Label 10100 4900 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	10050 4900 10600 4900
+Text Label 10100 5000 0    50   ~ 0
+IO-DATA-1
+Text Label 10100 5100 0    50   ~ 0
+IO-DATA-2
+Text Label 10100 5200 0    50   ~ 0
+IO-DATA-3
+Text Label 10100 5300 0    50   ~ 0
+IO-DATA-4
+Text Label 10100 5400 0    50   ~ 0
+IO-DATA-5
+Text Label 10100 5500 0    50   ~ 0
+IO-DATA-6
+Text Label 10100 5600 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	10050 5600 10600 5600
+Wire Wire Line
+	10050 5500 10600 5500
+Wire Wire Line
+	10050 5400 10600 5400
+Wire Wire Line
+	10050 5300 10600 5300
+Wire Wire Line
+	10050 5200 10600 5200
+Wire Wire Line
+	10050 5100 10600 5100
+Wire Wire Line
+	10050 5000 10600 5000
+Text Label 10700 5750 0    50   ~ 0
+IO-DATA
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31J?
+U 1 1 659DD3A2
+P 12750 6050
+AR Path="/659DD3A2" Ref="31J?"  Part="1" 
+AR Path="/62CF9562/659DD3A2" Ref="31M"  Part="1" 
+F 0 "31M" H 12950 7550 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 13250 7400 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 12750 6050 50  0001 C CNN
+F 3 "" H 12750 6050 50  0001 C CNN
+	1    12750 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 659DD3AC
+P 12750 7300
+AR Path="/659DD3AC" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/659DD3AC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12750 7050 50  0001 C CNN
+F 1 "GND" V 12750 7100 50  0000 C CNN
+F 2 "" H 12750 7300 50  0001 C CNN
+F 3 "" H 12750 7300 50  0001 C CNN
+	1    12750 7300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 7300 12750 7300
+Connection ~ 12750 7300
+Wire Wire Line
+	12750 7300 12700 7300
+$Comp
+L power:+5V #PWR?
+U 1 1 659DD3B9
+P 12750 4500
+AR Path="/659DD3B9" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/659DD3B9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12750 4350 50  0001 C CNN
+F 1 "+5V" H 12765 4673 50  0000 C CNN
+F 2 "" H 12750 4500 50  0001 C CNN
+F 3 "" H 12750 4500 50  0001 C CNN
+	1    12750 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 4500 12750 4500
+Connection ~ 12750 4500
+Wire Wire Line
+	12750 4500 12700 4500
+Text GLabel 13500 6000 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	13350 6000 13500 6000
+Entry Wire Line
+	13900 4900 14000 5000
+Entry Wire Line
+	13900 5000 14000 5100
+Entry Wire Line
+	13900 5100 14000 5200
+Entry Wire Line
+	13900 5200 14000 5300
+Entry Wire Line
+	13900 5300 14000 5400
+Entry Wire Line
+	13900 5400 14000 5500
+Entry Wire Line
+	13900 5500 14000 5600
+Entry Wire Line
+	13900 5600 14000 5700
+Text Label 13400 4900 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	13350 4900 13900 4900
+Text Label 13400 5000 0    50   ~ 0
+IO-DATA-1
+Text Label 13400 5100 0    50   ~ 0
+IO-DATA-2
+Text Label 13400 5200 0    50   ~ 0
+IO-DATA-3
+Text Label 13400 5300 0    50   ~ 0
+IO-DATA-4
+Text Label 13400 5400 0    50   ~ 0
+IO-DATA-5
+Text Label 13400 5500 0    50   ~ 0
+IO-DATA-6
+Text Label 13400 5600 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	13350 5600 13900 5600
+Wire Wire Line
+	13350 5500 13900 5500
+Wire Wire Line
+	13350 5400 13900 5400
+Wire Wire Line
+	13350 5300 13900 5300
+Wire Wire Line
+	13350 5200 13900 5200
+Wire Wire Line
+	13350 5100 13900 5100
+Wire Wire Line
+	13350 5000 13900 5000
+Text Label 14000 5750 0    50   ~ 0
+IO-DATA
+Text Label 8350 4900 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	8200 5000 8300 4900
+Wire Wire Line
+	8300 4900 8850 4900
+Text Label 8350 5000 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	8200 5100 8300 5000
+Wire Wire Line
+	8300 5000 8850 5000
+Text Label 8350 5100 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	8200 5200 8300 5100
+Wire Wire Line
+	8300 5100 8850 5100
+Text Label 8350 5200 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	8200 5300 8300 5200
+Wire Wire Line
+	8300 5200 8850 5200
+Text Label 8350 5300 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	8200 5400 8300 5300
+Wire Wire Line
+	8300 5300 8850 5300
+Text Label 8350 5400 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	8200 5500 8300 5400
+Wire Wire Line
+	8300 5400 8850 5400
+Text Label 8350 5500 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	8200 5600 8300 5500
+Wire Wire Line
+	8300 5500 8850 5500
+Text Label 8350 5600 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	8200 5700 8300 5600
+Wire Wire Line
+	8300 5600 8850 5600
+Text Label 8350 5700 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	8200 5800 8300 5700
+Wire Wire Line
+	8300 5700 8850 5700
+Text Label 8350 5800 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	8200 5900 8300 5800
+Wire Wire Line
+	8300 5800 8850 5800
+Text Label 8350 5900 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	8200 6000 8300 5900
+Wire Wire Line
+	8300 5900 8850 5900
+Text Label 8350 6000 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	8200 6100 8300 6000
+Wire Wire Line
+	8300 6000 8850 6000
+Text Label 8350 6100 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	8200 6200 8300 6100
+Wire Wire Line
+	8300 6100 8850 6100
+Text Label 8350 6200 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	8200 6300 8300 6200
+Wire Wire Line
+	8300 6200 8850 6200
+Text Label 8350 6300 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	8200 6400 8300 6300
+Wire Wire Line
+	8300 6300 8850 6300
+Text Label 8350 6400 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	8200 6500 8300 6400
+Wire Wire Line
+	8300 6400 8850 6400
+Text Label 8350 6500 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	8200 6600 8300 6500
+Wire Wire Line
+	8300 6500 8850 6500
+Text Label 8350 6600 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	8200 6700 8300 6600
+Wire Wire Line
+	8300 6600 8850 6600
+Text Label 8350 6700 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	8200 6800 8300 6700
+Wire Wire Line
+	8300 6700 8850 6700
+Text Label 8350 6800 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	8300 6800 8850 6800
+Entry Wire Line
+	8200 6900 8300 6800
+Entry Wire Line
+	8200 7000 8300 6900
+Wire Wire Line
+	8300 6900 8850 6900
+Text Label 8350 6900 0    50   ~ 0
+IO-ADDR-20
+Text Label 11650 4900 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	11500 5000 11600 4900
+Wire Wire Line
+	11600 4900 12150 4900
+Text Label 11650 5000 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	11500 5100 11600 5000
+Wire Wire Line
+	11600 5000 12150 5000
+Text Label 11650 5100 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	11500 5200 11600 5100
+Wire Wire Line
+	11600 5100 12150 5100
+Text Label 11650 5200 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	11500 5300 11600 5200
+Wire Wire Line
+	11600 5200 12150 5200
+Text Label 11650 5300 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	11500 5400 11600 5300
+Wire Wire Line
+	11600 5300 12150 5300
+Text Label 11650 5400 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	11500 5500 11600 5400
+Wire Wire Line
+	11600 5400 12150 5400
+Text Label 11650 5500 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	11500 5600 11600 5500
+Wire Wire Line
+	11600 5500 12150 5500
+Text Label 11650 5600 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	11500 5700 11600 5600
+Wire Wire Line
+	11600 5600 12150 5600
+Text Label 11650 5700 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	11500 5800 11600 5700
+Wire Wire Line
+	11600 5700 12150 5700
+Text Label 11650 5800 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	11500 5900 11600 5800
+Wire Wire Line
+	11600 5800 12150 5800
+Text Label 11650 5900 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	11500 6000 11600 5900
+Wire Wire Line
+	11600 5900 12150 5900
+Text Label 11650 6000 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	11500 6100 11600 6000
+Wire Wire Line
+	11600 6000 12150 6000
+Text Label 11650 6100 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	11500 6200 11600 6100
+Wire Wire Line
+	11600 6100 12150 6100
+Text Label 11650 6200 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	11500 6300 11600 6200
+Wire Wire Line
+	11600 6200 12150 6200
+Text Label 11650 6300 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	11500 6400 11600 6300
+Wire Wire Line
+	11600 6300 12150 6300
+Text Label 11650 6400 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	11500 6500 11600 6400
+Wire Wire Line
+	11600 6400 12150 6400
+Text Label 11650 6500 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	11500 6600 11600 6500
+Wire Wire Line
+	11600 6500 12150 6500
+Text Label 11650 6600 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	11500 6700 11600 6600
+Wire Wire Line
+	11600 6600 12150 6600
+Text Label 11650 6700 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	11500 6800 11600 6700
+Wire Wire Line
+	11600 6700 12150 6700
+Text Label 11650 6800 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	11600 6800 12150 6800
+Entry Wire Line
+	11500 6900 11600 6800
+Entry Wire Line
+	11500 7000 11600 6900
+Wire Wire Line
+	11600 6900 12150 6900
+Text Label 11650 6900 0    50   ~ 0
+IO-ADDR-20
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31H?
+U 1 1 65D65FB5
+P 3100 2450
+AR Path="/65D65FB5" Ref="31H?"  Part="1" 
+AR Path="/62CF9562/65D65FB5" Ref="27H"  Part="1" 
+F 0 "27H" H 3300 3950 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 3600 3800 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 3100 2450 50  0001 C CNN
+F 3 "" H 3100 2450 50  0001 C CNN
+	1    3100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65D66011
+P 3100 3700
+AR Path="/65D66011" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D66011" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 3450 50  0001 C CNN
+F 1 "GND" V 3100 3500 50  0000 C CNN
+F 2 "" H 3100 3700 50  0001 C CNN
+F 3 "" H 3100 3700 50  0001 C CNN
+	1    3100 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 3700 3100 3700
+Connection ~ 3100 3700
+Wire Wire Line
+	3100 3700 3050 3700
+$Comp
+L power:+5V #PWR?
+U 1 1 65D6601E
+P 3100 900
+AR Path="/65D6601E" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D6601E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 750 50  0001 C CNN
+F 1 "+5V" H 3115 1073 50  0000 C CNN
+F 2 "" H 3100 900 50  0001 C CNN
+F 3 "" H 3100 900 50  0001 C CNN
+	1    3100 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 900  3100 900 
+Connection ~ 3100 900 
+Wire Wire Line
+	3100 900  3050 900 
+Text GLabel 3850 2400 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	3700 2400 3850 2400
+Entry Wire Line
+	4250 1300 4350 1400
+Entry Wire Line
+	4250 1400 4350 1500
+Entry Wire Line
+	4250 1500 4350 1600
+Entry Wire Line
+	4250 1600 4350 1700
+Entry Wire Line
+	4250 1700 4350 1800
+Entry Wire Line
+	4250 1800 4350 1900
+Entry Wire Line
+	4250 1900 4350 2000
+Entry Wire Line
+	4250 2000 4350 2100
+Text Label 3750 1300 0    50   ~ 0
+IO-DATA-8
+Wire Wire Line
+	3700 1300 4250 1300
+Text Label 3750 1400 0    50   ~ 0
+IO-DATA-9
+Text Label 3750 1500 0    50   ~ 0
+IO-DATA-10
+Text Label 3750 1600 0    50   ~ 0
+IO-DATA-11
+Text Label 3750 1700 0    50   ~ 0
+IO-DATA-12
+Text Label 3750 1800 0    50   ~ 0
+IO-DATA-13
+Text Label 3750 1900 0    50   ~ 0
+IO-DATA-14
+Text Label 3750 2000 0    50   ~ 0
+IO-DATA-15
+Wire Wire Line
+	3700 2000 4250 2000
+Wire Wire Line
+	3700 1900 4250 1900
+Wire Wire Line
+	3700 1800 4250 1800
+Wire Wire Line
+	3700 1700 4250 1700
+Wire Wire Line
+	3700 1600 4250 1600
+Wire Wire Line
+	3700 1500 4250 1500
+Wire Wire Line
+	3700 1400 4250 1400
+Text Label 4350 2200 0    50   ~ 0
+IO-DATA
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31J?
+U 1 1 65D66046
+P 6350 2450
+AR Path="/65D66046" Ref="31J?"  Part="1" 
+AR Path="/62CF9562/65D66046" Ref="27J"  Part="1" 
+F 0 "27J" H 6550 3950 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 6850 3800 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 6350 2450 50  0001 C CNN
+F 3 "" H 6350 2450 50  0001 C CNN
+	1    6350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65D66050
+P 6350 3700
+AR Path="/65D66050" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D66050" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 3450 50  0001 C CNN
+F 1 "GND" V 6350 3500 50  0000 C CNN
+F 2 "" H 6350 3700 50  0001 C CNN
+F 3 "" H 6350 3700 50  0001 C CNN
+	1    6350 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 3700 6350 3700
+Connection ~ 6350 3700
+Wire Wire Line
+	6350 3700 6300 3700
+$Comp
+L power:+5V #PWR?
+U 1 1 65D6605D
+P 6350 900
+AR Path="/65D6605D" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D6605D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6350 750 50  0001 C CNN
+F 1 "+5V" H 6365 1073 50  0000 C CNN
+F 2 "" H 6350 900 50  0001 C CNN
+F 3 "" H 6350 900 50  0001 C CNN
+	1    6350 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 900  6350 900 
+Connection ~ 6350 900 
+Wire Wire Line
+	6350 900  6300 900 
+Text GLabel 7100 2400 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	6950 2400 7100 2400
+Text Label 2000 1300 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	1850 1400 1950 1300
+Wire Wire Line
+	1950 1300 2500 1300
+Text Label 2000 1400 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	1850 1500 1950 1400
+Wire Wire Line
+	1950 1400 2500 1400
+Text Label 2000 1500 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	1850 1600 1950 1500
+Wire Wire Line
+	1950 1500 2500 1500
+Text Label 2000 1600 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	1850 1700 1950 1600
+Wire Wire Line
+	1950 1600 2500 1600
+Text Label 2000 1700 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	1850 1800 1950 1700
+Wire Wire Line
+	1950 1700 2500 1700
+Text Label 2000 1800 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	1850 1900 1950 1800
+Wire Wire Line
+	1950 1800 2500 1800
+Text Label 2000 1900 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	1850 2000 1950 1900
+Wire Wire Line
+	1950 1900 2500 1900
+Text Label 2000 2000 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	1850 2100 1950 2000
+Wire Wire Line
+	1950 2000 2500 2000
+Text Label 2000 2100 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	1850 2200 1950 2100
+Wire Wire Line
+	1950 2100 2500 2100
+Text Label 2000 2200 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	1850 2300 1950 2200
+Wire Wire Line
+	1950 2200 2500 2200
+Text Label 2000 2300 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	1850 2400 1950 2300
+Wire Wire Line
+	1950 2300 2500 2300
+Text Label 2000 2400 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	1850 2500 1950 2400
+Wire Wire Line
+	1950 2400 2500 2400
+Text Label 2000 2500 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	1850 2600 1950 2500
+Wire Wire Line
+	1950 2500 2500 2500
+Text Label 2000 2600 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	1850 2700 1950 2600
+Wire Wire Line
+	1950 2600 2500 2600
+Text Label 2000 2700 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	1850 2800 1950 2700
+Wire Wire Line
+	1950 2700 2500 2700
+Text Label 2000 2800 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	1850 2900 1950 2800
+Wire Wire Line
+	1950 2800 2500 2800
+Text Label 2000 2900 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	1850 3000 1950 2900
+Wire Wire Line
+	1950 2900 2500 2900
+Text Label 2000 3000 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	1850 3100 1950 3000
+Wire Wire Line
+	1950 3000 2500 3000
+Text Label 2000 3100 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	1850 3200 1950 3100
+Wire Wire Line
+	1950 3100 2500 3100
+Text Label 2000 3200 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	1950 3200 2500 3200
+Entry Wire Line
+	1850 3300 1950 3200
+Entry Wire Line
+	1850 3400 1950 3300
+Wire Wire Line
+	1950 3300 2500 3300
+Text Label 2000 3300 0    50   ~ 0
+IO-ADDR-20
+Text Label 5250 1300 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	5100 1400 5200 1300
+Wire Wire Line
+	5200 1300 5750 1300
+Text Label 5250 1400 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	5100 1500 5200 1400
+Wire Wire Line
+	5200 1400 5750 1400
+Text Label 5250 1500 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	5100 1600 5200 1500
+Wire Wire Line
+	5200 1500 5750 1500
+Text Label 5250 1600 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	5100 1700 5200 1600
+Wire Wire Line
+	5200 1600 5750 1600
+Text Label 5250 1700 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	5100 1800 5200 1700
+Wire Wire Line
+	5200 1700 5750 1700
+Text Label 5250 1800 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	5100 1900 5200 1800
+Wire Wire Line
+	5200 1800 5750 1800
+Text Label 5250 1900 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	5100 2000 5200 1900
+Wire Wire Line
+	5200 1900 5750 1900
+Text Label 5250 2000 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	5100 2100 5200 2000
+Wire Wire Line
+	5200 2000 5750 2000
+Text Label 5250 2100 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	5100 2200 5200 2100
+Wire Wire Line
+	5200 2100 5750 2100
+Text Label 5250 2200 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	5100 2300 5200 2200
+Wire Wire Line
+	5200 2200 5750 2200
+Text Label 5250 2300 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	5100 2400 5200 2300
+Wire Wire Line
+	5200 2300 5750 2300
+Text Label 5250 2400 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	5100 2500 5200 2400
+Wire Wire Line
+	5200 2400 5750 2400
+Text Label 5250 2500 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	5100 2600 5200 2500
+Wire Wire Line
+	5200 2500 5750 2500
+Text Label 5250 2600 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	5100 2700 5200 2600
+Wire Wire Line
+	5200 2600 5750 2600
+Text Label 5250 2700 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	5100 2800 5200 2700
+Wire Wire Line
+	5200 2700 5750 2700
+Text Label 5250 2800 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	5100 2900 5200 2800
+Wire Wire Line
+	5200 2800 5750 2800
+Text Label 5250 2900 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	5100 3000 5200 2900
+Wire Wire Line
+	5200 2900 5750 2900
+Text Label 5250 3000 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	5100 3100 5200 3000
+Wire Wire Line
+	5200 3000 5750 3000
+Text Label 5250 3100 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	5100 3200 5200 3100
+Wire Wire Line
+	5200 3100 5750 3100
+Text Label 5250 3200 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	5200 3200 5750 3200
+Entry Wire Line
+	5100 3300 5200 3200
+Entry Wire Line
+	5100 3400 5200 3300
+Wire Wire Line
+	5200 3300 5750 3300
+Text Label 5250 3300 0    50   ~ 0
+IO-ADDR-20
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31L?
+U 1 1 65D66103
+P 9450 2450
+AR Path="/65D66103" Ref="31L?"  Part="1" 
+AR Path="/62CF9562/65D66103" Ref="27L"  Part="1" 
+F 0 "27L" H 9650 3950 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 9950 3800 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 9450 2450 50  0001 C CNN
+F 3 "" H 9450 2450 50  0001 C CNN
+	1    9450 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65D6610D
+P 9450 3700
+AR Path="/65D6610D" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D6610D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9450 3450 50  0001 C CNN
+F 1 "GND" V 9450 3500 50  0000 C CNN
+F 2 "" H 9450 3700 50  0001 C CNN
+F 3 "" H 9450 3700 50  0001 C CNN
+	1    9450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 3700 9450 3700
+Connection ~ 9450 3700
+Wire Wire Line
+	9450 3700 9400 3700
+$Comp
+L power:+5V #PWR?
+U 1 1 65D6611A
+P 9450 900
+AR Path="/65D6611A" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D6611A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 9450 750 50  0001 C CNN
+F 1 "+5V" H 9465 1073 50  0000 C CNN
+F 2 "" H 9450 900 50  0001 C CNN
+F 3 "" H 9450 900 50  0001 C CNN
+	1    9450 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9500 900  9450 900 
+Connection ~ 9450 900 
+Wire Wire Line
+	9450 900  9400 900 
+Text GLabel 10200 2400 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	10050 2400 10200 2400
+$Comp
+L Memory_Flash:29F016-TSOP-SP 31M?
+U 1 1 65D66142
+P 12750 2450
+AR Path="/65D66142" Ref="31M?"  Part="1" 
+AR Path="/62CF9562/65D66142" Ref="27M"  Part="1" 
+F 0 "27M" H 12950 3950 50  0000 C CNN
+F 1 "29F016-TSOP-SP" H 13250 3800 50  0000 C CNN
+F 2 "Package_SO:TSOP-I-48_18.4x12mm_P0.5mm" H 12750 2450 50  0001 C CNN
+F 3 "" H 12750 2450 50  0001 C CNN
+	1    12750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 65D6614C
+P 12750 3700
+AR Path="/65D6614C" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D6614C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12750 3450 50  0001 C CNN
+F 1 "GND" V 12750 3500 50  0000 C CNN
+F 2 "" H 12750 3700 50  0001 C CNN
+F 3 "" H 12750 3700 50  0001 C CNN
+	1    12750 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 3700 12750 3700
+Connection ~ 12750 3700
+Wire Wire Line
+	12750 3700 12700 3700
+$Comp
+L power:+5V #PWR?
+U 1 1 65D66159
+P 12750 900
+AR Path="/65D66159" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/65D66159" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 12750 750 50  0001 C CNN
+F 1 "+5V" H 12765 1073 50  0000 C CNN
+F 2 "" H 12750 900 50  0001 C CNN
+F 3 "" H 12750 900 50  0001 C CNN
+	1    12750 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 900  12750 900 
+Connection ~ 12750 900 
+Wire Wire Line
+	12750 900  12700 900 
+Text GLabel 13500 2400 2    50   Input ~ 0
+NVRAM-~WR
+Wire Wire Line
+	13350 2400 13500 2400
+Text Label 8350 1300 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	8200 1400 8300 1300
+Wire Wire Line
+	8300 1300 8850 1300
+Text Label 8350 1400 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	8200 1500 8300 1400
+Wire Wire Line
+	8300 1400 8850 1400
+Text Label 8350 1500 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	8200 1600 8300 1500
+Wire Wire Line
+	8300 1500 8850 1500
+Text Label 8350 1600 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	8200 1700 8300 1600
+Wire Wire Line
+	8300 1600 8850 1600
+Text Label 8350 1700 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	8200 1800 8300 1700
+Wire Wire Line
+	8300 1700 8850 1700
+Text Label 8350 1800 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	8200 1900 8300 1800
+Wire Wire Line
+	8300 1800 8850 1800
+Text Label 8350 1900 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	8200 2000 8300 1900
+Wire Wire Line
+	8300 1900 8850 1900
+Text Label 8350 2000 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	8200 2100 8300 2000
+Wire Wire Line
+	8300 2000 8850 2000
+Text Label 8350 2100 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	8200 2200 8300 2100
+Wire Wire Line
+	8300 2100 8850 2100
+Text Label 8350 2200 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	8200 2300 8300 2200
+Wire Wire Line
+	8300 2200 8850 2200
+Text Label 8350 2300 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	8200 2400 8300 2300
+Wire Wire Line
+	8300 2300 8850 2300
+Text Label 8350 2400 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	8200 2500 8300 2400
+Wire Wire Line
+	8300 2400 8850 2400
+Text Label 8350 2500 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	8200 2600 8300 2500
+Wire Wire Line
+	8300 2500 8850 2500
+Text Label 8350 2600 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	8200 2700 8300 2600
+Wire Wire Line
+	8300 2600 8850 2600
+Text Label 8350 2700 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	8200 2800 8300 2700
+Wire Wire Line
+	8300 2700 8850 2700
+Text Label 8350 2800 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	8200 2900 8300 2800
+Wire Wire Line
+	8300 2800 8850 2800
+Text Label 8350 2900 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	8200 3000 8300 2900
+Wire Wire Line
+	8300 2900 8850 2900
+Text Label 8350 3000 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	8200 3100 8300 3000
+Wire Wire Line
+	8300 3000 8850 3000
+Text Label 8350 3100 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	8200 3200 8300 3100
+Wire Wire Line
+	8300 3100 8850 3100
+Text Label 8350 3200 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	8300 3200 8850 3200
+Entry Wire Line
+	8200 3300 8300 3200
+Entry Wire Line
+	8200 3400 8300 3300
+Wire Wire Line
+	8300 3300 8850 3300
+Text Label 8350 3300 0    50   ~ 0
+IO-ADDR-20
+Text Label 11650 1300 0    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	11500 1400 11600 1300
+Wire Wire Line
+	11600 1300 12150 1300
+Text Label 11650 1400 0    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	11500 1500 11600 1400
+Wire Wire Line
+	11600 1400 12150 1400
+Text Label 11650 1500 0    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	11500 1600 11600 1500
+Wire Wire Line
+	11600 1500 12150 1500
+Text Label 11650 1600 0    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	11500 1700 11600 1600
+Wire Wire Line
+	11600 1600 12150 1600
+Text Label 11650 1700 0    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	11500 1800 11600 1700
+Wire Wire Line
+	11600 1700 12150 1700
+Text Label 11650 1800 0    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	11500 1900 11600 1800
+Wire Wire Line
+	11600 1800 12150 1800
+Text Label 11650 1900 0    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	11500 2000 11600 1900
+Wire Wire Line
+	11600 1900 12150 1900
+Text Label 11650 2000 0    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	11500 2100 11600 2000
+Wire Wire Line
+	11600 2000 12150 2000
+Text Label 11650 2100 0    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	11500 2200 11600 2100
+Wire Wire Line
+	11600 2100 12150 2100
+Text Label 11650 2200 0    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	11500 2300 11600 2200
+Wire Wire Line
+	11600 2200 12150 2200
+Text Label 11650 2300 0    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	11500 2400 11600 2300
+Wire Wire Line
+	11600 2300 12150 2300
+Text Label 11650 2400 0    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	11500 2500 11600 2400
+Wire Wire Line
+	11600 2400 12150 2400
+Text Label 11650 2500 0    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	11500 2600 11600 2500
+Wire Wire Line
+	11600 2500 12150 2500
+Text Label 11650 2600 0    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	11500 2700 11600 2600
+Wire Wire Line
+	11600 2600 12150 2600
+Text Label 11650 2700 0    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	11500 2800 11600 2700
+Wire Wire Line
+	11600 2700 12150 2700
+Text Label 11650 2800 0    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	11500 2900 11600 2800
+Wire Wire Line
+	11600 2800 12150 2800
+Text Label 11650 2900 0    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	11500 3000 11600 2900
+Wire Wire Line
+	11600 2900 12150 2900
+Text Label 11650 3000 0    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	11500 3100 11600 3000
+Wire Wire Line
+	11600 3000 12150 3000
+Text Label 11650 3100 0    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	11500 3200 11600 3100
+Wire Wire Line
+	11600 3100 12150 3100
+Text Label 11650 3200 0    50   ~ 0
+IO-ADDR-19
+Wire Wire Line
+	11600 3200 12150 3200
+Entry Wire Line
+	11500 3300 11600 3200
+Entry Wire Line
+	11500 3400 11600 3300
+Wire Wire Line
+	11600 3300 12150 3300
+Text Label 11650 3300 0    50   ~ 0
+IO-ADDR-20
+Entry Wire Line
+	7500 1300 7600 1400
+Entry Wire Line
+	7500 1400 7600 1500
+Entry Wire Line
+	7500 1500 7600 1600
+Entry Wire Line
+	7500 1600 7600 1700
+Entry Wire Line
+	7500 1700 7600 1800
+Entry Wire Line
+	7500 1800 7600 1900
+Entry Wire Line
+	7500 1900 7600 2000
+Entry Wire Line
+	7500 2000 7600 2100
+Text Label 7000 1300 0    50   ~ 0
+IO-DATA-8
+Wire Wire Line
+	6950 1300 7500 1300
+Text Label 7000 1400 0    50   ~ 0
+IO-DATA-9
+Text Label 7000 1500 0    50   ~ 0
+IO-DATA-10
+Text Label 7000 1600 0    50   ~ 0
+IO-DATA-11
+Text Label 7000 1700 0    50   ~ 0
+IO-DATA-12
+Text Label 7000 1800 0    50   ~ 0
+IO-DATA-13
+Text Label 7000 1900 0    50   ~ 0
+IO-DATA-14
+Text Label 7000 2000 0    50   ~ 0
+IO-DATA-15
+Wire Wire Line
+	6950 2000 7500 2000
+Wire Wire Line
+	6950 1900 7500 1900
+Wire Wire Line
+	6950 1800 7500 1800
+Wire Wire Line
+	6950 1700 7500 1700
+Wire Wire Line
+	6950 1600 7500 1600
+Wire Wire Line
+	6950 1500 7500 1500
+Wire Wire Line
+	6950 1400 7500 1400
+Text Label 7600 2150 0    50   ~ 0
+IO-DATA
+Entry Wire Line
+	10600 1300 10700 1400
+Entry Wire Line
+	10600 1400 10700 1500
+Entry Wire Line
+	10600 1500 10700 1600
+Entry Wire Line
+	10600 1600 10700 1700
+Entry Wire Line
+	10600 1700 10700 1800
+Entry Wire Line
+	10600 1800 10700 1900
+Entry Wire Line
+	10600 1900 10700 2000
+Entry Wire Line
+	10600 2000 10700 2100
+Text Label 10100 1300 0    50   ~ 0
+IO-DATA-8
+Wire Wire Line
+	10050 1300 10600 1300
+Text Label 10100 1400 0    50   ~ 0
+IO-DATA-9
+Text Label 10100 1500 0    50   ~ 0
+IO-DATA-10
+Text Label 10100 1600 0    50   ~ 0
+IO-DATA-11
+Text Label 10100 1700 0    50   ~ 0
+IO-DATA-12
+Text Label 10100 1800 0    50   ~ 0
+IO-DATA-13
+Text Label 10100 1900 0    50   ~ 0
+IO-DATA-14
+Text Label 10100 2000 0    50   ~ 0
+IO-DATA-15
+Wire Wire Line
+	10050 2000 10600 2000
+Wire Wire Line
+	10050 1900 10600 1900
+Wire Wire Line
+	10050 1800 10600 1800
+Wire Wire Line
+	10050 1700 10600 1700
+Wire Wire Line
+	10050 1600 10600 1600
+Wire Wire Line
+	10050 1500 10600 1500
+Wire Wire Line
+	10050 1400 10600 1400
+Text Label 10700 2150 0    50   ~ 0
+IO-DATA
+Entry Wire Line
+	13900 1300 14000 1400
+Entry Wire Line
+	13900 1400 14000 1500
+Entry Wire Line
+	13900 1500 14000 1600
+Entry Wire Line
+	13900 1600 14000 1700
+Entry Wire Line
+	13900 1700 14000 1800
+Entry Wire Line
+	13900 1800 14000 1900
+Entry Wire Line
+	13900 1900 14000 2000
+Entry Wire Line
+	13900 2000 14000 2100
+Text Label 13400 1300 0    50   ~ 0
+IO-DATA-8
+Wire Wire Line
+	13350 1300 13900 1300
+Text Label 13400 1400 0    50   ~ 0
+IO-DATA-9
+Text Label 13400 1500 0    50   ~ 0
+IO-DATA-10
+Text Label 13400 1600 0    50   ~ 0
+IO-DATA-11
+Text Label 13400 1700 0    50   ~ 0
+IO-DATA-12
+Text Label 13400 1800 0    50   ~ 0
+IO-DATA-13
+Text Label 13400 1900 0    50   ~ 0
+IO-DATA-14
+Text Label 13400 2000 0    50   ~ 0
+IO-DATA-15
+Wire Wire Line
+	13350 2000 13900 2000
+Wire Wire Line
+	13350 1900 13900 1900
+Wire Wire Line
+	13350 1800 13900 1800
+Wire Wire Line
+	13350 1700 13900 1700
+Wire Wire Line
+	13350 1600 13900 1600
+Wire Wire Line
+	13350 1500 13900 1500
+Wire Wire Line
+	13350 1400 13900 1400
+Text Label 14000 2150 0    50   ~ 0
+IO-DATA
+Wire Bus Line
+	1850 4050 5100 4050
+Connection ~ 1850 4050
+Connection ~ 5100 4050
+Wire Bus Line
+	5100 4050 8200 4050
+Connection ~ 8200 4050
+Wire Bus Line
+	8200 4050 11500 4050
+Connection ~ 11500 4050
+Wire Bus Line
+	4350 4150 7600 4150
+Connection ~ 4350 4150
+Connection ~ 7600 4150
+Wire Bus Line
+	7600 4150 11500 4150
+Wire Bus Line
+	11500 4050 11500 4150
+Connection ~ 11500 4150
+Wire Bus Line
+	11500 4150 14000 4150
+Wire Bus Line
+	14000 2200 14000 4150
+Connection ~ 14000 4150
+Wire Bus Line
+	5300 8250 5550 8250
+Wire Bus Line
+	11500 7650 5550 7650
+Wire Bus Line
+	5550 7650 5550 8250
+Wire Bus Line
+	7400 7800 8350 7800
+Connection ~ 8350 7800
+Wire Bus Line
+	8350 7800 10550 7800
+Connection ~ 10550 7800
+Wire Bus Line
+	10550 7800 14000 7800
+Wire Bus Line
+	14000 1400 14000 2150
+Wire Bus Line
+	7600 1400 7600 4150
+Wire Bus Line
+	4350 1400 4350 4150
+Wire Bus Line
+	4350 4150 4350 5750
+Wire Bus Line
+	7600 4150 7600 5750
+Wire Bus Line
+	7400 7800 7400 9200
+Wire Bus Line
+	14000 4150 14000 7800
+Wire Bus Line
+	10550 7800 10550 9200
+Wire Bus Line
+	8350 7800 8350 10250
+Wire Bus Line
+	10700 1400 10700 5750
+Wire Bus Line
+	5300 8250 5300 10250
+Wire Bus Line
+	5100 1400 5100 4050
+Wire Bus Line
+	1850 1400 1850 4050
+Wire Bus Line
+	1850 4050 1850 7000
+Wire Bus Line
+	5100 4050 5100 7000
+Wire Bus Line
+	8200 1400 8200 4050
+Wire Bus Line
+	8200 4050 8200 7050
+Wire Bus Line
+	11500 1400 11500 4050
+Wire Bus Line
+	11500 4150 11500 7650
+$EndSCHEMATC
