@@ -31,24 +31,20 @@ Wire Wire Line
 $Comp
 L Filter:ZBDS5101-8PT 36A?
 U 1 1 6258B49D
-P 7800 2650
+P 8100 2650
 AR Path="/6258B49D" Ref="36A?"  Part="1" 
 AR Path="/637479AE/6258B49D" Ref="36A?"  Part="1" 
 AR Path="/63647603/6258B49D" Ref="36A?"  Part="1" 
 AR Path="/6257BCAC/6258B49D" Ref="13T1"  Part="1" 
-F 0 "13T1" H 7800 3265 50  0000 C CNN
-F 1 "ZBDS5101-8PT" H 7800 3174 50  0000 C CNN
-F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 7800 2150 50  0001 C CNN
-F 3 "" H 7800 2150 50  0001 C CNN
-	1    7800 2650
+F 0 "13T1" H 8100 3265 50  0000 C CNN
+F 1 "ZBDS5101-8PT" H 8100 3174 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 8100 2150 50  0001 C CNN
+F 3 "" H 8100 2150 50  0001 C CNN
+	1    8100 2650
 	-1   0    0    1   
 $EndComp
-Text GLabel 7450 3000 0    50   Input ~ 0
+Text GLabel 7700 2250 0    50   Input ~ 0
 ~ATA-RST
-Wire Wire Line
-	7450 3000 7550 3000
-Wire Wire Line
-	7550 2900 7050 2900
 $Comp
 L Filter:ZBDS5101-8PT 13T?
 U 1 1 625ACB61
@@ -360,104 +356,6 @@ F 3 "" H 5700 2100 50  0001 C CNN
 	1    5700 2100
 	0    1    1    0   
 $EndComp
-Text Label 1700 1500 0    50   ~ 0
-PSX-DATA-7
-Entry Wire Line
-	1600 1600 1700 1500
-Text Label 1700 1600 0    50   ~ 0
-PSX-DATA-8
-Entry Wire Line
-	1600 1700 1700 1600
-Text Label 1700 1700 0    50   ~ 0
-PSX-DATA-6
-Entry Wire Line
-	1600 1800 1700 1700
-Text Label 1700 1800 0    50   ~ 0
-PSX-DATA-9
-Entry Wire Line
-	1600 1900 1700 1800
-Text Label 1700 1900 0    50   ~ 0
-PSX-DATA-5
-Entry Wire Line
-	1600 2000 1700 1900
-Text Label 1700 2000 0    50   ~ 0
-PSX-DATA-10
-Entry Wire Line
-	1600 2100 1700 2000
-Text Label 1700 2100 0    50   ~ 0
-PSX-DATA-4
-Entry Wire Line
-	1600 2200 1700 2100
-Text Label 1700 2200 0    50   ~ 0
-PSX-DATA-11
-Entry Wire Line
-	1600 2300 1700 2200
-Text Label 1700 3300 0    50   ~ 0
-PSX-DATA-3
-Entry Wire Line
-	1600 3400 1700 3300
-Text Label 1700 3400 0    50   ~ 0
-PSX-DATA-12
-Entry Wire Line
-	1600 3500 1700 3400
-Text Label 1700 3500 0    50   ~ 0
-PSX-DATA-2
-Entry Wire Line
-	1600 3600 1700 3500
-Text Label 1700 3600 0    50   ~ 0
-PSX-DATA-13
-Entry Wire Line
-	1600 3700 1700 3600
-Text Label 1700 3700 0    50   ~ 0
-PSX-DATA-1
-Entry Wire Line
-	1600 3800 1700 3700
-Text Label 1700 3800 0    50   ~ 0
-PSX-DATA-14
-Entry Wire Line
-	1600 3900 1700 3800
-Text Label 1700 3900 0    50   ~ 0
-PSX-DATA-0
-Entry Wire Line
-	1600 4000 1700 3900
-Text Label 1700 4000 0    50   ~ 0
-PSX-DATA-15
-Entry Wire Line
-	1600 4100 1700 4000
-Wire Wire Line
-	1700 1500 2600 1500
-Wire Wire Line
-	1700 1600 2600 1600
-Wire Wire Line
-	1700 1700 2600 1700
-Wire Wire Line
-	1700 1800 2600 1800
-Wire Wire Line
-	1700 1900 2600 1900
-Wire Wire Line
-	1700 2000 2600 2000
-Wire Wire Line
-	1700 2100 2600 2100
-Wire Wire Line
-	1700 2200 2600 2200
-Wire Wire Line
-	1700 3300 2600 3300
-Wire Wire Line
-	1700 3400 2600 3400
-Wire Wire Line
-	1700 3500 2600 3500
-Wire Wire Line
-	1700 3600 2600 3600
-Wire Wire Line
-	1700 3700 2600 3700
-Wire Wire Line
-	1700 3800 2600 3800
-Wire Wire Line
-	1700 3900 2600 3900
-Wire Wire Line
-	1700 4000 2600 4000
-Text Label 1600 2950 0    50   ~ 0
-PSX-DATA
 $Comp
 L Connector_Generic:Conn_01x04 CN2P1
 U 1 1 6271681A
@@ -742,10 +640,6 @@ F 3 "" H 6200 3400 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7000 3500 7000 2800
-Wire Wire Line
-	7550 2800 7000 2800
-Wire Wire Line
 	6600 3900 6600 4000
 $Comp
 L Device:R_Small R316
@@ -772,8 +666,6 @@ $EndComp
 Connection ~ 6900 1750
 Wire Wire Line
 	6900 1750 6800 1750
-Wire Wire Line
-	6900 3300 6900 1950
 $Comp
 L power:+5V #PWR0149
 U 1 1 629BD0BD
@@ -813,15 +705,11 @@ Wire Wire Line
 Wire Wire Line
 	6800 3200 6800 4000
 Wire Wire Line
-	6200 2900 6700 2900
-Wire Wire Line
-	6700 2900 6700 4000
+	6200 2900 6550 2900
 Wire Wire Line
 	6200 3100 6800 3100
 NoConn ~ 6200 2600
 NoConn ~ 6200 2800
-Wire Wire Line
-	6200 2300 7550 2300
 $Comp
 L power:GND #PWR0151
 U 1 1 62AC8AFB
@@ -834,19 +722,19 @@ F 3 "" H 6200 2000 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 6200 2100
-Text Label 7050 2300 0    50   ~ 0
+Text Label 7350 3000 0    50   ~ 0
 IDE-CS1
-Text Label 7050 2400 0    50   ~ 0
+Text Label 7350 2900 0    50   ~ 0
 IDE-CS0
-Text Label 7050 2500 0    50   ~ 0
+Text Label 7350 2800 0    50   ~ 0
 IDE-A0
-Text Label 7050 2600 0    50   ~ 0
+Text Label 7350 2700 0    50   ~ 0
 IDE-A2
-Text Label 7050 2700 0    50   ~ 0
+Text Label 7350 2600 0    50   ~ 0
 IDE-A1
-Text Label 7050 2800 0    50   ~ 0
+Text Label 7350 2500 0    50   ~ 0
 IDE-READ
-Text Label 7050 2900 0    50   ~ 0
+Text Label 7350 2400 0    50   ~ 0
 IDE-WRITE
 Text Label 4850 2100 0    50   ~ 0
 IDE-D7
@@ -885,72 +773,47 @@ Text Notes 6900 4000 0    50   ~ 0
 Text Notes 6900 3900 0    50   ~ 0
 31: INTRQ - Not Used
 Wire Wire Line
-	6200 2700 7550 2700
+	6200 2200 6650 2200
 Wire Wire Line
-	7050 3700 7050 2900
+	6200 2400 6400 2400
 Wire Wire Line
-	6200 2200 6700 2200
-Wire Wire Line
-	6700 2200 6700 2400
-Wire Wire Line
-	6700 2400 7550 2400
-Wire Wire Line
-	6200 2500 7550 2500
-Wire Wire Line
-	6200 2400 6600 2400
-Wire Wire Line
-	6600 2400 6600 2600
-Wire Wire Line
-	6600 2600 7550 2600
-Wire Wire Line
-	8050 2500 8500 2500
-$Comp
-L 74xx:74LS245 14S1
-U 1 1 62B44F65
-P 9000 2800
-F 0 "14S1" H 8750 3500 50  0000 C CNN
-F 1 "74LS245" H 9250 3500 50  0000 C CNN
-F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H 9000 2800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 9000 2800 50  0001 C CNN
-	1    9000 2800
-	-1   0    0    -1  
-$EndComp
+	8350 2500 8800 2500
 $Comp
 L power:GND #PWR0152
 U 1 1 62B44F6F
-P 9000 3600
-F 0 "#PWR0152" H 9000 3350 50  0001 C CNN
-F 1 "GND" V 9005 3472 50  0000 R CNN
-F 2 "" H 9000 3600 50  0001 C CNN
-F 3 "" H 9000 3600 50  0001 C CNN
-	1    9000 3600
-	0    1    -1   0   
+P 9300 3600
+F 0 "#PWR0152" H 9300 3350 50  0001 C CNN
+F 1 "GND" H 9250 3500 50  0000 R CNN
+F 2 "" H 9300 3600 50  0001 C CNN
+F 3 "" H 9300 3600 50  0001 C CNN
+	1    9300 3600
+	-1   0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0153
 U 1 1 62B44F79
-P 9000 2000
-F 0 "#PWR0153" H 9000 1850 50  0001 C CNN
-F 1 "+5V" V 9015 2128 50  0000 L CNN
-F 2 "" H 9000 2000 50  0001 C CNN
-F 3 "" H 9000 2000 50  0001 C CNN
-	1    9000 2000
-	0    1    -1   0   
+P 9300 2000
+F 0 "#PWR0153" H 9300 1850 50  0001 C CNN
+F 1 "+5V" H 9250 2150 50  0000 L CNN
+F 2 "" H 9300 2000 50  0001 C CNN
+F 3 "" H 9300 2000 50  0001 C CNN
+	1    9300 2000
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8050 2300 8500 2300
+	8350 2300 8800 2300
 Wire Wire Line
-	8050 2400 8500 2400
+	8350 2400 8800 2400
 Wire Wire Line
-	8050 2800 8500 2800
+	8350 2800 8800 2800
 Wire Wire Line
-	8050 2600 8500 2600
+	8350 2600 8800 2600
 Wire Wire Line
-	8050 2700 8500 2700
+	8350 2700 8800 2700
 Wire Wire Line
-	8050 3000 8500 3000
+	8350 3000 8800 3000
 Wire Wire Line
-	8050 2900 8500 2900
+	8350 2900 8800 2900
 Text GLabel 2250 2400 0    50   Input ~ 0
 IDE-AB
 Text GLabel 2250 2500 0    50   Input ~ 0
@@ -961,46 +824,10 @@ Connection ~ 2450 2500
 Wire Wire Line
 	2250 2400 2400 2400
 Connection ~ 2400 2400
-Text GLabel 9650 3200 2    50   Input ~ 0
-IDE-AB
-Text GLabel 9650 3300 2    50   Input ~ 0
-IDE-CE
 Wire Wire Line
-	9650 3200 9500 3200
+	9950 3200 9800 3200
 Wire Wire Line
-	9650 3300 9500 3300
-Text Label 10150 2500 2    50   ~ 0
-PSX-AD-
-Wire Wire Line
-	10400 2300 9500 2300
-Wire Wire Line
-	10400 2400 9500 2400
-Wire Wire Line
-	10400 2500 9500 2500
-Wire Wire Line
-	10400 2600 9500 2600
-Wire Wire Line
-	10400 2700 9500 2700
-Text Label 10150 2300 2    50   ~ 0
-PSX-AD-
-Text Label 10150 2400 2    50   ~ 0
-PSX-AD-
-Text Label 10150 2600 2    50   ~ 0
-PSX-AD-
-Text Label 10150 2700 2    50   ~ 0
-PSX-AD-
-Entry Wire Line
-	10400 2300 10500 2400
-Entry Wire Line
-	10400 2400 10500 2500
-Entry Wire Line
-	10400 2500 10500 2600
-Entry Wire Line
-	10400 2600 10500 2700
-Entry Wire Line
-	10400 2700 10500 2800
-Text Label 10500 3250 2    50   ~ 0
-PSX-ADDR
+	9950 3300 9800 3300
 $Comp
 L Device:C_Small C218
 U 1 1 62C804B4
@@ -1027,20 +854,225 @@ Wire Wire Line
 Connection ~ 1300 6050
 Wire Wire Line
 	1300 5450 1600 5450
-Text GLabel 9600 2800 2    50   Input ~ 0
-~PSX-RD
-Text GLabel 10050 2900 2    50   Input ~ 0
-~PSX-WR
-Text GLabel 9600 3000 2    50   Input ~ 0
-~PSX-RST?
+Text GLabel 9900 2300 2    50   Input ~ 0
+~RESET
 Wire Wire Line
-	9500 2800 9600 2800
+	9800 2400 10350 2400
 Wire Wire Line
-	9500 2900 10050 2900
+	1700 4000 2600 4000
 Wire Wire Line
-	9600 3000 9500 3000
-Wire Bus Line
-	10500 2400 10500 3350
+	1700 3900 2600 3900
+Wire Wire Line
+	1700 3800 2600 3800
+Wire Wire Line
+	1700 3700 2600 3700
+Wire Wire Line
+	1700 3600 2600 3600
+Wire Wire Line
+	1700 3500 2600 3500
+Wire Wire Line
+	1700 3400 2600 3400
+Wire Wire Line
+	1700 3300 2600 3300
+Wire Wire Line
+	1700 2200 2600 2200
+Wire Wire Line
+	1700 2100 2600 2100
+Wire Wire Line
+	1700 2000 2600 2000
+Wire Wire Line
+	1700 1900 2600 1900
+Wire Wire Line
+	1700 1800 2600 1800
+Wire Wire Line
+	1700 1700 2600 1700
+Wire Wire Line
+	1700 1600 2600 1600
+Wire Wire Line
+	1700 1500 2600 1500
+Entry Wire Line
+	1600 4100 1700 4000
+Text Label 1700 4000 0    50   ~ 0
+IO-DATA-15
+Entry Wire Line
+	1600 4000 1700 3900
+Text Label 1700 3900 0    50   ~ 0
+IO-DATA-0
+Entry Wire Line
+	1600 3900 1700 3800
+Text Label 1700 3800 0    50   ~ 0
+IO-DATA-14
+Entry Wire Line
+	1600 3800 1700 3700
+Text Label 1700 3700 0    50   ~ 0
+IO-DATA-1
+Entry Wire Line
+	1600 3700 1700 3600
+Text Label 1700 3600 0    50   ~ 0
+IO-DATA-13
+Entry Wire Line
+	1600 3600 1700 3500
+Text Label 1700 3500 0    50   ~ 0
+IO-DATA-2
+Entry Wire Line
+	1600 3500 1700 3400
+Text Label 1700 3400 0    50   ~ 0
+IO-DATA-12
+Entry Wire Line
+	1600 3400 1700 3300
+Text Label 1700 3300 0    50   ~ 0
+IO-DATA-3
+Entry Wire Line
+	1600 2300 1700 2200
+Text Label 1700 2200 0    50   ~ 0
+IO-DATA-11
+Entry Wire Line
+	1600 2200 1700 2100
+Text Label 1700 2100 0    50   ~ 0
+IO-DATA-4
+Entry Wire Line
+	1600 2100 1700 2000
+Text Label 1700 2000 0    50   ~ 0
+IO-DATA-10
+Entry Wire Line
+	1600 2000 1700 1900
+Text Label 1700 1900 0    50   ~ 0
+IO-DATA-5
+Entry Wire Line
+	1600 1900 1700 1800
+Text Label 1700 1800 0    50   ~ 0
+IO-DATA-9
+Entry Wire Line
+	1600 1800 1700 1700
+Text Label 1700 1700 0    50   ~ 0
+IO-DATA-6
+Entry Wire Line
+	1600 1700 1700 1600
+Text Label 1700 1600 0    50   ~ 0
+IO-DATA-8
+Entry Wire Line
+	1600 1600 1700 1500
+Text Label 1700 1500 0    50   ~ 0
+IO-DATA-7
+Text Label 1600 2950 0    50   ~ 0
+IO-DATA
+Text GLabel 10350 2400 2    50   Input ~ 0
+~BUS-WR
+Wire Wire Line
+	9800 2500 9900 2500
+Text GLabel 9900 2500 2    50   Input ~ 0
+~BUS-RD
+$Comp
+L power:+5V #PWR?
+U 1 1 6940C59E
+P 9950 3200
+F 0 "#PWR?" H 9950 3050 50  0001 C CNN
+F 1 "+5V" V 9965 3328 50  0000 L CNN
+F 2 "" H 9950 3200 50  0001 C CNN
+F 3 "" H 9950 3200 50  0001 C CNN
+	1    9950 3200
+	0    1    -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6940DAEF
+P 9950 3300
+F 0 "#PWR?" H 9950 3050 50  0001 C CNN
+F 1 "GND" V 9955 3172 50  0000 R CNN
+F 2 "" H 9950 3300 50  0001 C CNN
+F 3 "" H 9950 3300 50  0001 C CNN
+	1    9950 3300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6900 1950 6900 3300
+$Comp
+L 74xx:74LS245 14S1
+U 1 1 62B44F65
+P 9300 2800
+F 0 "14S1" H 9050 3500 50  0000 C CNN
+F 1 "74LS245" H 9550 3500 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H 9300 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 9300 2800 50  0001 C CNN
+	1    9300 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7850 2400 7050 2400
+Wire Wire Line
+	7050 2400 7050 3700
+Wire Wire Line
+	7850 2500 7000 2500
+Wire Wire Line
+	7000 2500 7000 3500
+Text GLabel 9900 2700 2    50   Input ~ 0
+IO-ADDR-3
+Wire Wire Line
+	9800 2700 9900 2700
+Wire Wire Line
+	6200 2500 6350 2500
+Wire Wire Line
+	6650 3000 7850 3000
+Wire Wire Line
+	6200 2700 6300 2700
+Wire Wire Line
+	6300 2700 6300 2600
+Wire Wire Line
+	6300 2600 7850 2600
+Wire Wire Line
+	6350 2500 6350 2800
+Wire Wire Line
+	6350 2800 7850 2800
+Wire Wire Line
+	6400 2400 6400 2700
+Wire Wire Line
+	6400 2700 7850 2700
+Wire Wire Line
+	6700 3800 6550 3800
+Wire Wire Line
+	6550 3800 6550 2900
+Wire Wire Line
+	6700 3800 6700 4000
+Wire Wire Line
+	6600 2900 6600 2300
+Wire Wire Line
+	6600 2900 7850 2900
+Wire Wire Line
+	6200 2300 6600 2300
+Wire Wire Line
+	6650 2200 6650 3000
+Wire Wire Line
+	7700 2250 7850 2250
+Wire Wire Line
+	7850 2250 7850 2300
+Wire Wire Line
+	9900 2300 9800 2300
+Text GLabel 10350 2800 2    50   Input ~ 0
+IO-ADDR-1
+Text GLabel 10350 2600 2    50   Input ~ 0
+IO-ADDR-2
+Wire Wire Line
+	10350 2600 9800 2600
+Wire Wire Line
+	9800 2800 10350 2800
+Text GLabel 10350 3000 2    50   Input ~ 0
+U17-3
+Wire Wire Line
+	9800 3000 10350 3000
+Text GLabel 9900 2900 2    50   Input ~ 0
+U17-2
+Wire Wire Line
+	9900 2900 9800 2900
+Wire Notes Line
+	9850 2850 11000 2850
+Wire Notes Line
+	11000 2850 11000 3100
+Wire Notes Line
+	11000 3100 9850 3100
+Wire Notes Line
+	9850 3100 9850 2850
 Wire Bus Line
 	1600 1600 1600 4100
+Text Notes 10750 3050 0    50   ~ 0
+CPLD
 $EndSCHEMATC

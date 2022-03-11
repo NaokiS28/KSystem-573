@@ -358,232 +358,232 @@ NoConn ~ 14950 8150
 $Comp
 L Mechanical:MountingHole_Pad H2
 U 1 1 624787DE
-P -3700 10100
-F 0 "H2" V -3746 10250 50  0000 L CNN
-F 1 "MountingHole_Pad" V -3655 10250 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H -3700 10100 50  0001 C CNN
-F 3 "~" H -3700 10100 50  0001 C CNN
-	1    -3700 10100
+P 17550 9250
+F 0 "H2" V 17504 9400 50  0000 L CNN
+F 1 "MountingHole_Pad" V 17595 9400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 17550 9250 50  0001 C CNN
+F 3 "~" H 17550 9250 50  0001 C CNN
+	1    17550 9250
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 62479C0C
-P -2300 9250
-F 0 "H5" H -2200 9341 50  0000 L CNN
-F 1 "MountingHole" H -2200 9250 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 9159 50  0000 L CNN
-F 3 "~" H -2300 9250 50  0001 C CNN
-	1    -2300 9250
+P 18950 8400
+F 0 "H5" H 19050 8491 50  0000 L CNN
+F 1 "MountingHole" H 19050 8400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 8309 50  0000 L CNN
+F 3 "~" H 18950 8400 50  0001 C CNN
+	1    18950 8400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 6247B4EC
-P -2300 9500
-F 0 "H6" H -2200 9591 50  0000 L CNN
-F 1 "MountingHole" H -2200 9500 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 9409 50  0000 L CNN
-F 3 "~" H -2300 9500 50  0001 C CNN
-	1    -2300 9500
+P 18950 8650
+F 0 "H6" H 19050 8741 50  0000 L CNN
+F 1 "MountingHole" H 19050 8650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 8559 50  0000 L CNN
+F 3 "~" H 18950 8650 50  0001 C CNN
+	1    18950 8650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 62487A9A
-P -2300 9750
-F 0 "H7" H -2200 9841 50  0000 L CNN
-F 1 "MountingHole" H -2200 9750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 9659 50  0000 L CNN
-F 3 "~" H -2300 9750 50  0001 C CNN
-	1    -2300 9750
+P 18950 8900
+F 0 "H7" H 19050 8991 50  0000 L CNN
+F 1 "MountingHole" H 19050 8900 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 8809 50  0000 L CNN
+F 3 "~" H 18950 8900 50  0001 C CNN
+	1    18950 8900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H8
 U 1 1 62487AA4
-P -2300 10000
-F 0 "H8" H -2200 10091 50  0000 L CNN
-F 1 "MountingHole" H -2200 10000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 9909 50  0000 L CNN
-F 3 "~" H -2300 10000 50  0001 C CNN
-	1    -2300 10000
+P 18950 9150
+F 0 "H8" H 19050 9241 50  0000 L CNN
+F 1 "MountingHole" H 19050 9150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 9059 50  0000 L CNN
+F 3 "~" H 18950 9150 50  0001 C CNN
+	1    18950 9150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H9
 U 1 1 624927F8
-P -2300 10250
-F 0 "H9" H -2200 10341 50  0000 L CNN
-F 1 "MountingHole" H -2200 10250 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 10159 50  0000 L CNN
-F 3 "~" H -2300 10250 50  0001 C CNN
-	1    -2300 10250
+P 18950 9400
+F 0 "H9" H 19050 9491 50  0000 L CNN
+F 1 "MountingHole" H 19050 9400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 9309 50  0000 L CNN
+F 3 "~" H 18950 9400 50  0001 C CNN
+	1    18950 9400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H10
 U 1 1 62492802
-P -2300 10500
-F 0 "H10" H -2200 10591 50  0000 L CNN
-F 1 "MountingHole" H -2200 10500 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 10409 50  0000 L CNN
-F 3 "~" H -2300 10500 50  0001 C CNN
-	1    -2300 10500
+P 18950 9650
+F 0 "H10" H 19050 9741 50  0000 L CNN
+F 1 "MountingHole" H 19050 9650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 9559 50  0000 L CNN
+F 3 "~" H 18950 9650 50  0001 C CNN
+	1    18950 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H11
 U 1 1 6249280C
-P -2300 10750
-F 0 "H11" H -2200 10841 50  0000 L CNN
-F 1 "MountingHole" H -2200 10750 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 10659 50  0000 L CNN
-F 3 "~" H -2300 10750 50  0001 C CNN
-	1    -2300 10750
+P 18950 9900
+F 0 "H11" H 19050 9991 50  0000 L CNN
+F 1 "MountingHole" H 19050 9900 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 9809 50  0000 L CNN
+F 3 "~" H 18950 9900 50  0001 C CNN
+	1    18950 9900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H12
 U 1 1 62492816
-P -2300 11000
-F 0 "H12" H -2200 11091 50  0000 L CNN
-F 1 "MountingHole" H -2200 11000 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 10909 50  0000 L CNN
-F 3 "~" H -2300 11000 50  0001 C CNN
-	1    -2300 11000
+P 18950 10150
+F 0 "H12" H 19050 10241 50  0000 L CNN
+F 1 "MountingHole" H 19050 10150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 10059 50  0000 L CNN
+F 3 "~" H 18950 10150 50  0001 C CNN
+	1    18950 10150
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H13
 U 1 1 6249DCC7
-P -2300 11300
-F 0 "H13" H -2200 11391 50  0000 L CNN
-F 1 "MountingHole" H -2200 11300 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3" H -2200 11209 50  0000 L CNN
-F 3 "~" H -2300 11300 50  0001 C CNN
-	1    -2300 11300
+P 18950 10450
+F 0 "H13" H 19050 10541 50  0000 L CNN
+F 1 "MountingHole" H 19050 10450 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 19050 10359 50  0000 L CNN
+F 3 "~" H 18950 10450 50  0001 C CNN
+	1    18950 10450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 624A8699
-P -3700 9900
-F 0 "H1" V -3746 10050 50  0000 L CNN
-F 1 "MountingHole_Pad" V -3655 10050 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H -3700 9900 50  0001 C CNN
-F 3 "~" H -3700 9900 50  0001 C CNN
-	1    -3700 9900
+P 17550 9050
+F 0 "H1" V 17504 9200 50  0000 L CNN
+F 1 "MountingHole_Pad" V 17595 9200 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 17550 9050 50  0001 C CNN
+F 3 "~" H 17550 9050 50  0001 C CNN
+	1    17550 9050
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H4
 U 1 1 624DD375
-P -3700 10500
-F 0 "H4" V -3746 10650 50  0000 L CNN
-F 1 "MountingHole_Pad" V -3655 10650 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H -3700 10500 50  0001 C CNN
-F 3 "~" H -3700 10500 50  0001 C CNN
-	1    -3700 10500
+P 17550 9650
+F 0 "H4" V 17504 9800 50  0000 L CNN
+F 1 "MountingHole_Pad" V 17595 9800 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 17550 9650 50  0001 C CNN
+F 3 "~" H 17550 9650 50  0001 C CNN
+	1    17550 9650
 	0    1    1    0   
 $EndComp
 $Comp
 L Mechanical:MountingHole_Pad H3
 U 1 1 624DD389
-P -3700 10300
-F 0 "H3" V -3746 10450 50  0000 L CNN
-F 1 "MountingHole_Pad" V -3655 10450 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H -3700 10300 50  0001 C CNN
-F 3 "~" H -3700 10300 50  0001 C CNN
-	1    -3700 10300
+P 17550 9450
+F 0 "H3" V 17504 9600 50  0000 L CNN
+F 1 "MountingHole_Pad" V 17595 9600 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad" H 17550 9450 50  0001 C CNN
+F 3 "~" H 17550 9450 50  0001 C CNN
+	1    17550 9450
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:Jumper JP1
 U 1 1 624FE9B3
-P -4100 9900
-F 0 "JP1" H -4100 10164 50  0000 C CNN
-F 1 "Jumper" H -4100 10073 50  0000 C CNN
-F 2 "" H -4100 9900 50  0001 C CNN
-F 3 "~" H -4100 9900 50  0001 C CNN
-	1    -4100 9900
+P 17150 9050
+F 0 "JP1" H 17150 9314 50  0000 C CNN
+F 1 "Jumper" H 17150 9223 50  0000 C CNN
+F 2 "" H 17150 9050 50  0001 C CNN
+F 3 "~" H 17150 9050 50  0001 C CNN
+	1    17150 9050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper JP2
 U 1 1 624FF28B
-P -4100 10100
-F 0 "JP2" H -4100 10364 50  0000 C CNN
-F 1 "Jumper" H -4100 10273 50  0000 C CNN
-F 2 "" H -4100 10100 50  0001 C CNN
-F 3 "~" H -4100 10100 50  0001 C CNN
-	1    -4100 10100
+P 17150 9250
+F 0 "JP2" H 17150 9514 50  0000 C CNN
+F 1 "Jumper" H 17150 9423 50  0000 C CNN
+F 2 "" H 17150 9250 50  0001 C CNN
+F 3 "~" H 17150 9250 50  0001 C CNN
+	1    17150 9250
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper JP3
 U 1 1 624FF5E5
-P -4100 10300
-F 0 "JP3" H -4100 10564 50  0000 C CNN
-F 1 "Jumper" H -4100 10473 50  0000 C CNN
-F 2 "" H -4100 10300 50  0001 C CNN
-F 3 "~" H -4100 10300 50  0001 C CNN
-	1    -4100 10300
+P 17150 9450
+F 0 "JP3" H 17150 9714 50  0000 C CNN
+F 1 "Jumper" H 17150 9623 50  0000 C CNN
+F 2 "" H 17150 9450 50  0001 C CNN
+F 3 "~" H 17150 9450 50  0001 C CNN
+	1    17150 9450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper JP4
 U 1 1 624FF933
-P -4100 10500
-F 0 "JP4" H -4100 10764 50  0000 C CNN
-F 1 "Jumper" H -4100 10673 50  0000 C CNN
-F 2 "" H -4100 10500 50  0001 C CNN
-F 3 "~" H -4100 10500 50  0001 C CNN
-	1    -4100 10500
+P 17150 9650
+F 0 "JP4" H 17150 9914 50  0000 C CNN
+F 1 "Jumper" H 17150 9823 50  0000 C CNN
+F 2 "" H 17150 9650 50  0001 C CNN
+F 3 "~" H 17150 9650 50  0001 C CNN
+	1    17150 9650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0100
 U 1 1 6250CE1B
-P -4400 9900
-F 0 "#PWR0100" H -4400 9650 50  0001 C CNN
-F 1 "GND" V -4400 9700 50  0000 C CNN
-F 2 "" H -4400 9900 50  0001 C CNN
-F 3 "" H -4400 9900 50  0001 C CNN
-	1    -4400 9900
+P 16850 9050
+F 0 "#PWR0100" H 16850 8800 50  0001 C CNN
+F 1 "GND" V 16850 8850 50  0000 C CNN
+F 2 "" H 16850 9050 50  0001 C CNN
+F 3 "" H 16850 9050 50  0001 C CNN
+	1    16850 9050
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 6250D126
-P -4400 10100
-F 0 "#PWR0101" H -4400 9850 50  0001 C CNN
-F 1 "GND" V -4400 9900 50  0000 C CNN
-F 2 "" H -4400 10100 50  0001 C CNN
-F 3 "" H -4400 10100 50  0001 C CNN
-	1    -4400 10100
+P 16850 9250
+F 0 "#PWR0101" H 16850 9000 50  0001 C CNN
+F 1 "GND" V 16850 9050 50  0000 C CNN
+F 2 "" H 16850 9250 50  0001 C CNN
+F 3 "" H 16850 9250 50  0001 C CNN
+	1    16850 9250
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0106
 U 1 1 6250D452
-P -4400 10300
-F 0 "#PWR0106" H -4400 10050 50  0001 C CNN
-F 1 "GND" V -4400 10100 50  0000 C CNN
-F 2 "" H -4400 10300 50  0001 C CNN
-F 3 "" H -4400 10300 50  0001 C CNN
-	1    -4400 10300
+P 16850 9450
+F 0 "#PWR0106" H 16850 9200 50  0001 C CNN
+F 1 "GND" V 16850 9250 50  0000 C CNN
+F 2 "" H 16850 9450 50  0001 C CNN
+F 3 "" H 16850 9450 50  0001 C CNN
+	1    16850 9450
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0107
 U 1 1 6250D5EC
-P -4400 10500
-F 0 "#PWR0107" H -4400 10250 50  0001 C CNN
-F 1 "GND" V -4400 10300 50  0000 C CNN
-F 2 "" H -4400 10500 50  0001 C CNN
-F 3 "" H -4400 10500 50  0001 C CNN
-	1    -4400 10500
+P 16850 9650
+F 0 "#PWR0107" H 16850 9400 50  0001 C CNN
+F 1 "GND" V 16850 9450 50  0000 C CNN
+F 2 "" H 16850 9650 50  0001 C CNN
+F 3 "" H 16850 9650 50  0001 C CNN
+	1    16850 9650
 	0    1    1    0   
 $EndComp
 $Sheet
@@ -598,103 +598,6 @@ U 62CF9562
 F0 "ROM" 50
 F1 "573-ROM.sch" 50
 $EndSheet
-$Comp
-L Arcade:KONAMI-058232 U?
-U 1 1 63482B13
-P 10950 8600
-AR Path="/63647603/63482B13" Ref="U?"  Part="1" 
-AR Path="/63482B13" Ref="U4"  Part="1" 
-F 0 "U4" H 10950 9665 50  0000 C CNN
-F 1 "KONAMI-058232" H 10950 9574 50  0000 C CNN
-F 2 "Arcade:KONAMI-SIP-14" H 10950 8600 50  0001 C CNN
-F 3 "" H 10950 8600 50  0001 C CNN
-	1    10950 8600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 63482B19
-P 11650 7700
-AR Path="/63647603/63482B19" Ref="#PWR?"  Part="1" 
-AR Path="/63482B19" Ref="#PWR0108"  Part="1" 
-F 0 "#PWR0108" H 11650 7550 50  0001 C CNN
-F 1 "+12V" H 11665 7873 50  0000 C CNN
-F 2 "" H 11650 7700 50  0001 C CNN
-F 3 "" H 11650 7700 50  0001 C CNN
-	1    11650 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11550 7900 11650 7900
-Text GLabel 11700 8050 2    50   Input ~ 0
-COIN-CNT1
-Text GLabel 11700 8200 2    50   Input ~ 0
-COIN-CNT2
-Wire Wire Line
-	11700 8200 11550 8200
-Wire Wire Line
-	11550 8050 11700 8050
-Text GLabel 10250 7950 0    50   Input ~ 0
-058232-5
-Text GLabel 10250 8050 0    50   Input ~ 0
-058232-4
-Wire Wire Line
-	10250 7950 10350 7950
-Wire Wire Line
-	10350 8050 10250 8050
-$Comp
-L power:+5V #PWR?
-U 1 1 63482B28
-P 10250 7700
-AR Path="/63647603/63482B28" Ref="#PWR?"  Part="1" 
-AR Path="/63482B28" Ref="#PWR0109"  Part="1" 
-F 0 "#PWR0109" H 10250 7550 50  0001 C CNN
-F 1 "+5V" H 10265 7873 50  0000 C CNN
-F 2 "" H 10250 7700 50  0001 C CNN
-F 3 "" H 10250 7700 50  0001 C CNN
-	1    10250 7700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10350 7800 10250 7800
-Wire Wire Line
-	10250 7800 10250 7700
-Wire Wire Line
-	11650 7700 11650 7900
-$Comp
-L power:GND #PWR0110
-U 1 1 63482B31
-P 10250 8550
-AR Path="/63482B31" Ref="#PWR0110"  Part="1" 
-AR Path="/637479AE/63482B31" Ref="#PWR?"  Part="1" 
-AR Path="/63647603/63482B31" Ref="#PWR?"  Part="1" 
-F 0 "#PWR0110" H 10250 8300 50  0001 C CNN
-F 1 "GND" V 10250 8350 50  0000 C CNN
-F 2 "" H 10250 8550 50  0001 C CNN
-F 3 "" H 10250 8550 50  0001 C CNN
-	1    10250 8550
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10350 8350 10250 8350
-Wire Wire Line
-	10250 8350 10250 8450
-Wire Wire Line
-	10350 8450 10250 8450
-Connection ~ 10250 8450
-Wire Wire Line
-	10250 8450 10250 8550
-Text GLabel 10150 8300 0    50   Input ~ 0
-U71-43
-Wire Wire Line
-	10150 8200 10250 8200
-Wire Wire Line
-	10150 8300 10250 8300
-Wire Wire Line
-	10250 8300 10250 8200
-Wire Wire Line
-	10250 8200 10350 8200
-Connection ~ 10250 8200
 $Comp
 L 74xx:74LS74 U?
 U 2 1 63482B43
@@ -715,163 +618,43 @@ Wire Wire Line
 $Comp
 L Device:R_Dual_Network08_Split RA4
 U 1 1 63502016
-P 1350 5400
+P 5600 1750
 AR Path="/63502016" Ref="RA4"  Part="1" 
 AR Path="/63647603/63502016" Ref="RA?"  Part="1" 
-F 0 "RA4" H 1538 5471 50  0000 L CNN
-F 1 "2.2k" H 1538 5380 50  0000 L CNN
-F 2 "Resistor_SMD:R_Array_Convex_5x1206" V 1625 5400 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 1350 5400 50  0001 C CNN
-	1    1350 5400
+F 0 "RA4" H 5788 1821 50  0000 L CNN
+F 1 "2.2k" H 5788 1730 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V 5875 1750 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 5600 1750 50  0001 C CNN
+	1    5600 1750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR0112
 U 1 1 6350E133
-P 1150 5150
-F 0 "#PWR0112" H 1150 5000 50  0001 C CNN
-F 1 "+5V" H 1165 5323 50  0000 C CNN
-F 2 "" H 1150 5150 50  0001 C CNN
-F 3 "" H 1150 5150 50  0001 C CNN
-	1    1150 5150
+P 5400 1500
+F 0 "#PWR0112" H 5400 1350 50  0001 C CNN
+F 1 "+5V" H 5415 1673 50  0000 C CNN
+F 2 "" H 5400 1500 50  0001 C CNN
+F 3 "" H 5400 1500 50  0001 C CNN
+	1    5400 1500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1550 5700 1450 5700
+	5800 2050 5700 2050
 Wire Wire Line
-	1450 5700 1450 5600
-Text GLabel 2200 5950 2    50   Input ~ 0
+	5700 2050 5700 1950
+Text GLabel 6450 2300 2    50   Input ~ 0
 U71-19
-Text GLabel 2050 5950 0    50   Input ~ 0
+Text GLabel 6300 2300 0    50   Input ~ 0
 PCPU-~BIOS
 Wire Wire Line
-	2050 5950 2200 5950
-Text GLabel 1550 5700 2    50   Input ~ 0
+	6300 2300 6450 2300
+Text GLabel 5800 2050 2    50   Input ~ 0
 PCPU-~BIOS
 Text GLabel 14750 5900 0    50   Input ~ 0
 JVS-S-IN
 Wire Wire Line
 	14750 5900 14850 5900
-$Comp
-L 74xx:74LS273 22D2
-U 1 1 62BE362D
-P 6550 7300
-F 0 "22D2" H 6550 8281 50  0000 C CNN
-F 1 "74LS273" H 6550 8190 50  0000 C CNN
-F 2 "" H 6550 7300 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS273" H 6550 7300 50  0001 C CNN
-	1    6550 7300
-	1    0    0    -1  
-$EndComp
-Text Label 5150 6800 0    50   ~ 0
-PSX-DATA-0
-Entry Wire Line
-	5050 6900 5150 6800
-Text Label 5150 6900 0    50   ~ 0
-PSX-DATA-1
-Entry Wire Line
-	5050 7000 5150 6900
-Text Label 5150 7000 0    50   ~ 0
-PSX-DATA-2
-Entry Wire Line
-	5050 7100 5150 7000
-Text Label 5150 7100 0    50   ~ 0
-PSX-DATA-3
-Entry Wire Line
-	5050 7200 5150 7100
-Text Label 5150 7200 0    50   ~ 0
-PSX-DATA-4
-Entry Wire Line
-	5050 7300 5150 7200
-Text Label 5150 7300 0    50   ~ 0
-PSX-DATA-5
-Entry Wire Line
-	5050 7400 5150 7300
-Text Label 5150 7400 0    50   ~ 0
-PSX-DATA-6
-Entry Wire Line
-	5050 7500 5150 7400
-Text Label 5150 7500 0    50   ~ 0
-PSX-DATA-7
-Entry Wire Line
-	5050 7600 5150 7500
-Wire Wire Line
-	5150 6800 6050 6800
-Wire Wire Line
-	5150 6900 6050 6900
-Wire Wire Line
-	5150 7000 6050 7000
-Wire Wire Line
-	5150 7100 6050 7100
-Wire Wire Line
-	5150 7200 6050 7200
-Wire Wire Line
-	5150 7300 6050 7300
-Wire Wire Line
-	5150 7400 6050 7400
-Wire Wire Line
-	5150 7500 6050 7500
-Text Label 5050 7750 0    50   ~ 0
-PSX-DATA
-Text GLabel 5950 7800 0    50   Input ~ 0
-LS273-~RST
-$Comp
-L power:GND #PWR0119
-U 1 1 62D5336A
-P 6550 8250
-F 0 "#PWR0119" H 6550 8000 50  0001 C CNN
-F 1 "GND" H 6555 8077 50  0000 C CNN
-F 2 "" H 6550 8250 50  0001 C CNN
-F 3 "" H 6550 8250 50  0001 C CNN
-	1    6550 8250
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C38
-U 1 1 62D5337C
-P 6300 8150
-F 0 "C38" H 6000 8150 50  0000 L CNN
-F 1 "10n" H 6050 8050 50  0000 L CNN
-F 2 "" H 6300 8150 50  0001 C CNN
-F 3 "~" H 6300 8150 50  0001 C CNN
-	1    6300 8150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6300 8250 6550 8250
-Wire Wire Line
-	6550 8250 6550 8100
-Connection ~ 6550 8250
-$Comp
-L power:+5V #PWR0120
-U 1 1 62D78C7A
-P 6200 8000
-F 0 "#PWR0120" H 6200 7850 50  0001 C CNN
-F 1 "+5V" V 6200 8250 50  0000 C CNN
-F 2 "" H 6200 8000 50  0001 C CNN
-F 3 "" H 6200 8000 50  0001 C CNN
-	1    6200 8000
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6200 8000 6300 8000
-Wire Wire Line
-	6300 8000 6300 8050
-$Comp
-L power:+5V #PWR0122
-U 1 1 62EAE646
-P 6350 6500
-F 0 "#PWR0122" H 6350 6350 50  0001 C CNN
-F 1 "+5V" V 6350 6750 50  0000 C CNN
-F 2 "" H 6350 6500 50  0001 C CNN
-F 3 "" H 6350 6500 50  0001 C CNN
-	1    6350 6500
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	6350 6500 6550 6500
-Wire Wire Line
-	5950 7800 6050 7800
 $Comp
 L 74xx:74LS125 35H1
 U 3 1 62FC6DFC
@@ -921,8 +704,6 @@ Text GLabel 13550 6650 0    50   Input ~ 0
 CART-5
 Wire Wire Line
 	13550 6650 13700 6650
-Text GLabel 10150 8200 0    50   Input ~ 0
-35J-11
 Wire Wire Line
 	14850 6200 14300 6200
 Wire Wire Line
@@ -1017,14 +798,1895 @@ Text GLabel 9800 2000 0    50   Input ~ 0
 IO-ADDR-22
 Wire Wire Line
 	9800 2000 10000 2000
-Wire Bus Line
-	5050 6900 5050 7750
-Wire Bus Line
-	14800 1550 14800 3600
 $Sheet
 S 10700 -1400 1450 1250
 U 68891422
 F0 "PCCARD (PCMCIA)" 50
 F1 "573-PCCARD.sch" 50
 $EndSheet
+$Comp
+L 74xx:74LS139 29G?
+U 1 1 6893FA7E
+P 2250 4550
+AR Path="/62CF9562/6893FA7E" Ref="29G?"  Part="1" 
+AR Path="/6893FA7E" Ref="29G?"  Part="1" 
+F 0 "29G?" H 2250 4917 50  0000 C CNN
+F 1 "74LS139" H 2250 4826 50  0000 C CNN
+F 2 "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" H 2250 4550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 2250 4550 50  0001 C CNN
+	1    2250 4550
+	1    0    0    -1  
+$EndComp
+Text GLabel 2900 4550 2    50   Input ~ 0
+29G-5
+Wire Wire Line
+	2900 4550 2750 4550
+Text Notes 3250 4600 0    50   ~ 0
+PCCARD 2 (B) CE
+$Comp
+L 74xx:74LS14 24E?
+U 6 1 6893FA87
+P 4900 6450
+AR Path="/6893FA87" Ref="24E?"  Part="6" 
+AR Path="/62CF9562/6893FA87" Ref="24E?"  Part="6" 
+F 0 "24E?" H 4900 6767 50  0000 C CNN
+F 1 "74LS14" H 4900 6676 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 4900 6450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 4900 6450 50  0001 C CNN
+	6    4900 6450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5300 6450 2    50   Input ~ 0
+35H-10
+Wire Wire Line
+	5300 6450 5200 6450
+Text GLabel 4450 6450 0    50   Input ~ 0
+IO-DATA-5
+Wire Wire Line
+	4600 6450 4450 6450
+Entry Wire Line
+	-3500 3400 -3400 3500
+Entry Wire Line
+	-3500 3500 -3400 3600
+Entry Wire Line
+	-3500 3600 -3400 3700
+Entry Wire Line
+	-3500 3700 -3400 3800
+Entry Wire Line
+	-3500 3800 -3400 3900
+Entry Wire Line
+	-3500 3900 -3400 4000
+Entry Wire Line
+	-3500 4000 -3400 4100
+Entry Wire Line
+	-3500 4100 -3400 4200
+Text Label -4000 3400 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	-4050 3400 -3500 3400
+Text Label -4000 3500 0    50   ~ 0
+IO-DATA-1
+Text Label -4000 3600 0    50   ~ 0
+IO-DATA-2
+Text Label -4000 3700 0    50   ~ 0
+IO-DATA-3
+Text Label -4000 3800 0    50   ~ 0
+IO-DATA-4
+Text Label -4000 3900 0    50   ~ 0
+IO-DATA-5
+Text Label -4000 4000 0    50   ~ 0
+IO-DATA-6
+Text Label -4000 4100 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	-4050 4100 -3500 4100
+Wire Wire Line
+	-4050 4000 -3500 4000
+Wire Wire Line
+	-4050 3900 -3500 3900
+Wire Wire Line
+	-4050 3800 -3500 3800
+Wire Wire Line
+	-4050 3700 -3500 3700
+Wire Wire Line
+	-4050 3600 -3500 3600
+Wire Wire Line
+	-4050 3500 -3500 3500
+Text Label -3400 4950 0    50   ~ 0
+IO-DATA
+$Comp
+L 74xx:74LS245 22N?
+U 1 1 6893FAAA
+P -4550 3900
+AR Path="/62CF9562/6893FAAA" Ref="22N?"  Part="1" 
+AR Path="/6893FAAA" Ref="22N?"  Part="1" 
+F 0 "22N?" H -4550 4881 50  0000 C CNN
+F 1 "74LCX245" H -4550 4790 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm" H -4550 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H -4550 3900 50  0001 C CNN
+	1    -4550 3900
+	1    0    0    -1  
+$EndComp
+Text Label -5750 4100 0    50   ~ 0
+PSX-DATA-7
+Entry Wire Line
+	-5850 3500 -5750 3400
+Entry Wire Line
+	-5850 3600 -5750 3500
+Text Label -5750 4000 0    50   ~ 0
+PSX-DATA-6
+Entry Wire Line
+	-5850 3700 -5750 3600
+Entry Wire Line
+	-5850 3800 -5750 3700
+Text Label -5750 3900 0    50   ~ 0
+PSX-DATA-5
+Entry Wire Line
+	-5850 3900 -5750 3800
+Entry Wire Line
+	-5850 4000 -5750 3900
+Text Label -5750 3800 0    50   ~ 0
+PSX-DATA-4
+Entry Wire Line
+	-5850 4100 -5750 4000
+Text Label -5750 3700 0    50   ~ 0
+PSX-DATA-3
+Text Label -5750 3600 0    50   ~ 0
+PSX-DATA-2
+Text Label -5750 3500 0    50   ~ 0
+PSX-DATA-1
+Text Label -5750 3400 0    50   ~ 0
+PSX-DATA-0
+Entry Wire Line
+	-5850 4200 -5750 4100
+Wire Wire Line
+	-5050 4100 -5750 4100
+Wire Wire Line
+	-5050 4000 -5750 4000
+Wire Wire Line
+	-5050 3900 -5750 3900
+Wire Wire Line
+	-5050 3800 -5750 3800
+Wire Wire Line
+	-5050 3700 -5750 3700
+Wire Wire Line
+	-5050 3600 -5750 3600
+Wire Wire Line
+	-5050 3500 -5750 3500
+Wire Wire Line
+	-5050 3400 -5750 3400
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FAC8
+P -4850 3050
+AR Path="/6893FAC8" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FAC8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -4850 2900 50  0001 C CNN
+F 1 "+5V" H -4850 3200 50  0000 C CNN
+F 2 "" H -4850 3050 50  0001 C CNN
+F 3 "" H -4850 3050 50  0001 C CNN
+	1    -4850 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-4550 3100 -4850 3100
+Wire Wire Line
+	-4850 3100 -4850 3050
+$Comp
+L power:GND #PWR?
+U 1 1 6893FAD0
+P -4550 4700
+AR Path="/6893FAD0" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FAD0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -4550 4450 50  0001 C CNN
+F 1 "GND" H -4545 4527 50  0000 C CNN
+F 2 "" H -4550 4700 50  0001 C CNN
+F 3 "" H -4550 4700 50  0001 C CNN
+	1    -4550 4700
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	-3500 5600 -3400 5700
+Entry Wire Line
+	-3500 5700 -3400 5800
+Entry Wire Line
+	-3500 5800 -3400 5900
+Entry Wire Line
+	-3500 5900 -3400 6000
+Entry Wire Line
+	-3500 6000 -3400 6100
+Entry Wire Line
+	-3500 6100 -3400 6200
+Entry Wire Line
+	-3500 6200 -3400 6300
+Entry Wire Line
+	-3500 6300 -3400 6400
+$Comp
+L 74xx:74LS245 22Q?
+U 1 1 6893FADE
+P -4550 6100
+AR Path="/62CF9562/6893FADE" Ref="22Q?"  Part="1" 
+AR Path="/6893FADE" Ref="22Q?"  Part="1" 
+F 0 "22Q?" H -4550 7081 50  0000 C CNN
+F 1 "74LCX245" H -4550 6990 50  0000 C CNN
+F 2 "Package_SO:SSOP-20_4.4x6.5mm_P0.65mm" H -4550 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H -4550 6100 50  0001 C CNN
+	1    -4550 6100
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	-5850 5700 -5750 5600
+Entry Wire Line
+	-5850 5800 -5750 5700
+Entry Wire Line
+	-5850 5900 -5750 5800
+Entry Wire Line
+	-5850 6000 -5750 5900
+Entry Wire Line
+	-5850 6100 -5750 6000
+Entry Wire Line
+	-5850 6200 -5750 6100
+Entry Wire Line
+	-5850 6300 -5750 6200
+Entry Wire Line
+	-5850 6400 -5750 6300
+Wire Wire Line
+	-4550 5300 -4850 5300
+Wire Wire Line
+	-4850 5300 -4850 5250
+$Comp
+L power:GND #PWR?
+U 1 1 6893FAEE
+P -4550 6900
+AR Path="/6893FAEE" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FAEE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -4550 6650 50  0001 C CNN
+F 1 "GND" H -4545 6727 50  0000 C CNN
+F 2 "" H -4550 6900 50  0001 C CNN
+F 3 "" H -4550 6900 50  0001 C CNN
+	1    -4550 6900
+	1    0    0    -1  
+$EndComp
+Text Label -5750 5600 0    50   ~ 0
+PSX-DATA-8
+Text Label -5750 5700 0    50   ~ 0
+PSX-DATA-9
+Text Label -5750 5800 0    50   ~ 0
+PSX-DATA-10
+Text Label -5750 5900 0    50   ~ 0
+PSX-DATA-11
+Text Label -5750 6000 0    50   ~ 0
+PSX-DATA-12
+Text Label -5750 6100 0    50   ~ 0
+PSX-DATA-13
+Text Label -5750 6200 0    50   ~ 0
+PSX-DATA-14
+Text Label -5750 6300 0    50   ~ 0
+PSX-DATA-15
+Wire Wire Line
+	-5050 6300 -5750 6300
+Wire Wire Line
+	-5050 6200 -5750 6200
+Wire Wire Line
+	-5050 6100 -5750 6100
+Wire Wire Line
+	-5050 6000 -5750 6000
+Wire Wire Line
+	-5050 5900 -5750 5900
+Wire Wire Line
+	-5050 5800 -5750 5800
+Wire Wire Line
+	-5050 5700 -5750 5700
+Wire Wire Line
+	-5050 5600 -5750 5600
+Text Label -4000 5600 0    50   ~ 0
+IO-DATA-8
+Wire Wire Line
+	-4050 5600 -3500 5600
+Text Label -4000 5700 0    50   ~ 0
+IO-DATA-9
+Text Label -4000 5800 0    50   ~ 0
+IO-DATA-10
+Text Label -4000 5900 0    50   ~ 0
+IO-DATA-11
+Text Label -4000 6000 0    50   ~ 0
+IO-DATA-12
+Text Label -4000 6100 0    50   ~ 0
+IO-DATA-13
+Text Label -4000 6200 0    50   ~ 0
+IO-DATA-14
+Text Label -4000 6300 0    50   ~ 0
+IO-DATA-15
+Wire Wire Line
+	-4050 6300 -3500 6300
+Wire Wire Line
+	-4050 6200 -3500 6200
+Wire Wire Line
+	-4050 6100 -3500 6100
+Wire Wire Line
+	-4050 6000 -3500 6000
+Wire Wire Line
+	-4050 5900 -3500 5900
+Wire Wire Line
+	-4050 5800 -3500 5800
+Wire Wire Line
+	-4050 5700 -3500 5700
+Text GLabel -5300 4300 0    50   Input ~ 0
+IO-DIR
+Wire Wire Line
+	-5300 4300 -5050 4300
+Text GLabel -5300 4400 0    50   Input ~ 0
+IO-~CE
+Wire Wire Line
+	-5300 4400 -5050 4400
+Text GLabel -5300 6500 0    50   Input ~ 0
+IO-DIR
+Wire Wire Line
+	-5300 6500 -5050 6500
+Text GLabel -5300 6600 0    50   Input ~ 0
+IO-~CE
+Wire Wire Line
+	-5300 6600 -5050 6600
+Text GLabel 2900 4650 2    50   Input ~ 0
+29G-6
+Wire Wire Line
+	2900 4650 2750 4650
+Text Notes 3250 4700 0    50   ~ 0
+PCCARD 1 (T) CE
+Wire Wire Line
+	-2100 5300 -1800 5300
+Wire Wire Line
+	-2100 5300 -2100 5250
+Text GLabel -2400 6600 0    50   Input ~ 0
+LS273-~RST
+$Comp
+L power:GND #PWR?
+U 1 1 6893FB22
+P -1800 6900
+AR Path="/6893FB22" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FB22" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1800 6650 50  0001 C CNN
+F 1 "GND" H -1795 6727 50  0000 C CNN
+F 2 "" H -1800 6900 50  0001 C CNN
+F 3 "" H -1800 6900 50  0001 C CNN
+	1    -1800 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2400 6600 -2300 6600
+$Comp
+L 74xx:74LS273 27G?
+U 1 1 6893FB29
+P -1800 6100
+AR Path="/6893FB29" Ref="27G?"  Part="1" 
+AR Path="/62CF9562/6893FB29" Ref="27G?"  Part="1" 
+F 0 "27G?" H -1800 7081 50  0000 C CNN
+F 1 "74LS273" H -1800 6990 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H -1800 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS273" H -1800 6100 50  0001 C CNN
+	1    -1800 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FB2F
+P -2100 5250
+AR Path="/6893FB2F" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FB2F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2100 5100 50  0001 C CNN
+F 1 "+5V" H -2100 5400 50  0000 C CNN
+F 2 "" H -2100 5250 50  0001 C CNN
+F 3 "" H -2100 5250 50  0001 C CNN
+	1    -2100 5250
+	1    0    0    -1  
+$EndComp
+Text Label -2800 5600 0    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	-2850 5600 -2300 5600
+Text Label -2800 5700 0    50   ~ 0
+IO-DATA-1
+Text Label -2800 5800 0    50   ~ 0
+IO-DATA-2
+Text Label -2800 5900 0    50   ~ 0
+IO-DATA-3
+Text Label -2800 6000 0    50   ~ 0
+IO-DATA-4
+Text Label -2800 6100 0    50   ~ 0
+IO-DATA-5
+Text Label -2800 6200 0    50   ~ 0
+IO-DATA-6
+Text Label -2800 6300 0    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	-2850 6300 -2300 6300
+Wire Wire Line
+	-2850 6200 -2300 6200
+Wire Wire Line
+	-2850 6100 -2300 6100
+Wire Wire Line
+	-2850 6000 -2300 6000
+Wire Wire Line
+	-2850 5900 -2300 5900
+Wire Wire Line
+	-2850 5800 -2300 5800
+Wire Wire Line
+	-2850 5700 -2300 5700
+Entry Wire Line
+	-2950 5700 -2850 5600
+Entry Wire Line
+	-2950 5800 -2850 5700
+Entry Wire Line
+	-2950 5900 -2850 5800
+Entry Wire Line
+	-2950 6000 -2850 5900
+Entry Wire Line
+	-2950 6100 -2850 6000
+Entry Wire Line
+	-2950 6200 -2850 6100
+Entry Wire Line
+	-2950 6300 -2850 6200
+Entry Wire Line
+	-2950 6400 -2850 6300
+Text Label -2950 6450 2    50   ~ 0
+IO-DATA
+$Comp
+L 74xx:74LS139 29G?
+U 2 1 6893FB4E
+P 2250 3700
+AR Path="/62CF9562/6893FB4E" Ref="29G?"  Part="2" 
+AR Path="/6893FB4E" Ref="29G?"  Part="2" 
+F 0 "29G?" H 2250 4067 50  0000 C CNN
+F 1 "74LS139" H 2250 3976 50  0000 C CNN
+F 2 "" H 2250 3700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/sn74ls139a.pdf" H 2250 3700 50  0001 C CNN
+	2    2250 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1750 3900 1700 3900
+Wire Wire Line
+	1700 3900 1700 4100
+Wire Wire Line
+	1700 4100 2800 4100
+Wire Wire Line
+	2800 4100 2800 4450
+Wire Wire Line
+	2800 4450 2750 4450
+NoConn ~ 2750 4750
+Text GLabel 1600 4550 0    50   Input ~ 0
+27G-12
+Wire Wire Line
+	1600 4550 1750 4550
+Text GLabel 1600 4750 0    50   Input ~ 0
+U17-37
+Wire Wire Line
+	1600 4750 1750 4750
+Text GLabel 1600 4450 0    50   Input ~ 0
+27G-15
+Wire Wire Line
+	1600 4450 1750 4450
+Text GLabel 2100 2150 0    50   Input ~ 0
+~PSX-RD
+$Comp
+L 74xx:74LS245 23L?
+U 1 1 6893FB61
+P 3100 1950
+AR Path="/62CF9562/6893FB61" Ref="23L?"  Part="1" 
+AR Path="/6893FB61" Ref="23L?"  Part="1" 
+F 0 "23L?" H 3100 2931 50  0000 C CNN
+F 1 "74F245" H 3100 2840 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H 3100 1950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H 3100 1950 50  0001 C CNN
+	1    3100 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FB67
+P -4850 5250
+AR Path="/6893FB67" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FB67" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -4850 5100 50  0001 C CNN
+F 1 "+5V" H -4850 5400 50  0000 C CNN
+F 2 "" H -4850 5250 50  0001 C CNN
+F 3 "" H -4850 5250 50  0001 C CNN
+	1    -4850 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1150 2800 1150
+Wire Wire Line
+	2800 1150 2800 1100
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FB6F
+P 2500 2350
+AR Path="/6893FB6F" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FB6F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 2200 50  0001 C CNN
+F 1 "+5V" V 2500 2600 50  0000 C CNN
+F 2 "" H 2500 2350 50  0001 C CNN
+F 3 "" H 2500 2350 50  0001 C CNN
+	1    2500 2350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2500 2350 2600 2350
+$Comp
+L power:GND #PWR?
+U 1 1 6893FB76
+P 3100 2750
+AR Path="/62CF9562/6893FB76" Ref="#PWR?"  Part="1" 
+AR Path="/6893FB76" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3100 2500 50  0001 C CNN
+F 1 "GND" H 3105 2577 50  0000 C CNN
+F 2 "" H 3100 2750 50  0001 C CNN
+F 3 "" H 3100 2750 50  0001 C CNN
+	1    3100 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 2750 2600 2750
+Wire Wire Line
+	2600 2750 2600 2450
+Connection ~ 3100 2750
+Text Notes 3550 2750 0    50   ~ 0
+3.3v to 5V for\nbus signals
+Text GLabel 2500 2050 0    50   Input ~ 0
+~PSX-WR
+Wire Wire Line
+	2500 2050 2600 2050
+Wire Wire Line
+	2100 2150 2600 2150
+Text GLabel 2100 1950 0    50   Input ~ 0
+~PSX-WR2
+Wire Wire Line
+	2100 1950 2600 1950
+Text GLabel 2500 1850 0    50   Input ~ 0
+~PSX-EXP
+Wire Wire Line
+	2500 1850 2600 1850
+Text GLabel 4150 2150 2    50   Input ~ 0
+~BUS-RD
+Text GLabel 3700 2050 2    50   Input ~ 0
+~BUS-WR
+Wire Wire Line
+	3700 2050 3600 2050
+Wire Wire Line
+	4150 2150 3600 2150
+Text GLabel 4150 1950 2    50   Input ~ 0
+~BUS-WR2
+Wire Wire Line
+	3600 1950 4150 1950
+Text GLabel 3700 1850 2    50   Input ~ 0
+~EXP-CE
+Wire Wire Line
+	3700 1850 3600 1850
+$Comp
+L 74xx:74LS245 32N?
+U 1 1 6893FB8F
+P -7300 1650
+AR Path="/62CF9562/6893FB8F" Ref="32N?"  Part="1" 
+AR Path="/6893FB8F" Ref="32N?"  Part="1" 
+F 0 "32N?" H -7300 2631 50  0000 C CNN
+F 1 "74F245" H -7300 2540 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H -7300 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H -7300 1650 50  0001 C CNN
+	1    -7300 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6893FB95
+P -7300 2450
+AR Path="/62CF9562/6893FB95" Ref="#PWR?"  Part="1" 
+AR Path="/6893FB95" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7300 2200 50  0001 C CNN
+F 1 "GND" H -7295 2277 50  0000 C CNN
+F 2 "" H -7300 2450 50  0001 C CNN
+F 3 "" H -7300 2450 50  0001 C CNN
+	1    -7300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FB9B
+P 2800 1100
+AR Path="/6893FB9B" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FB9B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2800 950 50  0001 C CNN
+F 1 "+5V" H 2800 1250 50  0000 C CNN
+F 2 "" H 2800 1100 50  0001 C CNN
+F 3 "" H 2800 1100 50  0001 C CNN
+	1    2800 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FBA1
+P -7600 850
+AR Path="/6893FBA1" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FBA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7600 700 50  0001 C CNN
+F 1 "+5V" H -7600 1000 50  0000 C CNN
+F 2 "" H -7600 850 50  0001 C CNN
+F 3 "" H -7600 850 50  0001 C CNN
+	1    -7600 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7600 850  -7300 850 
+Text Label -6300 1150 2    50   ~ 0
+IO-ADDR-0
+Entry Wire Line
+	-6150 1250 -6250 1150
+Wire Wire Line
+	-6250 1150 -6800 1150
+Text Label -6300 1250 2    50   ~ 0
+IO-ADDR-1
+Entry Wire Line
+	-6150 1350 -6250 1250
+Wire Wire Line
+	-6250 1250 -6800 1250
+Text Label -6300 1350 2    50   ~ 0
+IO-ADDR-2
+Entry Wire Line
+	-6150 1450 -6250 1350
+Wire Wire Line
+	-6250 1350 -6800 1350
+Text Label -6300 1450 2    50   ~ 0
+IO-ADDR-3
+Entry Wire Line
+	-6150 1550 -6250 1450
+Wire Wire Line
+	-6250 1450 -6800 1450
+Text Label -6300 1550 2    50   ~ 0
+IO-ADDR-4
+Entry Wire Line
+	-6150 1650 -6250 1550
+Wire Wire Line
+	-6250 1550 -6800 1550
+Text Label -6300 1650 2    50   ~ 0
+IO-ADDR-5
+Entry Wire Line
+	-6150 1750 -6250 1650
+Wire Wire Line
+	-6250 1650 -6800 1650
+Text Label -6300 1750 2    50   ~ 0
+IO-ADDR-6
+Entry Wire Line
+	-6150 1850 -6250 1750
+Wire Wire Line
+	-6250 1750 -6800 1750
+Text Label -6300 1850 2    50   ~ 0
+IO-ADDR-7
+Entry Wire Line
+	-6150 1950 -6250 1850
+Wire Wire Line
+	-6250 1850 -6800 1850
+$Comp
+L 74xx:74LS245 30N?
+U 1 1 6893FBC0
+P -7300 3900
+AR Path="/62CF9562/6893FBC0" Ref="30N?"  Part="1" 
+AR Path="/6893FBC0" Ref="30N?"  Part="1" 
+F 0 "30N?" H -7300 4881 50  0000 C CNN
+F 1 "74F245" H -7300 4790 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H -7300 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H -7300 3900 50  0001 C CNN
+	1    -7300 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6893FBC6
+P -7300 4700
+AR Path="/62CF9562/6893FBC6" Ref="#PWR?"  Part="1" 
+AR Path="/6893FBC6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7300 4450 50  0001 C CNN
+F 1 "GND" H -7295 4527 50  0000 C CNN
+F 2 "" H -7300 4700 50  0001 C CNN
+F 3 "" H -7300 4700 50  0001 C CNN
+	1    -7300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FBCC
+P -7600 3100
+AR Path="/6893FBCC" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FBCC" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7600 2950 50  0001 C CNN
+F 1 "+5V" H -7600 3250 50  0000 C CNN
+F 2 "" H -7600 3100 50  0001 C CNN
+F 3 "" H -7600 3100 50  0001 C CNN
+	1    -7600 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7600 3100 -7300 3100
+Text Label -6300 3400 2    50   ~ 0
+IO-ADDR-8
+Entry Wire Line
+	-6150 3500 -6250 3400
+Wire Wire Line
+	-6250 3400 -6800 3400
+Text Label -6300 3500 2    50   ~ 0
+IO-ADDR-9
+Entry Wire Line
+	-6150 3600 -6250 3500
+Wire Wire Line
+	-6250 3500 -6800 3500
+Text Label -6300 3600 2    50   ~ 0
+IO-ADDR-10
+Entry Wire Line
+	-6150 3700 -6250 3600
+Wire Wire Line
+	-6250 3600 -6800 3600
+Text Label -6300 3700 2    50   ~ 0
+IO-ADDR-11
+Entry Wire Line
+	-6150 3800 -6250 3700
+Wire Wire Line
+	-6250 3700 -6800 3700
+Text Label -6300 3800 2    50   ~ 0
+IO-ADDR-12
+Entry Wire Line
+	-6150 3900 -6250 3800
+Wire Wire Line
+	-6250 3800 -6800 3800
+Text Label -6300 3900 2    50   ~ 0
+IO-ADDR-13
+Entry Wire Line
+	-6150 4000 -6250 3900
+Wire Wire Line
+	-6250 3900 -6800 3900
+Text Label -6300 4000 2    50   ~ 0
+IO-ADDR-14
+Entry Wire Line
+	-6150 4100 -6250 4000
+Wire Wire Line
+	-6250 4000 -6800 4000
+Text Label -6300 4100 2    50   ~ 0
+IO-ADDR-15
+Entry Wire Line
+	-6150 4200 -6250 4100
+Wire Wire Line
+	-6250 4100 -6800 4100
+$Comp
+L 74xx:74LS245 27N?
+U 1 1 6893FBEB
+P -7300 6100
+AR Path="/62CF9562/6893FBEB" Ref="27N?"  Part="1" 
+AR Path="/6893FBEB" Ref="27N?"  Part="1" 
+F 0 "27N?" H -7300 7081 50  0000 C CNN
+F 1 "74F245" H -7300 6990 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H -7300 6100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS245" H -7300 6100 50  0001 C CNN
+	1    -7300 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6893FBF1
+P -7300 6900
+AR Path="/62CF9562/6893FBF1" Ref="#PWR?"  Part="1" 
+AR Path="/6893FBF1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7300 6650 50  0001 C CNN
+F 1 "GND" H -7295 6727 50  0000 C CNN
+F 2 "" H -7300 6900 50  0001 C CNN
+F 3 "" H -7300 6900 50  0001 C CNN
+	1    -7300 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FBF7
+P -7600 5300
+AR Path="/6893FBF7" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FBF7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7600 5150 50  0001 C CNN
+F 1 "+5V" H -7600 5450 50  0000 C CNN
+F 2 "" H -7600 5300 50  0001 C CNN
+F 3 "" H -7600 5300 50  0001 C CNN
+	1    -7600 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-7600 5300 -7300 5300
+Text Label -6300 5600 2    50   ~ 0
+IO-ADDR-16
+Entry Wire Line
+	-6150 5700 -6250 5600
+Wire Wire Line
+	-6250 5600 -6800 5600
+Text Label -6300 5700 2    50   ~ 0
+IO-ADDR-17
+Entry Wire Line
+	-6150 5800 -6250 5700
+Wire Wire Line
+	-6250 5700 -6800 5700
+Text Label -6300 5800 2    50   ~ 0
+IO-ADDR-18
+Entry Wire Line
+	-6150 5900 -6250 5800
+Wire Wire Line
+	-6250 5800 -6800 5800
+Text Label -6300 5900 2    50   ~ 0
+IO-ADDR-19
+Entry Wire Line
+	-6150 6000 -6250 5900
+Wire Wire Line
+	-6250 5900 -6800 5900
+Text Label -6300 6000 2    50   ~ 0
+IO-ADDR-20
+Entry Wire Line
+	-6150 6100 -6250 6000
+Wire Wire Line
+	-6250 6000 -6800 6000
+Text Label -6300 6100 2    50   ~ 0
+IO-ADDR-21
+Entry Wire Line
+	-6150 6200 -6250 6100
+Wire Wire Line
+	-6250 6100 -6800 6100
+Text GLabel -1100 5800 2    50   Input ~ 0
+22G-6
+Text GLabel -1100 5700 2    50   Input ~ 0
+22G-5
+Text GLabel -1100 5600 2    50   Input ~ 0
+22G-2
+Wire Wire Line
+	-1100 5600 -1300 5600
+Wire Wire Line
+	-1300 5700 -1100 5700
+Wire Wire Line
+	-1100 5800 -1300 5800
+Text Label -8400 1150 0    50   ~ 0
+PSX-ADDR-0
+Entry Wire Line
+	-8550 1250 -8450 1150
+Text Label -8400 1250 0    50   ~ 0
+PSX-ADDR-1
+Entry Wire Line
+	-8550 1350 -8450 1250
+Text Label -8400 1350 0    50   ~ 0
+PSX-ADDR-2
+Entry Wire Line
+	-8550 1450 -8450 1350
+Text Label -8400 1450 0    50   ~ 0
+PSX-ADDR-3
+Entry Wire Line
+	-8550 1550 -8450 1450
+Text Label -8400 1550 0    50   ~ 0
+PSX-ADDR-4
+Entry Wire Line
+	-8550 1650 -8450 1550
+Text Label -8400 1650 0    50   ~ 0
+PSX-ADDR-5
+Entry Wire Line
+	-8550 1750 -8450 1650
+Text Label -8400 1750 0    50   ~ 0
+PSX-ADDR-6
+Entry Wire Line
+	-8550 1850 -8450 1750
+Text Label -8400 1850 0    50   ~ 0
+PSX-ADDR-7
+Entry Wire Line
+	-8550 1950 -8450 1850
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FC26
+P -7900 2050
+AR Path="/6893FC26" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FC26" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 1900 50  0001 C CNN
+F 1 "+5V" V -7900 2300 50  0000 C CNN
+F 2 "" H -7900 2050 50  0001 C CNN
+F 3 "" H -7900 2050 50  0001 C CNN
+	1    -7900 2050
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7900 2050 -7800 2050
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FC2D
+P -7900 4300
+AR Path="/6893FC2D" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FC2D" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 4150 50  0001 C CNN
+F 1 "+5V" V -7900 4550 50  0000 C CNN
+F 2 "" H -7900 4300 50  0001 C CNN
+F 3 "" H -7900 4300 50  0001 C CNN
+	1    -7900 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7900 4300 -7800 4300
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FC34
+P -7900 6500
+AR Path="/6893FC34" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FC34" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 6350 50  0001 C CNN
+F 1 "+5V" V -7900 6750 50  0000 C CNN
+F 2 "" H -7900 6500 50  0001 C CNN
+F 3 "" H -7900 6500 50  0001 C CNN
+	1    -7900 6500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7900 6500 -7800 6500
+$Comp
+L power:GND #PWR?
+U 1 1 6893FC3B
+P -7900 2150
+AR Path="/62CF9562/6893FC3B" Ref="#PWR?"  Part="1" 
+AR Path="/6893FC3B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 1900 50  0001 C CNN
+F 1 "GND" V -7900 1900 50  0000 C CNN
+F 2 "" H -7900 2150 50  0001 C CNN
+F 3 "" H -7900 2150 50  0001 C CNN
+	1    -7900 2150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-7900 2150 -7800 2150
+$Comp
+L power:GND #PWR?
+U 1 1 6893FC42
+P -7900 4400
+AR Path="/62CF9562/6893FC42" Ref="#PWR?"  Part="1" 
+AR Path="/6893FC42" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 4150 50  0001 C CNN
+F 1 "GND" V -7900 4150 50  0000 C CNN
+F 2 "" H -7900 4400 50  0001 C CNN
+F 3 "" H -7900 4400 50  0001 C CNN
+	1    -7900 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-7900 4400 -7800 4400
+$Comp
+L power:GND #PWR?
+U 1 1 6893FC49
+P -7900 6600
+AR Path="/62CF9562/6893FC49" Ref="#PWR?"  Part="1" 
+AR Path="/6893FC49" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 6350 50  0001 C CNN
+F 1 "GND" V -7900 6350 50  0000 C CNN
+F 2 "" H -7900 6600 50  0001 C CNN
+F 3 "" H -7900 6600 50  0001 C CNN
+	1    -7900 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	-7900 6600 -7800 6600
+Text Label -8400 3400 0    50   ~ 0
+PSX-ADDR-8
+Entry Wire Line
+	-8550 3500 -8450 3400
+Text Label -8400 3500 0    50   ~ 0
+PSX-ADDR-9
+Entry Wire Line
+	-8550 3600 -8450 3500
+Text Label -8400 3600 0    50   ~ 0
+PSX-ADDR-10
+Entry Wire Line
+	-8550 3700 -8450 3600
+Text Label -8400 3700 0    50   ~ 0
+PSX-ADDR-11
+Entry Wire Line
+	-8550 3800 -8450 3700
+Text Label -8400 3800 0    50   ~ 0
+PSX-ADDR-12
+Entry Wire Line
+	-8550 3900 -8450 3800
+Text Label -8400 3900 0    50   ~ 0
+PSX-ADDR-13
+Entry Wire Line
+	-8550 4000 -8450 3900
+Text Label -8400 4000 0    50   ~ 0
+PSX-ADDR-14
+Entry Wire Line
+	-8550 4100 -8450 4000
+Text Label -8400 4100 0    50   ~ 0
+PSX-ADDR-15
+Entry Wire Line
+	-8550 4200 -8450 4100
+Wire Wire Line
+	-8450 3400 -7800 3400
+Wire Wire Line
+	-8450 3500 -7800 3500
+Wire Wire Line
+	-8450 3600 -7800 3600
+Wire Wire Line
+	-8450 3700 -7800 3700
+Wire Wire Line
+	-8450 3800 -7800 3800
+Wire Wire Line
+	-8450 3900 -7800 3900
+Wire Wire Line
+	-8450 4000 -7800 4000
+Wire Wire Line
+	-8450 4100 -7800 4100
+Wire Wire Line
+	-8450 1150 -7800 1150
+Wire Wire Line
+	-8450 1250 -7800 1250
+Wire Wire Line
+	-8450 1350 -7800 1350
+Wire Wire Line
+	-8450 1450 -7800 1450
+Wire Wire Line
+	-8450 1550 -7800 1550
+Wire Wire Line
+	-8450 1650 -7800 1650
+Wire Wire Line
+	-8450 1750 -7800 1750
+Wire Wire Line
+	-8450 1850 -7800 1850
+Text Label -8400 5600 0    50   ~ 0
+PSX-ADDR-16
+Entry Wire Line
+	-8550 5700 -8450 5600
+Text Label -8400 5700 0    50   ~ 0
+PSX-ADDR-17
+Entry Wire Line
+	-8550 5800 -8450 5700
+Text Label -8400 5800 0    50   ~ 0
+PSX-ADDR-18
+Entry Wire Line
+	-8550 5900 -8450 5800
+Text Label -8400 5900 0    50   ~ 0
+PSX-ADDR-19
+Entry Wire Line
+	-8550 6000 -8450 5900
+Text Label -8400 6000 0    50   ~ 0
+PSX-ADDR-20
+Entry Wire Line
+	-8550 6100 -8450 6000
+Text Label -8400 6100 0    50   ~ 0
+PSX-ADDR-21
+Entry Wire Line
+	-8550 6200 -8450 6100
+Entry Wire Line
+	-8550 6300 -8450 6200
+Entry Wire Line
+	-8550 6400 -8450 6300
+Wire Wire Line
+	-8450 5600 -7800 5600
+Wire Wire Line
+	-8450 5700 -7800 5700
+Wire Wire Line
+	-8450 5800 -7800 5800
+Wire Wire Line
+	-8450 5900 -7800 5900
+Wire Wire Line
+	-8450 6000 -7800 6000
+Wire Wire Line
+	-8450 6100 -7800 6100
+Text Label -8400 6200 0    50   ~ 0
+PSX-ADDR-22
+Text Label -8400 6300 0    50   ~ 0
+PSX-ADDR-23
+Wire Wire Line
+	-8450 6200 -7800 6200
+Wire Wire Line
+	-8450 6300 -7800 6300
+Text Label -6300 6200 2    50   ~ 0
+IO-ADDR-22
+Wire Wire Line
+	-6250 6200 -6800 6200
+Text Label -6300 6300 2    50   ~ 0
+IO-ADDR-23
+Wire Wire Line
+	-6250 6300 -6800 6300
+Entry Wire Line
+	-6150 6300 -6250 6200
+Entry Wire Line
+	-6150 6400 -6250 6300
+Wire Bus Line
+	-2950 6700 -3400 6700
+$Comp
+L Device:R_Dual_Network08_Split RA?
+U 1 1 6893FC8F
+P -2050 -1450
+AR Path="/6893FC8F" Ref="RA?"  Part="1" 
+AR Path="/63647603/6893FC8F" Ref="RA?"  Part="1" 
+AR Path="/62CF9562/6893FC8F" Ref="RA?"  Part="1" 
+F 0 "RA?" H -1862 -1379 50  0000 L CNN
+F 1 "4.7k" H -1862 -1470 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V -1775 -1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H -2050 -1450 50  0001 C CNN
+	1    -2050 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FC95
+P -2250 -1700
+AR Path="/6893FC95" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FC95" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2250 -1850 50  0001 C CNN
+F 1 "+5V" H -2235 -1527 50  0000 C CNN
+F 2 "" H -2250 -1700 50  0001 C CNN
+F 3 "" H -2250 -1700 50  0001 C CNN
+	1    -2250 -1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Dual_Network08_Split RA?
+U 2 1 6893FC9B
+P -1000 -1450
+AR Path="/6893FC9B" Ref="RA?"  Part="2" 
+AR Path="/63647603/6893FC9B" Ref="RA?"  Part="1" 
+AR Path="/62CF9562/6893FC9B" Ref="RA?"  Part="2" 
+F 0 "RA?" H -812 -1379 50  0000 L CNN
+F 1 "4.7k" H -812 -1470 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V -725 -1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H -1000 -1450 50  0001 C CNN
+	2    -1000 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FCA1
+P -1200 -1700
+AR Path="/6893FCA1" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FCA1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1200 -1850 50  0001 C CNN
+F 1 "+5V" H -1185 -1527 50  0000 C CNN
+F 2 "" H -1200 -1700 50  0001 C CNN
+F 3 "" H -1200 -1700 50  0001 C CNN
+	1    -1200 -1700
+	1    0    0    -1  
+$EndComp
+Text GLabel -1850 -900 2    50   Input ~ 0
+IO-ADDR-23
+Text GLabel -800 -1200 2    50   Input ~ 0
+IO-ADDR-22
+Text GLabel -1850 -1000 2    50   Input ~ 0
+IO-ADDR-21
+Text GLabel -800 -1100 2    50   Input ~ 0
+IO-ADDR-20
+Wire Wire Line
+	-1850 -1200 -1950 -1200
+Wire Wire Line
+	-1950 -1200 -1950 -1250
+Wire Wire Line
+	-1850 -1100 -2050 -1100
+Wire Wire Line
+	-2050 -1100 -2050 -1250
+Wire Wire Line
+	-1850 -1000 -2150 -1000
+Wire Wire Line
+	-2150 -1000 -2150 -1250
+Wire Wire Line
+	-1850 -900 -2250 -900
+Wire Wire Line
+	-2250 -900 -2250 -1250
+Text GLabel -1850 -1100 2    50   Input ~ 0
+IO-ADDR-19
+Wire Wire Line
+	-800 -1200 -900 -1200
+Wire Wire Line
+	-900 -1200 -900 -1250
+Wire Wire Line
+	-800 -1100 -1000 -1100
+Wire Wire Line
+	-1000 -1100 -1000 -1250
+Wire Wire Line
+	-800 -1000 -1100 -1000
+Wire Wire Line
+	-1100 -1000 -1100 -1250
+Wire Wire Line
+	-800 -900 -1200 -900
+Wire Wire Line
+	-1200 -900 -1200 -1250
+Text GLabel -800 -1000 2    50   Input ~ 0
+IO-ADDR-18
+Text GLabel -1850 -1200 2    50   Input ~ 0
+IO-ADDR-17
+Text GLabel -800 -900 2    50   Input ~ 0
+IO-ADDR-16
+$Comp
+L Device:R_Dual_Network08_Split RA?
+U 1 1 6893FCBF
+P -6200 -1450
+AR Path="/6893FCBF" Ref="RA?"  Part="1" 
+AR Path="/63647603/6893FCBF" Ref="RA?"  Part="1" 
+AR Path="/62CF9562/6893FCBF" Ref="RA?"  Part="1" 
+F 0 "RA?" H -6012 -1379 50  0000 L CNN
+F 1 "4.7k" H -6012 -1470 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V -5925 -1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H -6200 -1450 50  0001 C CNN
+	1    -6200 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FCC5
+P -6400 -1700
+AR Path="/6893FCC5" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FCC5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -6400 -1850 50  0001 C CNN
+F 1 "+5V" H -6385 -1527 50  0000 C CNN
+F 2 "" H -6400 -1700 50  0001 C CNN
+F 3 "" H -6400 -1700 50  0001 C CNN
+	1    -6400 -1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Dual_Network08_Split RA?
+U 2 1 6893FCCB
+P -5150 -1450
+AR Path="/6893FCCB" Ref="RA?"  Part="2" 
+AR Path="/63647603/6893FCCB" Ref="RA?"  Part="1" 
+AR Path="/62CF9562/6893FCCB" Ref="RA?"  Part="2" 
+F 0 "RA?" H -4962 -1379 50  0000 L CNN
+F 1 "4.7k" H -4962 -1470 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V -4875 -1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H -5150 -1450 50  0001 C CNN
+	2    -5150 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FCD1
+P -5350 -1700
+AR Path="/6893FCD1" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FCD1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -5350 -1850 50  0001 C CNN
+F 1 "+5V" H -5335 -1527 50  0000 C CNN
+F 2 "" H -5350 -1700 50  0001 C CNN
+F 3 "" H -5350 -1700 50  0001 C CNN
+	1    -5350 -1700
+	1    0    0    -1  
+$EndComp
+Text GLabel -6000 -900 2    50   Input ~ 0
+IO-ADDR-7
+Text GLabel -4950 -1200 2    50   Input ~ 0
+IO-ADDR-6
+Text GLabel -6000 -1000 2    50   Input ~ 0
+IO-ADDR-5
+Text GLabel -4950 -1100 2    50   Input ~ 0
+IO-ADDR-4
+Wire Wire Line
+	-6000 -1200 -6100 -1200
+Wire Wire Line
+	-6100 -1200 -6100 -1250
+Wire Wire Line
+	-6000 -1100 -6200 -1100
+Wire Wire Line
+	-6200 -1100 -6200 -1250
+Wire Wire Line
+	-6000 -1000 -6300 -1000
+Wire Wire Line
+	-6300 -1000 -6300 -1250
+Wire Wire Line
+	-6000 -900 -6400 -900
+Wire Wire Line
+	-6400 -900 -6400 -1250
+Text GLabel -6000 -1100 2    50   Input ~ 0
+IO-ADDR-3
+Wire Wire Line
+	-4950 -1200 -5050 -1200
+Wire Wire Line
+	-5050 -1200 -5050 -1250
+Wire Wire Line
+	-4950 -1100 -5150 -1100
+Wire Wire Line
+	-5150 -1100 -5150 -1250
+Wire Wire Line
+	-4950 -1000 -5250 -1000
+Wire Wire Line
+	-5250 -1000 -5250 -1250
+Wire Wire Line
+	-4950 -900 -5350 -900
+Wire Wire Line
+	-5350 -900 -5350 -1250
+Text GLabel -4950 -1000 2    50   Input ~ 0
+IO-ADDR-2
+Text GLabel -6000 -1200 2    50   Input ~ 0
+IO-ADDR-1
+Text GLabel -4950 -900 2    50   Input ~ 0
+IO-ADDR-0
+$Comp
+L Device:R_Dual_Network08_Split RA?
+U 1 1 6893FCEF
+P -4100 -1450
+AR Path="/6893FCEF" Ref="RA?"  Part="1" 
+AR Path="/63647603/6893FCEF" Ref="RA?"  Part="1" 
+AR Path="/62CF9562/6893FCEF" Ref="RA?"  Part="1" 
+F 0 "RA?" H -3912 -1379 50  0000 L CNN
+F 1 "4.7k" H -3912 -1470 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V -3825 -1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H -4100 -1450 50  0001 C CNN
+	1    -4100 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FCF5
+P -4300 -1700
+AR Path="/6893FCF5" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FCF5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -4300 -1850 50  0001 C CNN
+F 1 "+5V" H -4285 -1527 50  0000 C CNN
+F 2 "" H -4300 -1700 50  0001 C CNN
+F 3 "" H -4300 -1700 50  0001 C CNN
+	1    -4300 -1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Dual_Network08_Split RA?
+U 2 1 6893FCFB
+P -3050 -1450
+AR Path="/6893FCFB" Ref="RA?"  Part="2" 
+AR Path="/63647603/6893FCFB" Ref="RA?"  Part="1" 
+AR Path="/62CF9562/6893FCFB" Ref="RA?"  Part="2" 
+F 0 "RA?" H -2862 -1379 50  0000 L CNN
+F 1 "4.7k" H -2862 -1470 50  0000 L CNN
+F 2 "Resistor_SMD:R_Array_Convex_5x1206" V -2775 -1450 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H -3050 -1450 50  0001 C CNN
+	2    -3050 -1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FD01
+P -3250 -1700
+AR Path="/6893FD01" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FD01" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -3250 -1850 50  0001 C CNN
+F 1 "+5V" H -3235 -1527 50  0000 C CNN
+F 2 "" H -3250 -1700 50  0001 C CNN
+F 3 "" H -3250 -1700 50  0001 C CNN
+	1    -3250 -1700
+	1    0    0    -1  
+$EndComp
+Text GLabel -3900 -900 2    50   Input ~ 0
+IO-ADDR-15
+Text GLabel -2850 -1200 2    50   Input ~ 0
+IO-ADDR-14
+Text GLabel -3900 -1000 2    50   Input ~ 0
+IO-ADDR-13
+Text GLabel -2850 -1100 2    50   Input ~ 0
+IO-ADDR-12
+Wire Wire Line
+	-3900 -1200 -4000 -1200
+Wire Wire Line
+	-4000 -1200 -4000 -1250
+Wire Wire Line
+	-3900 -1100 -4100 -1100
+Wire Wire Line
+	-4100 -1100 -4100 -1250
+Wire Wire Line
+	-3900 -1000 -4200 -1000
+Wire Wire Line
+	-4200 -1000 -4200 -1250
+Wire Wire Line
+	-3900 -900 -4300 -900
+Wire Wire Line
+	-4300 -900 -4300 -1250
+Text GLabel -3900 -1100 2    50   Input ~ 0
+IO-ADDR-11
+Wire Wire Line
+	-2850 -1200 -2950 -1200
+Wire Wire Line
+	-2950 -1200 -2950 -1250
+Wire Wire Line
+	-2850 -1100 -3050 -1100
+Wire Wire Line
+	-3050 -1100 -3050 -1250
+Wire Wire Line
+	-2850 -1000 -3150 -1000
+Wire Wire Line
+	-3150 -1000 -3150 -1250
+Wire Wire Line
+	-2850 -900 -3250 -900
+Wire Wire Line
+	-3250 -900 -3250 -1250
+Text GLabel -2850 -1000 2    50   Input ~ 0
+IO-ADDR-10
+Text GLabel -3900 -1200 2    50   Input ~ 0
+IO-ADDR-9
+Text GLabel -2850 -900 2    50   Input ~ 0
+IO-ADDR-8
+$Comp
+L Device:C_Small C?
+U 1 1 6893FD1F
+P -7700 4700
+AR Path="/6893FD1F" Ref="C?"  Part="1" 
+AR Path="/62CF9562/6893FD1F" Ref="C?"  Part="1" 
+F 0 "C?" V -7850 4750 50  0000 L CNN
+F 1 "10n" V -7850 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -7700 4700 50  0001 C CNN
+F 3 "~" H -7700 4700 50  0001 C CNN
+	1    -7700 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7300 4700 -7600 4700
+Connection ~ -7300 4700
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FD27
+P -7900 4700
+AR Path="/6893FD27" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FD27" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 4550 50  0001 C CNN
+F 1 "+5V" V -7900 4950 50  0000 C CNN
+F 2 "" H -7900 4700 50  0001 C CNN
+F 3 "" H -7900 4700 50  0001 C CNN
+	1    -7900 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7900 4700 -7800 4700
+$Comp
+L Device:C_Small C?
+U 1 1 6893FD2E
+P -7700 6900
+AR Path="/6893FD2E" Ref="C?"  Part="1" 
+AR Path="/62CF9562/6893FD2E" Ref="C?"  Part="1" 
+F 0 "C?" V -7850 6950 50  0000 L CNN
+F 1 "10n" V -7850 6750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -7700 6900 50  0001 C CNN
+F 3 "~" H -7700 6900 50  0001 C CNN
+	1    -7700 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7600 6900 -7300 6900
+Connection ~ -7300 6900
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FD36
+P -7900 6900
+AR Path="/6893FD36" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FD36" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -7900 6750 50  0001 C CNN
+F 1 "+5V" V -7900 7150 50  0000 C CNN
+F 2 "" H -7900 6900 50  0001 C CNN
+F 3 "" H -7900 6900 50  0001 C CNN
+	1    -7900 6900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-7900 6900 -7800 6900
+$Comp
+L Device:C_Small C?
+U 1 1 6893FD3D
+P -4900 4700
+AR Path="/6893FD3D" Ref="C?"  Part="1" 
+AR Path="/62CF9562/6893FD3D" Ref="C?"  Part="1" 
+F 0 "C?" V -5050 4750 50  0000 L CNN
+F 1 "10n" V -5050 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -4900 4700 50  0001 C CNN
+F 3 "~" H -4900 4700 50  0001 C CNN
+	1    -4900 4700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FD43
+P -5150 4700
+AR Path="/6893FD43" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FD43" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -5150 4550 50  0001 C CNN
+F 1 "+5V" V -5150 4950 50  0000 C CNN
+F 2 "" H -5150 4700 50  0001 C CNN
+F 3 "" H -5150 4700 50  0001 C CNN
+	1    -5150 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-5150 4700 -5000 4700
+Wire Wire Line
+	-4800 4700 -4550 4700
+Connection ~ -4550 4700
+$Comp
+L Device:C_Small C?
+U 1 1 6893FD4C
+P 2500 2750
+AR Path="/6893FD4C" Ref="C?"  Part="1" 
+AR Path="/62CF9562/6893FD4C" Ref="C?"  Part="1" 
+F 0 "C?" V 2350 2800 50  0000 L CNN
+F 1 "10n" V 2350 2600 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2500 2750 50  0001 C CNN
+F 3 "~" H 2500 2750 50  0001 C CNN
+	1    2500 2750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2600 2750
+$Comp
+L power:+5V #PWR?
+U 1 1 6893FD53
+P 2350 2750
+AR Path="/6893FD53" Ref="#PWR?"  Part="1" 
+AR Path="/62CF9562/6893FD53" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2350 2600 50  0001 C CNN
+F 1 "+5V" V 2350 3000 50  0000 C CNN
+F 2 "" H 2350 2750 50  0001 C CNN
+F 3 "" H 2350 2750 50  0001 C CNN
+	1    2350 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2350 2750 2400 2750
+Text GLabel 1550 3600 0    50   Input ~ 0
+27G-5
+Wire Wire Line
+	1750 3600 1550 3600
+Wire Wire Line
+	1550 3700 1750 3700
+Text GLabel 1550 3700 0    50   Input ~ 0
+27G-2
+$Comp
+L power:+5V #PWR?
+U 1 1 68C559C6
+P -2050 800
+AR Path="/68C559C6" Ref="#PWR?"  Part="1" 
+AR Path="/649C45E0/68C559C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2050 650 50  0001 C CNN
+F 1 "+5V" H -2035 973 50  0000 C CNN
+F 2 "" H -2050 800 50  0001 C CNN
+F 3 "" H -2050 800 50  0001 C CNN
+	1    -2050 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 800  -2050 850 
+Wire Wire Line
+	-2050 850  -1800 850 
+Text GLabel -1150 1850 2    50   Input ~ 0
+22E-19
+Text GLabel -1150 1350 2    50   Input ~ 0
+22E-6
+Text GLabel -1150 1550 2    50   Input ~ 0
+22E-12
+Text GLabel -1150 1450 2    50   Input ~ 0
+22E-9
+Text GLabel -1150 1650 2    50   Input ~ 0
+22E-15
+Text GLabel -1150 1750 2    50   Input ~ 0
+22E-16
+Text GLabel -1150 1250 2    50   Input ~ 0
+22E-5
+Text GLabel -1150 1150 2    50   Input ~ 0
+22E-2
+Wire Wire Line
+	-1300 1150 -1150 1150
+Wire Wire Line
+	-1300 1650 -1150 1650
+Wire Wire Line
+	-1300 1450 -1150 1450
+Wire Wire Line
+	-1300 1550 -1150 1550
+Wire Wire Line
+	-1300 1350 -1150 1350
+Wire Wire Line
+	-1300 1250 -1150 1250
+Wire Wire Line
+	-1300 1750 -1150 1750
+Wire Wire Line
+	-1300 1850 -1150 1850
+Wire Notes Line
+	-1300 1050 -200 1050
+Wire Notes Line
+	-200 1050 -200 1950
+Wire Notes Line
+	-200 1950 -1300 1950
+Wire Notes Line
+	-1300 1950 -1300 1050
+Text Notes -700 1850 0    50   ~ 0
+H8/6433\nPort B/AN
+$Comp
+L power:+5V #PWR?
+U 1 1 68C559E9
+P -2300 2450
+AR Path="/68C559E9" Ref="#PWR?"  Part="1" 
+AR Path="/649C45E0/68C559E9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2300 2300 50  0001 C CNN
+F 1 "+5V" V -2300 2700 50  0000 C CNN
+F 2 "" H -2300 2450 50  0001 C CNN
+F 3 "" H -2300 2450 50  0001 C CNN
+	1    -2300 2450
+	0    -1   -1   0   
+$EndComp
+Text GLabel -2400 2200 0    50   Input ~ 0
+LS273-~RST
+Wire Wire Line
+	-2400 2050 -2300 2050
+Wire Wire Line
+	-2400 2200 -2300 2200
+Wire Wire Line
+	-2300 2200 -2300 2150
+Text GLabel -2400 2050 0    50   Input ~ 0
+22E-CP
+$Comp
+L 74xx:74LS273 22D?
+U 1 1 68C55A12
+P -1800 3900
+AR Path="/68C55A12" Ref="22D?"  Part="1" 
+AR Path="/649C45E0/68C55A12" Ref="22D?"  Part="1" 
+F 0 "22D?" H -1800 4881 50  0000 C CNN
+F 1 "74LS273" H -1800 4790 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H -1800 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS273" H -1800 3900 50  0001 C CNN
+	1    -1800 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 68C55A18
+P -1800 4700
+AR Path="/68C55A18" Ref="#PWR?"  Part="1" 
+AR Path="/649C45E0/68C55A18" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1800 4450 50  0001 C CNN
+F 1 "GND" H -1795 4527 50  0000 C CNN
+F 2 "" H -1800 4700 50  0001 C CNN
+F 3 "" H -1800 4700 50  0001 C CNN
+	1    -1800 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 68C55A1E
+P -2050 3050
+AR Path="/68C55A1E" Ref="#PWR?"  Part="1" 
+AR Path="/649C45E0/68C55A1E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2050 2900 50  0001 C CNN
+F 1 "+5V" H -2035 3223 50  0000 C CNN
+F 2 "" H -2050 3050 50  0001 C CNN
+F 3 "" H -2050 3050 50  0001 C CNN
+	1    -2050 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	-2050 3050 -2050 3100
+Wire Wire Line
+	-2050 3100 -1800 3100
+$Comp
+L power:+5V #PWR?
+U 1 1 68C55A2C
+P -2300 4700
+AR Path="/68C55A2C" Ref="#PWR?"  Part="1" 
+AR Path="/649C45E0/68C55A2C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -2300 4550 50  0001 C CNN
+F 1 "+5V" V -2300 4950 50  0000 C CNN
+F 2 "" H -2300 4700 50  0001 C CNN
+F 3 "" H -2300 4700 50  0001 C CNN
+	1    -2300 4700
+	0    -1   -1   0   
+$EndComp
+Text GLabel -2400 4450 0    50   Input ~ 0
+LS273-~RST
+Wire Wire Line
+	-2400 4300 -2300 4300
+Wire Wire Line
+	-2400 4450 -2300 4450
+Wire Wire Line
+	-2300 4450 -2300 4400
+Text GLabel -2400 4300 0    50   Input ~ 0
+22E-CP
+Text GLabel -1150 4100 2    50   Input ~ 0
+22D-19
+Text GLabel -1150 3600 2    50   Input ~ 0
+22D-6
+Text GLabel -1150 3800 2    50   Input ~ 0
+22D-12
+Text GLabel -1150 3700 2    50   Input ~ 0
+22D-9
+Text GLabel -1150 3900 2    50   Input ~ 0
+22D-15
+Text GLabel -1150 4000 2    50   Input ~ 0
+22D-16
+Text GLabel -1150 3500 2    50   Input ~ 0
+22D-5
+Text GLabel -1150 3400 2    50   Input ~ 0
+22D-2
+Wire Wire Line
+	-1300 3400 -1150 3400
+Wire Wire Line
+	-1300 3900 -1150 3900
+Wire Wire Line
+	-1300 3700 -1150 3700
+Wire Wire Line
+	-1300 3800 -1150 3800
+Wire Wire Line
+	-1300 3600 -1150 3600
+Wire Wire Line
+	-1300 3500 -1150 3500
+Wire Wire Line
+	-1300 4000 -1150 4000
+Wire Wire Line
+	-1300 4100 -1150 4100
+Wire Notes Line
+	-1300 3300 -200 3300
+Wire Notes Line
+	-200 3300 -200 4200
+Wire Notes Line
+	-200 4200 -1300 4200
+Text Notes -700 4100 0    50   ~ 0
+H8/6433\nPort B/AN
+Wire Notes Line
+	-1300 3300 -1300 4200
+$Comp
+L 74xx:74LS273 22E?
+U 1 1 68C55A6A
+P -1800 1650
+AR Path="/68C55A6A" Ref="22E?"  Part="1" 
+AR Path="/649C45E0/68C55A6A" Ref="22E?"  Part="1" 
+F 0 "22E?" H -1800 2631 50  0000 C CNN
+F 1 "74LS273" H -1800 2540 50  0000 C CNN
+F 2 "Package_SO:SO-20_5.3x12.6mm_P1.27mm" H -1800 1650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS273" H -1800 1650 50  0001 C CNN
+	1    -1800 1650
+	1    0    0    -1  
+$EndComp
+Entry Wire Line
+	-2850 1150 -2950 1250
+Entry Wire Line
+	-2850 1250 -2950 1350
+Entry Wire Line
+	-2850 1350 -2950 1450
+Entry Wire Line
+	-2850 1450 -2950 1550
+Entry Wire Line
+	-2850 1550 -2950 1650
+Entry Wire Line
+	-2850 1650 -2950 1750
+Entry Wire Line
+	-2850 1750 -2950 1850
+Entry Wire Line
+	-2850 1850 -2950 1950
+Text Label -2350 1150 2    50   ~ 0
+IO-DATA-0
+Wire Wire Line
+	-2300 1150 -2850 1150
+Text Label -2350 1250 2    50   ~ 0
+IO-DATA-1
+Text Label -2350 1350 2    50   ~ 0
+IO-DATA-2
+Text Label -2350 1450 2    50   ~ 0
+IO-DATA-3
+Text Label -2350 1550 2    50   ~ 0
+IO-DATA-4
+Text Label -2350 1650 2    50   ~ 0
+IO-DATA-5
+Text Label -2350 1750 2    50   ~ 0
+IO-DATA-6
+Text Label -2350 1850 2    50   ~ 0
+IO-DATA-7
+Wire Wire Line
+	-2300 1850 -2850 1850
+Wire Wire Line
+	-2300 1750 -2850 1750
+Wire Wire Line
+	-2300 1650 -2850 1650
+Wire Wire Line
+	-2300 1550 -2850 1550
+Wire Wire Line
+	-2300 1450 -2850 1450
+Wire Wire Line
+	-2300 1350 -2850 1350
+Wire Wire Line
+	-2300 1250 -2850 1250
+Text Label -2950 2700 2    50   ~ 0
+IO-DATA
+Entry Wire Line
+	-2850 3400 -2950 3500
+Entry Wire Line
+	-2850 3500 -2950 3600
+Entry Wire Line
+	-2850 3600 -2950 3700
+Entry Wire Line
+	-2850 3700 -2950 3800
+Entry Wire Line
+	-2850 3800 -2950 3900
+Entry Wire Line
+	-2850 3900 -2950 4000
+Entry Wire Line
+	-2850 4000 -2950 4100
+Entry Wire Line
+	-2850 4100 -2950 4200
+Text Label -2350 3400 2    50   ~ 0
+IO-DATA-8
+Wire Wire Line
+	-2300 3400 -2850 3400
+Text Label -2350 3500 2    50   ~ 0
+IO-DATA-9
+Text Label -2350 3600 2    50   ~ 0
+IO-DATA-10
+Text Label -2350 3700 2    50   ~ 0
+IO-DATA-11
+Text Label -2350 3800 2    50   ~ 0
+IO-DATA-12
+Text Label -2350 3900 2    50   ~ 0
+IO-DATA-13
+Text Label -2350 4000 2    50   ~ 0
+IO-DATA-14
+Text Label -2350 4100 2    50   ~ 0
+IO-DATA-15
+Wire Wire Line
+	-2300 4100 -2850 4100
+Wire Wire Line
+	-2300 4000 -2850 4000
+Wire Wire Line
+	-2300 3900 -2850 3900
+Wire Wire Line
+	-2300 3800 -2850 3800
+Wire Wire Line
+	-2300 3700 -2850 3700
+Wire Wire Line
+	-2300 3600 -2850 3600
+Wire Wire Line
+	-2300 3500 -2850 3500
+$Comp
+L Device:C_Small C?
+U 1 1 68F8581E
+P -2100 4700
+AR Path="/68F8581E" Ref="C?"  Part="1" 
+AR Path="/62CF9562/68F8581E" Ref="C?"  Part="1" 
+F 0 "C?" V -2250 4750 50  0000 L CNN
+F 1 "10n" V -2250 4550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -2100 4700 50  0001 C CNN
+F 3 "~" H -2100 4700 50  0001 C CNN
+	1    -2100 4700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-1800 4700 -2000 4700
+Connection ~ -1800 4700
+Wire Wire Line
+	-2300 4700 -2200 4700
+$Comp
+L power:GND #PWR?
+U 1 1 68C559C0
+P -1800 2450
+AR Path="/68C559C0" Ref="#PWR?"  Part="1" 
+AR Path="/649C45E0/68C559C0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H -1800 2200 50  0001 C CNN
+F 1 "GND" H -1795 2277 50  0000 C CNN
+F 2 "" H -1800 2450 50  0001 C CNN
+F 3 "" H -1800 2450 50  0001 C CNN
+	1    -1800 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6900BDFB
+P -2100 2450
+AR Path="/6900BDFB" Ref="C?"  Part="1" 
+AR Path="/62CF9562/6900BDFB" Ref="C?"  Part="1" 
+F 0 "C?" V -2250 2500 50  0000 L CNN
+F 1 "10n" V -2250 2300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H -2100 2450 50  0001 C CNN
+F 3 "~" H -2100 2450 50  0001 C CNN
+	1    -2100 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-1800 2450 -2000 2450
+Connection ~ -1800 2450
+Wire Wire Line
+	-2300 2450 -2200 2450
+Wire Bus Line
+	14800 1550 14800 3600
+Wire Bus Line
+	-5850 3500 -5850 6450
+Wire Bus Line
+	-3400 3500 -3400 6700
+Wire Bus Line
+	-8550 1250 -8550 6400
+Wire Bus Line
+	-6150 1250 -6150 6400
+Wire Bus Line
+	-2950 1250 -2950 6700
 $EndSCHEMATC
