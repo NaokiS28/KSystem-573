@@ -252,10 +252,6 @@ F 3 "" H 5850 10450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5850 10450 5950 10450
-Text GLabel 5550 10550 0    50   Input ~ 0
-PCPU-~BIOS
-Wire Wire Line
-	5550 10550 5950 10550
 Text Label 7400 9200 0    50   ~ 0
 IO-DATA
 $Comp
@@ -370,10 +366,8 @@ Wire Wire Line
 	9100 10350 9000 10350
 Wire Wire Line
 	9000 10350 9000 10450
-Wire Wire Line
-	8950 10100 9100 10100
-Text GLabel 8950 10100 0    50   Input ~ 0
-NVRAM-~WR
+Text GLabel 8950 10200 0    50   Input ~ 0
+BUS-~WR
 Text Label 8500 8350 0    50   ~ 0
 IO-ADDR-0
 Entry Wire Line
@@ -2503,6 +2497,30 @@ Text GLabel 13450 2650 2    50   Input ~ 0
 ~RESET
 Wire Wire Line
 	13450 2650 13350 2650
+Text GLabel 5750 10550 0    50   Input ~ 0
+U71-19
+Wire Wire Line
+	5750 10550 5950 10550
+Text Notes 1900 7300 0    50   ~ 0
+FLASH-4 U71-13
+Text Notes 1900 7400 0    50   ~ 0
+Flash starts at A1
+Text GLabel 8950 9750 0    50   Input ~ 0
+U71-40
+Wire Wire Line
+	8950 9750 9100 9750
+Wire Wire Line
+	8950 10200 9100 10200
+Wire Wire Line
+	9100 10200 9100 10100
+Text GLabel 8950 10000 0    50   Input ~ 0
+BUS-~RD
+Wire Wire Line
+	8950 10000 9100 10000
+Text GLabel 10050 10350 2    50   Input ~ 0
+RTC-FT
+Wire Wire Line
+	10050 10350 9900 10350
 Wire Bus Line
 	14000 1400 14000 4150
 Wire Bus Line
@@ -2541,4 +2559,6 @@ Wire Bus Line
 	1850 4050 1850 7000
 Wire Bus Line
 	5300 8250 5300 10250
+Text Notes 10400 10400 0    50   ~ 0
+Goes to KCUS 28
 $EndSCHEMATC

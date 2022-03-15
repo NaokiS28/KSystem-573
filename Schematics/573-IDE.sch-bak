@@ -771,7 +771,7 @@ IDE-D15
 Text Notes 6900 4000 0    50   ~ 0
 28: SPSYNC/CSEL - Not Used\n
 Text Notes 6900 3900 0    50   ~ 0
-31: INTRQ - Not Used
+31: INTRQ maps to
 Wire Wire Line
 	6200 2200 6650 2200
 Wire Wire Line
@@ -815,9 +815,9 @@ Wire Wire Line
 Wire Wire Line
 	8350 2900 8800 2900
 Text GLabel 2250 2400 0    50   Input ~ 0
-IDE-AB
+BUS-~RD
 Text GLabel 2250 2500 0    50   Input ~ 0
-IDE-CE
+U71-34
 Wire Wire Line
 	2450 2500 2250 2500
 Connection ~ 2450 2500
@@ -854,8 +854,6 @@ Wire Wire Line
 Connection ~ 1300 6050
 Wire Wire Line
 	1300 5450 1600 5450
-Text GLabel 9900 2300 2    50   Input ~ 0
-~RESET
 Wire Wire Line
 	9800 2400 10350 2400
 Wire Wire Line
@@ -1030,7 +1028,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 3800 6550 3800
 Wire Wire Line
-	6550 3800 6550 2900
+	6550 3800 6550 3400
 Wire Wire Line
 	6700 3800 6700 4000
 Wire Wire Line
@@ -1056,11 +1054,11 @@ Wire Wire Line
 Wire Wire Line
 	9800 2800 10350 2800
 Text GLabel 10350 3000 2    50   Input ~ 0
-U17-3
+U71-3
 Wire Wire Line
 	9800 3000 10350 3000
 Text GLabel 9900 2900 2    50   Input ~ 0
-U17-2
+U71-2
 Wire Wire Line
 	9900 2900 9800 2900
 Wire Notes Line
@@ -1071,8 +1069,17 @@ Wire Notes Line
 	11000 3100 9850 3100
 Wire Notes Line
 	9850 3100 9850 2850
-Wire Bus Line
-	1600 1600 1600 4100
 Text Notes 10750 3050 0    50   ~ 0
 CPLD
+Text GLabel 9900 2300 2    50   Input ~ 0
+IDE-~RST
+Text GLabel 7350 3400 2    50   Input ~ 0
+U71-22
+Wire Wire Line
+	6550 3400 7350 3400
+Wire Bus Line
+	1600 1600 1600 4100
+Connection ~ 6550 3400
+Wire Wire Line
+	6550 3400 6550 2900
 $EndSCHEMATC

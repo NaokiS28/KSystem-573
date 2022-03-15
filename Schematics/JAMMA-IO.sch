@@ -1969,7 +1969,7 @@ Connection ~ 7650 4150
 Text GLabel 8100 4150 2    50   Input ~ 0
 13E-PIN17
 Text GLabel 8100 4250 2    50   Input ~ 0
-13E-PIN18
+RTC-FT
 Wire Wire Line
 	8100 3650 7700 3650
 Wire Wire Line
@@ -3759,20 +3759,20 @@ ADC-DOUT
 Text GLabel 11600 3250 0    50   Input ~ 0
 ADC-~CS
 Text GLabel 11600 3350 0    50   Input ~ 0
-058232-4
+ADC-CLK
 Text GLabel 11600 3450 0    50   Input ~ 0
-058232-5
+058232-4
 $Comp
 L power:+5V #PWR?
 U 1 1 620037C6
-P 11600 3550
+P 12900 3150
 AR Path="/620037C6" Ref="#PWR?"  Part="1" 
 AR Path="/63647603/620037C6" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 11600 3400 50  0001 C CNN
-F 1 "+5V" V 11600 3750 50  0000 C CNN
-F 2 "" H 11600 3550 50  0001 C CNN
-F 3 "" H 11600 3550 50  0001 C CNN
-	1    11600 3550
+F 0 "#PWR0105" H 12900 3000 50  0001 C CNN
+F 1 "+5V" V 12900 3350 50  0000 C CNN
+F 2 "" H 12900 3150 50  0001 C CNN
+F 3 "" H 12900 3150 50  0001 C CNN
+	1    12900 3150
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -3788,12 +3788,8 @@ F 3 "" H 11600 3150 50  0001 C CNN
 	1    11600 3150
 	0    1    1    0   
 $EndComp
-Text GLabel 11600 3650 0    50   Input ~ 0
-13E-86
 Text GLabel 11600 3750 0    50   Input ~ 0
 DAC-MUTE
-Text GLabel 11600 3850 0    50   Input ~ 0
-13E-88
 Text GLabel 11600 4050 0    50   Input ~ 0
 ~RESET
 Wire Wire Line
@@ -4456,4 +4452,6 @@ Text Notes 14150 4300 0    50   ~ 0
 Konami Watchdog
 Wire Wire Line
 	13700 3750 13900 3750
+Text GLabel 11600 3550 0    50   Input ~ 0
+058232-5
 $EndSCHEMATC
