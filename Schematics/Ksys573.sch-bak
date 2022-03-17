@@ -14326,4 +14326,6 @@ Wire Bus Line
 	3950 1350 3950 6500
 Wire Bus Line
 	1550 1350 1550 6500
+Text Notes 15100 6050 0    50   ~ 0
+Expansion IO
 $EndSCHEMATC
