@@ -1,7 +1,7 @@
 # KSystem-573
  Schematics and pinout information for the Konami System 573
  
- **Please note a lot of this data is not 100% complete and might be incorrect in places**.
+ **Please note a lot of this data is not 100% complete and might be incorrect in places.** Also this repository needs a to be generally organised better.
  
 ## Schematics
  Schematics are in KiCad format and are preliminary. Currently known issues:
