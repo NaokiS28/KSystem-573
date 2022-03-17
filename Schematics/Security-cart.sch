@@ -251,8 +251,6 @@ F 3 "" H 2800 4050 50  0001 C CNN
 	1    2800 4050
 	1    0    0    -1  
 $EndComp
-Text GLabel 1750 5650 0    50   Input ~ 0
-U17-38
 Wire Wire Line
 	2600 5250 2600 5300
 $Comp
@@ -389,46 +387,6 @@ Wire Wire Line
 	3400 1800 3400 1450
 Wire Wire Line
 	3400 1800 3900 1800
-$Comp
-L 74xx:74LS125 35J?
-U 4 1 6F0190D2
-P 1750 5250
-AR Path="/6F0190D2" Ref="35J?"  Part="4" 
-AR Path="/64A2B8DE/6F0190D2" Ref="35J1"  Part="4" 
-F 0 "35J1" H 1700 5550 50  0000 C CNN
-F 1 "74LS125" H 1700 5450 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 1750 5250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 1750 5250 50  0001 C CNN
-	4    1750 5250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2050 5250 2600 5250
-Text GLabel 1450 5500 0    50   Input ~ 0
-CART-30
-Wire Wire Line
-	1450 5500 1750 5500
-$Comp
-L power:+5V #PWR?
-U 1 1 6F0190DB
-P 1300 5250
-AR Path="/6F0190DB" Ref="#PWR?"  Part="1" 
-AR Path="/62CF9562/6F0190DB" Ref="#PWR?"  Part="1" 
-AR Path="/64A2B8DE/6F0190DB" Ref="#PWR0238"  Part="1" 
-F 0 "#PWR0238" H 1300 5100 50  0001 C CNN
-F 1 "+5V" V 1300 5500 50  0000 C CNN
-F 2 "" H 1300 5250 50  0001 C CNN
-F 3 "" H 1300 5250 50  0001 C CNN
-	1    1300 5250
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	1300 5250 1450 5250
-Wire Wire Line
-	1750 5650 2050 5650
-Wire Wire Line
-	2050 5650 2050 5250
-Connection ~ 2050 5250
 $Comp
 L Device:R_Dual_Network08_Split RA?
 U 2 1 6F0190E5
@@ -588,39 +546,33 @@ Wire Notes Line
 $Comp
 L 74xx:74LS125 35H?
 U 2 1 6F0B92C0
-P 3450 2500
+P 3450 2900
 AR Path="/6F0B92C0" Ref="35H?"  Part="2" 
 AR Path="/64A2B8DE/6F0B92C0" Ref="35H1"  Part="2" 
-F 0 "35H1" H 3750 2400 50  0000 C CNN
-F 1 "74LS125" H 3700 2300 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 3450 2500 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3450 2500 50  0001 C CNN
-	2    3450 2500
+F 0 "35H1" H 3750 2800 50  0000 C CNN
+F 1 "74LS125" H 3700 2700 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 3450 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 3450 2900 50  0001 C CNN
+	2    3450 2900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 6F0B92C6
-P 3450 2750
+P 3450 3150
 AR Path="/6F0B92C6" Ref="#PWR?"  Part="1" 
 AR Path="/64A2B8DE/6F0B92C6" Ref="#PWR0241"  Part="1" 
-F 0 "#PWR0241" H 3450 2500 50  0001 C CNN
-F 1 "GND" H 3455 2577 50  0000 C CNN
-F 2 "" H 3450 2750 50  0001 C CNN
-F 3 "" H 3450 2750 50  0001 C CNN
-	1    3450 2750
+F 0 "#PWR0241" H 3450 2900 50  0001 C CNN
+F 1 "GND" H 3455 2977 50  0000 C CNN
+F 2 "" H 3450 3150 50  0001 C CNN
+F 3 "" H 3450 3150 50  0001 C CNN
+	1    3450 3150
 	1    0    0    -1  
 $EndComp
-Text GLabel 3000 2500 0    50   Input ~ 0
+Text GLabel 3000 2900 0    50   Input ~ 0
 PSX-TX1
 Wire Wire Line
-	3150 2500 3000 2500
-Wire Wire Line
-	4000 2900 4000 2500
-Wire Wire Line
-	4000 2900 4850 2900
-Wire Wire Line
-	3750 2500 4000 2500
+	3150 2900 3000 2900
 Text Label 4600 2900 0    50   ~ 0
 TX1
 Text Label 4600 3000 0    50   ~ 0
@@ -653,95 +605,81 @@ $EndComp
 $Comp
 L 74xx:74LS74 26E?
 U 2 1 713FFB65
-P 5300 6950
+P 8550 4850
 AR Path="/63647603/713FFB65" Ref="26E?"  Part="2" 
 AR Path="/713FFB65" Ref="26E?"  Part="2" 
 AR Path="/64A2B8DE/713FFB65" Ref="35J"  Part="2" 
-F 0 "35J" H 5550 7350 50  0000 C CNN
-F 1 "74LS74" H 5550 7250 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 5300 6950 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 5300 6950 50  0001 C CNN
-	2    5300 6950
+F 0 "35J" H 8800 5250 50  0000 C CNN
+F 1 "74LS74" H 8800 5150 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 8550 4850 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 8550 4850 50  0001 C CNN
+	2    8550 4850
 	1    0    0    -1  
 $EndComp
-Text GLabel 4900 6950 0    50   Input ~ 0
-35J-11
+Text GLabel 8150 4850 0    50   Input ~ 0
+U71-38
 Wire Wire Line
-	4900 6950 5000 6950
-$Comp
-L 74xx:74LS74 26E?
-U 1 1 713FFB6D
-P 3200 6900
-AR Path="/63647603/713FFB6D" Ref="26E?"  Part="2" 
-AR Path="/713FFB6D" Ref="26E?"  Part="1" 
-AR Path="/64A2B8DE/713FFB6D" Ref="35J"  Part="1" 
-F 0 "35J" H 3450 7300 50  0000 C CNN
-F 1 "74LS74" H 3450 7200 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 3200 6900 50  0001 C CNN
-F 3 "74xx/74hc_hct74.pdf" H 3200 6900 50  0001 C CNN
-	1    3200 6900
-	1    0    0    -1  
-$EndComp
-Text GLabel 3100 7300 0    50   Input ~ 0
+	8150 4850 8250 4850
+Text GLabel 8450 4200 0    50   Input ~ 0
 U17-6
 Wire Wire Line
-	3100 7300 3200 7300
+	8450 4200 8550 4200
 Wire Wire Line
-	3200 7300 3200 7200
+	8550 4200 8550 4100
 $Comp
 L power:+5V #PWR?
 U 1 1 713FFB76
-P 3200 6600
+P 8550 3500
 AR Path="/713FFB76" Ref="#PWR?"  Part="1" 
 AR Path="/649C45E0/713FFB76" Ref="#PWR?"  Part="1" 
 AR Path="/64A2B8DE/713FFB76" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3200 6450 50  0001 C CNN
-F 1 "+5V" H 3215 6773 50  0000 C CNN
-F 2 "" H 3200 6600 50  0001 C CNN
-F 3 "" H 3200 6600 50  0001 C CNN
-	1    3200 6600
+F 0 "#PWR?" H 8550 3350 50  0001 C CNN
+F 1 "+5V" H 8565 3673 50  0000 C CNN
+F 2 "" H 8550 3500 50  0001 C CNN
+F 3 "" H 8550 3500 50  0001 C CNN
+	1    8550 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 713FFB7C
-P 5300 6650
+P 8550 4550
 AR Path="/713FFB7C" Ref="#PWR?"  Part="1" 
 AR Path="/649C45E0/713FFB7C" Ref="#PWR?"  Part="1" 
 AR Path="/64A2B8DE/713FFB7C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5300 6500 50  0001 C CNN
-F 1 "+5V" H 5315 6823 50  0000 C CNN
-F 2 "" H 5300 6650 50  0001 C CNN
-F 3 "" H 5300 6650 50  0001 C CNN
-	1    5300 6650
+F 0 "#PWR?" H 8550 4400 50  0001 C CNN
+F 1 "+5V" H 8565 4723 50  0000 C CNN
+F 2 "" H 8550 4550 50  0001 C CNN
+F 3 "" H 8550 4550 50  0001 C CNN
+	1    8550 4550
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 6800 2    50   Input ~ 0
+Text GLabel 9000 3700 2    50   Input ~ 0
 CART-31
 Wire Wire Line
-	3650 6800 3550 6800
-Text GLabel 2750 6900 0    50   Input ~ 0
+	9000 3700 8900 3700
+Text GLabel 8100 3800 0    50   Input ~ 0
 CART-29
 Wire Wire Line
-	2750 6900 2900 6900
+	8100 3800 8250 3800
 Wire Wire Line
-	3200 6600 2900 6600
+	8550 3500 8250 3500
 Wire Wire Line
-	2900 6600 2900 6800
-Connection ~ 3200 6600
+	8250 3500 8250 3700
+Connection ~ 8550 3500
 Wire Wire Line
-	5300 6650 5000 6650
+	8550 4550 8250 4550
 Wire Wire Line
-	5000 6650 5000 6850
-Connection ~ 5300 6650
-Text GLabel 5700 6950 2    50   Input ~ 0
+	8250 4550 8250 4750
+Connection ~ 8550 4550
+Text GLabel 8950 4850 2    50   Input ~ 0
 35J-9
-Text GLabel 5200 7350 0    50   Input ~ 0
+Text GLabel 8450 5250 0    50   Input ~ 0
 CART-30
 Wire Wire Line
-	5200 7350 5300 7350
+	8450 5250 8550 5250
 Wire Wire Line
-	5300 7350 5300 7250
+	8550 5250 8550 5150
 $Comp
 L Device:R_Dual_Network08_Split RA?
 U 2 1 71404513
@@ -848,66 +786,53 @@ Text GLabel 5800 3200 2    50   Input ~ 0
 CART-30
 Wire Wire Line
 	5800 3200 5350 3200
-Text GLabel 5800 3300 2    50   Input ~ 0
-CART-31
-Wire Wire Line
-	5800 3300 5350 3300
+Text GLabel 7350 4000 0    50   Input ~ 0
+KCUS-97
 Text GLabel 5800 3100 2    50   Input ~ 0
 CART-29
 Wire Wire Line
 	5800 3100 5350 3100
 Wire Wire Line
-	7850 3250 7550 3250
+	8550 2500 8250 2500
 Wire Wire Line
-	7750 3550 7250 3550
-Text GLabel 7850 3250 2    50   Input ~ 0
+	8450 2800 7950 2800
+Text GLabel 8550 2500 2    50   Input ~ 0
 CART-20
-Text GLabel 8500 3550 2    50   Input ~ 0
+Text GLabel 9200 2800 2    50   Input ~ 0
 24E-13
 Wire Wire Line
-	8350 3550 8500 3550
+	9050 2800 9200 2800
 $Comp
 L 74xx:74LS14 24E?
 U 6 1 715733D8
-P 8050 3550
+P 8750 2800
 AR Path="/715733D8" Ref="24E?"  Part="6" 
 AR Path="/62CF9562/715733D8" Ref="24E?"  Part="6" 
 AR Path="/64A2B8DE/715733D8" Ref="24E?"  Part="6" 
-F 0 "24E?" H 7400 3700 50  0000 C CNN
-F 1 "74LS14" H 7700 3700 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 8050 3550 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 8050 3550 50  0001 C CNN
-	6    8050 3550
+F 0 "24E?" H 8100 2950 50  0000 C CNN
+F 1 "74LS14" H 8400 2950 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 8750 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS14" H 8750 2800 50  0001 C CNN
+	6    8750 2800
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	7250 3550 7250 3500
+	7950 2800 7950 2750
 $Comp
 L 74xx:74LS125 35H?
 U 3 1 715733DF
-P 7250 3250
+P 7950 2500
 AR Path="/715733DF" Ref="35H?"  Part="3" 
 AR Path="/64A2B8DE/715733DF" Ref="35H?"  Part="3" 
-F 0 "35H?" H 6950 3150 50  0000 C CNN
-F 1 "74LS125" H 6900 3050 50  0000 C CNN
-F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 7250 3250 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 7250 3250 50  0001 C CNN
-	3    7250 3250
+F 0 "35H?" H 7650 2400 50  0000 C CNN
+F 1 "74LS125" H 7600 2300 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 7950 2500 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74LS125" H 7950 2500 50  0001 C CNN
+	3    7950 2500
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	5350 3000 6300 3000
-Wire Wire Line
-	6300 3000 6300 3250
-Text GLabel 6700 3400 2    50   Input ~ 0
-CART-28
-Wire Wire Line
-	6950 3250 6700 3250
-Wire Wire Line
-	6700 3250 6700 3400
-Wire Wire Line
-	6300 3250 6700 3250
-Connection ~ 6700 3250
+Text GLabel 7950 3000 2    50   Input ~ 0
+KCUS-93
 Text GLabel 4500 4500 0    50   Input ~ 0
 CART-20
 Wire Wire Line
@@ -1007,32 +932,73 @@ Wire Notes Line
 	4050 3450 4050 3650
 Wire Notes Line
 	4050 3450 4850 3450
-Text Notes 6050 7000 0    50   ~ 0
+Text Notes 9300 4900 0    50   ~ 0
 KCUS 98
-Text GLabel 3650 6900 2    50   Input ~ 0
+Text GLabel 9000 3800 2    50   Input ~ 0
 35J-5
 Wire Wire Line
-	3650 6900 3550 6900
+	9000 3800 8900 3800
 Wire Wire Line
-	3550 6900 3550 6800
-Connection ~ 3550 6800
+	8900 3800 8900 3700
+Connection ~ 8900 3700
 Wire Wire Line
-	3550 6800 3500 6800
-Text Notes 4000 6950 0    50   ~ 0
+	8900 3700 8850 3700
+Text Notes 9350 3850 0    50   ~ 0
 KCUS 97
-Text GLabel 5700 6850 2    50   Input ~ 0
+Text GLabel 8950 4750 2    50   Input ~ 0
 CART-27
 Wire Wire Line
-	5700 6850 5650 6850
+	8950 4750 8900 4750
 Wire Wire Line
-	5700 6950 5650 6950
+	8950 4850 8900 4850
 Wire Wire Line
-	5650 6950 5650 6850
-Connection ~ 5650 6850
+	8900 4850 8900 4750
+Connection ~ 8900 4750
 Wire Wire Line
-	5650 6850 5600 6850
+	8900 4750 8850 4750
 Text GLabel 5800 2900 2    50   Input ~ 0
 CART-27
 Wire Wire Line
 	5350 2900 5800 2900
+Text GLabel 4300 3100 0    50   Input ~ 0
+~RESET
+Wire Wire Line
+	4300 3100 4850 3100
+Wire Wire Line
+	7350 4000 7350 3850
+Wire Wire Line
+	6650 3300 6650 3850
+Wire Wire Line
+	6650 3850 7350 3850
+Wire Wire Line
+	5350 3300 6650 3300
+$Comp
+L 74xx:74LS74 26E?
+U 1 1 713FFB6D
+P 8550 3800
+AR Path="/63647603/713FFB6D" Ref="26E?"  Part="2" 
+AR Path="/713FFB6D" Ref="26E?"  Part="1" 
+AR Path="/64A2B8DE/713FFB6D" Ref="35J"  Part="1" 
+F 0 "35J" H 8800 4200 50  0000 C CNN
+F 1 "74LS74" H 8800 4100 50  0000 C CNN
+F 2 "Package_SO:SO-14_3.9x8.65mm_P1.27mm" H 8550 3800 50  0001 C CNN
+F 3 "74xx/74hc_hct74.pdf" H 8550 3800 50  0001 C CNN
+	1    8550 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2450 5250 0    50   Input ~ 0
+U17-38
+Wire Wire Line
+	2450 5250 2600 5250
+Wire Wire Line
+	3750 2900 4850 2900
+Text Notes 4150 2750 2    50   ~ 0
+No connect?
+Wire Wire Line
+	7650 2500 7650 3000
+Wire Wire Line
+	5350 3000 7650 3000
+Wire Wire Line
+	7950 3000 7650 3000
+Connection ~ 7650 3000
 $EndSCHEMATC

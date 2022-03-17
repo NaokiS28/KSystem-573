@@ -8142,7 +8142,7 @@ Wire Wire Line
 Text GLabel 5550 7850 0    50   Input ~ 0
 35J-9
 Text GLabel 5550 7350 0    50   Input ~ 0
-CART-28
+KCUS-93
 Text Notes 12600 7600 0    50   ~ 0
 24E\n1-6: No connect\n8-11: JVS Sense trigger and logic input\n12-13: Cart pin 28 and 20 shenanigans
 Text GLabel 23150 5450 2    50   Input ~ 0
@@ -14310,6 +14310,12 @@ F 3 "~" H 15300 3750 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	17150 5100 17250 5100
+Text Notes 15100 6050 0    50   ~ 0
+Expansion IO
+Text GLabel 23150 4850 2    50   Input ~ 0
+U71-38
+Wire Wire Line
+	23150 4850 22950 4850
 Wire Bus Line
 	4950 9800 7900 9800
 Wire Bus Line
@@ -14326,6 +14332,8 @@ Wire Bus Line
 	3950 1350 3950 6500
 Wire Bus Line
 	1550 1350 1550 6500
-Text Notes 15100 6050 0    50   ~ 0
-Expansion IO
+Text Notes 23550 4900 0    50   ~ 0
+Security Cart Pin 30?
+Text Notes 5050 7400 2    50   ~ 0
+Cart 28
 $EndSCHEMATC
