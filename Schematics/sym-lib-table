@@ -1,7 +1,0 @@
-(sym_lib_table
-  (lib (name MCU_Hitachi)(type Legacy)(uri ${KIPRJMOD}/MCU_Hitachi.lib)(options "")(descr ""))
-  (lib (name Arcade)(type Legacy)(uri ${KIPRJMOD}/Arcade.lib)(options "")(descr ""))
-  (lib (name EXO_OSC)(type Legacy)(uri ${KIPRJMOD}/EXO_OSC.lib)(options "")(descr ""))
-  (lib (name Connectors_PC)(type Legacy)(uri ${KIPRJMOD}/Connectors_PC.lib)(options "")(descr ""))
-  (lib (name RTC_ST)(type Legacy)(uri ${KIPRJMOD}/RTC_ST.lib)(options "")(descr ""))
-)

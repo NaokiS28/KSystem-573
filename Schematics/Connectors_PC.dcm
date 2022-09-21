@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP FCN-565P136
-D Dual PCMCIA Socket with push to eject buttons
-K PCMCIA konami pccard
-$ENDCMP
-#
-#End Doc Library

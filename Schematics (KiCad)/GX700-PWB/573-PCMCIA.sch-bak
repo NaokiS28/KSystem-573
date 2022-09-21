@@ -1,0 +1,818 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connectors_PC:FCN-565P136 C39
+U 1 1 62CFBA62
+P 3200 3550
+F 0 "C39" H 3175 5965 50  0000 C CNN
+F 1 "FCN-565P136" H 3175 5874 50  0000 C CNN
+F 2 "" H 4550 2250 50  0001 C CNN
+F 3 "" H 4550 2250 50  0001 C CNN
+	1    3200 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR0154
+U 1 1 62D02C9F
+P 2400 1200
+F 0 "#PWR0154" H 2400 1050 50  0001 C CNN
+F 1 "+5V" H 2415 1373 50  0000 C CNN
+F 2 "" H 2400 1200 50  0001 C CNN
+F 3 "" H 2400 1200 50  0001 C CNN
+	1    2400 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0155
+U 1 1 62D040D2
+P 2400 5550
+F 0 "#PWR0155" H 2400 5300 50  0001 C CNN
+F 1 "GND" H 2405 5377 50  0000 C CNN
+F 2 "" H 2400 5550 50  0001 C CNN
+F 3 "" H 2400 5550 50  0001 C CNN
+	1    2400 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 1450 2400 1450
+Wire Wire Line
+	2400 1450 2400 1350
+Wire Wire Line
+	2550 1350 2400 1350
+Connection ~ 2400 1350
+Wire Wire Line
+	2400 1350 2400 1200
+Wire Wire Line
+	2550 5150 2400 5150
+Wire Wire Line
+	2400 5150 2400 5250
+Wire Wire Line
+	2550 5250 2400 5250
+Connection ~ 2400 5250
+Wire Wire Line
+	2400 5250 2400 5350
+Wire Wire Line
+	2400 5350 2550 5350
+Connection ~ 2400 5350
+Wire Wire Line
+	2400 5350 2400 5450
+Wire Wire Line
+	2550 5450 2400 5450
+Connection ~ 2400 5450
+Wire Wire Line
+	2400 5450 2400 5550
+Text Label 5100 2050 2    50   ~ 0
+PSX-DATA-7
+Entry Wire Line
+	5200 1450 5100 1350
+Text Label 5100 2150 2    50   ~ 0
+PSX-DATA-8
+Entry Wire Line
+	5200 1550 5100 1450
+Text Label 5100 1950 2    50   ~ 0
+PSX-DATA-6
+Entry Wire Line
+	5200 1650 5100 1550
+Text Label 5100 2250 2    50   ~ 0
+PSX-DATA-9
+Entry Wire Line
+	5200 1750 5100 1650
+Text Label 5100 1850 2    50   ~ 0
+PSX-DATA-5
+Entry Wire Line
+	5200 1850 5100 1750
+Text Label 5100 2350 2    50   ~ 0
+PSX-DATA-10
+Entry Wire Line
+	5200 1950 5100 1850
+Text Label 5100 1750 2    50   ~ 0
+PSX-DATA-4
+Entry Wire Line
+	5200 2050 5100 1950
+Text Label 5100 2450 2    50   ~ 0
+PSX-DATA-11
+Entry Wire Line
+	5200 2150 5100 2050
+Text Label 5100 1650 2    50   ~ 0
+PSX-DATA-3
+Entry Wire Line
+	5200 2250 5100 2150
+Text Label 5100 2550 2    50   ~ 0
+PSX-DATA-12
+Entry Wire Line
+	5200 2350 5100 2250
+Text Label 5100 1550 2    50   ~ 0
+PSX-DATA-2
+Entry Wire Line
+	5200 2450 5100 2350
+Text Label 5100 2650 2    50   ~ 0
+PSX-DATA-13
+Entry Wire Line
+	5200 2550 5100 2450
+Text Label 5100 1450 2    50   ~ 0
+PSX-DATA-1
+Entry Wire Line
+	5200 2650 5100 2550
+Text Label 5100 2750 2    50   ~ 0
+PSX-DATA-14
+Entry Wire Line
+	5200 2750 5100 2650
+Text Label 5100 1350 2    50   ~ 0
+PSX-DATA-0
+Entry Wire Line
+	5200 2850 5100 2750
+Text Label 5100 2850 2    50   ~ 0
+PSX-DATA-15
+Entry Wire Line
+	5200 2950 5100 2850
+Text Label 5200 3050 2    50   ~ 0
+PSX-DATA
+Wire Wire Line
+	3850 1350 5100 1350
+Wire Wire Line
+	3850 1450 5100 1450
+Wire Wire Line
+	3850 1550 5100 1550
+Wire Wire Line
+	3850 1650 5100 1650
+Wire Wire Line
+	3850 1750 5100 1750
+Wire Wire Line
+	3850 1850 5100 1850
+Wire Wire Line
+	3850 1950 5100 1950
+Wire Wire Line
+	3850 2050 5100 2050
+Wire Wire Line
+	3850 2150 5100 2150
+Wire Wire Line
+	3850 2250 5100 2250
+Wire Wire Line
+	3850 2350 5100 2350
+Wire Wire Line
+	3850 2450 5100 2450
+Wire Wire Line
+	3850 2550 5100 2550
+Wire Wire Line
+	3850 2650 5100 2650
+Wire Wire Line
+	3850 2750 5100 2750
+Wire Wire Line
+	3850 2850 5100 2850
+Entry Wire Line
+	4750 3200 4650 3100
+Entry Wire Line
+	4750 3300 4650 3200
+Entry Wire Line
+	4750 3400 4650 3300
+Entry Wire Line
+	4750 3500 4650 3400
+Entry Wire Line
+	4750 3600 4650 3500
+Entry Wire Line
+	4750 3700 4650 3600
+Entry Wire Line
+	4750 3800 4650 3700
+Entry Wire Line
+	4750 3900 4650 3800
+Entry Wire Line
+	4750 4000 4650 3900
+Entry Wire Line
+	4750 4100 4650 4000
+Entry Wire Line
+	4750 4200 4650 4100
+Entry Wire Line
+	4750 4300 4650 4200
+Entry Wire Line
+	4750 4400 4650 4300
+Entry Wire Line
+	4750 4500 4650 4400
+Text Label 4650 3100 2    50   ~ 0
+PSX-AD-1
+Entry Wire Line
+	4750 4600 4650 4500
+Entry Wire Line
+	4750 4700 4650 4600
+Text Label 4750 5750 2    50   ~ 0
+PSX-AD
+Text Label 4650 3200 2    50   ~ 0
+PSX-AD-2
+Text Label 4650 3300 2    50   ~ 0
+PSX-AD-3
+Text Label 4650 3400 2    50   ~ 0
+PSX-AD-4
+Text Label 4650 3500 2    50   ~ 0
+PSX-AD-5
+Text Label 4650 3600 2    50   ~ 0
+PSX-AD-6
+Text Label 4650 3700 2    50   ~ 0
+PSX-AD-7
+Text Label 4650 3800 2    50   ~ 0
+PSX-AD-8
+Text Label 4650 4000 2    50   ~ 0
+PSX-AD-10
+Text Label 4650 4100 2    50   ~ 0
+PSX-AD-11
+Text Label 4650 4200 2    50   ~ 0
+PSX-AD-12
+Text Label 4650 4300 2    50   ~ 0
+PSX-AD-13
+Text Label 4650 4400 2    50   ~ 0
+PSX-AD-14
+Text Label 4650 4500 2    50   ~ 0
+PSX-AD-15
+Text Label 4650 4600 2    50   ~ 0
+PSX-AD-16
+Text Label 4650 3900 2    50   ~ 0
+PSX-AD-9
+Entry Wire Line
+	4750 4800 4650 4700
+Entry Wire Line
+	4750 4900 4650 4800
+Entry Wire Line
+	4750 5000 4650 4900
+Entry Wire Line
+	4750 5100 4650 5000
+Entry Wire Line
+	4750 5200 4650 5100
+Entry Wire Line
+	4750 5300 4650 5200
+Entry Wire Line
+	4750 5400 4650 5300
+Entry Wire Line
+	4750 5500 4650 5400
+Text Label 4650 4700 2    50   ~ 0
+PSX-AD-17
+Text Label 4650 4800 2    50   ~ 0
+PSX-AD-18
+Text Label 4650 4900 2    50   ~ 0
+PSX-AD-19
+Text Label 4650 5000 2    50   ~ 0
+PSX-AD-20
+Text Label 4650 5100 2    50   ~ 0
+PSX-AD-21
+Text Label 4650 5200 2    50   ~ 0
+PSX-AD-22
+Text Label 4650 5300 2    50   ~ 0
+PSX-AD-23
+Text Label 4650 5400 2    50   ~ 0
+PSX-AD-24
+Text Label 4650 5500 2    50   ~ 0
+PSX-AD-25
+Wire Wire Line
+	3850 3100 4650 3100
+Wire Wire Line
+	3850 3200 4650 3200
+Wire Wire Line
+	3850 3300 4650 3300
+Wire Wire Line
+	3850 3400 4650 3400
+Wire Wire Line
+	3850 3500 4650 3500
+Wire Wire Line
+	3850 3600 4650 3600
+Wire Wire Line
+	3850 3700 4650 3700
+Wire Wire Line
+	3850 3800 4650 3800
+Wire Wire Line
+	3850 3900 4650 3900
+Wire Wire Line
+	3850 4000 4650 4000
+Wire Wire Line
+	3850 4100 4650 4100
+Wire Wire Line
+	3850 4200 4650 4200
+Wire Wire Line
+	3850 4300 4650 4300
+Wire Wire Line
+	3850 4400 4650 4400
+Wire Wire Line
+	3850 4500 4650 4500
+Wire Wire Line
+	3850 4600 4650 4600
+Wire Wire Line
+	3850 4700 4650 4700
+Wire Wire Line
+	3850 4800 4650 4800
+Wire Wire Line
+	3850 4900 4650 4900
+Wire Wire Line
+	3850 5000 4650 5000
+Wire Wire Line
+	3850 5100 4650 5100
+Wire Wire Line
+	3850 5200 4650 5200
+Wire Wire Line
+	3850 5300 4650 5300
+Wire Wire Line
+	3850 5400 4650 5400
+Wire Wire Line
+	3850 5500 4650 5500
+Wire Wire Line
+	2550 1750 2400 1750
+Wire Wire Line
+	2400 1750 2400 1650
+Connection ~ 2400 1450
+Wire Wire Line
+	2550 1650 2400 1650
+Connection ~ 2400 1650
+Wire Wire Line
+	2400 1650 2400 1450
+Text GLabel 2300 2800 0    50   Input ~ 0
+PCMCIA-IN-1
+Wire Wire Line
+	2300 2800 2550 2800
+Text GLabel 2450 3600 0    50   Input ~ 0
+~PSX-RD
+Text GLabel 2050 3700 0    50   Input ~ 0
+~PSX-WR
+Wire Wire Line
+	2050 3700 2550 3700
+Wire Wire Line
+	2550 3600 2450 3600
+NoConn ~ 2550 4250
+NoConn ~ 2550 4350
+Text Notes 1950 4350 0    50   ~ 0
+Are these NC?
+NoConn ~ 2550 4450
+NoConn ~ 2550 3950
+NoConn ~ 2550 4050
+NoConn ~ 2550 3850
+Wire Notes Line
+	2550 3800 2550 4500
+Wire Notes Line
+	2550 4500 1900 4500
+Wire Notes Line
+	1900 4500 1900 3800
+Wire Notes Line
+	1900 3800 2550 3800
+NoConn ~ 2550 4750
+NoConn ~ 2550 4850
+$Comp
+L power:+5V #PWR0156
+U 1 1 62D9F683
+P 7250 1200
+F 0 "#PWR0156" H 7250 1050 50  0001 C CNN
+F 1 "+5V" H 7265 1373 50  0000 C CNN
+F 2 "" H 7250 1200 50  0001 C CNN
+F 3 "" H 7250 1200 50  0001 C CNN
+	1    7250 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0157
+U 1 1 62D9F68D
+P 7250 5550
+F 0 "#PWR0157" H 7250 5300 50  0001 C CNN
+F 1 "GND" H 7255 5377 50  0000 C CNN
+F 2 "" H 7250 5550 50  0001 C CNN
+F 3 "" H 7250 5550 50  0001 C CNN
+	1    7250 5550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 1450 7250 1450
+Wire Wire Line
+	7250 1450 7250 1350
+Wire Wire Line
+	7400 1350 7250 1350
+Connection ~ 7250 1350
+Wire Wire Line
+	7250 1350 7250 1200
+Wire Wire Line
+	7400 5150 7250 5150
+Wire Wire Line
+	7250 5150 7250 5250
+Wire Wire Line
+	7400 5250 7250 5250
+Connection ~ 7250 5250
+Wire Wire Line
+	7250 5250 7250 5350
+Wire Wire Line
+	7250 5350 7400 5350
+Connection ~ 7250 5350
+Wire Wire Line
+	7250 5350 7250 5450
+Wire Wire Line
+	7400 5450 7250 5450
+Connection ~ 7250 5450
+Wire Wire Line
+	7250 5450 7250 5550
+Text Label 9950 2050 2    50   ~ 0
+PSX-DATA-7
+Entry Wire Line
+	10050 1450 9950 1350
+Text Label 9950 2150 2    50   ~ 0
+PSX-DATA-8
+Entry Wire Line
+	10050 1550 9950 1450
+Text Label 9950 1950 2    50   ~ 0
+PSX-DATA-6
+Entry Wire Line
+	10050 1650 9950 1550
+Text Label 9950 2250 2    50   ~ 0
+PSX-DATA-9
+Entry Wire Line
+	10050 1750 9950 1650
+Text Label 9950 1850 2    50   ~ 0
+PSX-DATA-5
+Entry Wire Line
+	10050 1850 9950 1750
+Text Label 9950 2350 2    50   ~ 0
+PSX-DATA-10
+Entry Wire Line
+	10050 1950 9950 1850
+Text Label 9950 1750 2    50   ~ 0
+PSX-DATA-4
+Entry Wire Line
+	10050 2050 9950 1950
+Text Label 9950 2450 2    50   ~ 0
+PSX-DATA-11
+Entry Wire Line
+	10050 2150 9950 2050
+Text Label 9950 1650 2    50   ~ 0
+PSX-DATA-3
+Entry Wire Line
+	10050 2250 9950 2150
+Text Label 9950 2550 2    50   ~ 0
+PSX-DATA-12
+Entry Wire Line
+	10050 2350 9950 2250
+Text Label 9950 1550 2    50   ~ 0
+PSX-DATA-2
+Entry Wire Line
+	10050 2450 9950 2350
+Text Label 9950 2650 2    50   ~ 0
+PSX-DATA-13
+Entry Wire Line
+	10050 2550 9950 2450
+Text Label 9950 1450 2    50   ~ 0
+PSX-DATA-1
+Entry Wire Line
+	10050 2650 9950 2550
+Text Label 9950 2750 2    50   ~ 0
+PSX-DATA-14
+Entry Wire Line
+	10050 2750 9950 2650
+Text Label 9950 1350 2    50   ~ 0
+PSX-DATA-0
+Entry Wire Line
+	10050 2850 9950 2750
+Text Label 9950 2850 2    50   ~ 0
+PSX-DATA-15
+Entry Wire Line
+	10050 2950 9950 2850
+Text Label 10050 3050 2    50   ~ 0
+PSX-DATA
+Wire Wire Line
+	8700 1350 9950 1350
+Wire Wire Line
+	8700 1450 9950 1450
+Wire Wire Line
+	8700 1550 9950 1550
+Wire Wire Line
+	8700 1650 9950 1650
+Wire Wire Line
+	8700 1750 9950 1750
+Wire Wire Line
+	8700 1850 9950 1850
+Wire Wire Line
+	8700 1950 9950 1950
+Wire Wire Line
+	8700 2050 9950 2050
+Wire Wire Line
+	8700 2150 9950 2150
+Wire Wire Line
+	8700 2250 9950 2250
+Wire Wire Line
+	8700 2350 9950 2350
+Wire Wire Line
+	8700 2450 9950 2450
+Wire Wire Line
+	8700 2550 9950 2550
+Wire Wire Line
+	8700 2650 9950 2650
+Wire Wire Line
+	8700 2750 9950 2750
+Wire Wire Line
+	8700 2850 9950 2850
+Wire Wire Line
+	7400 1750 7250 1750
+Wire Wire Line
+	7250 1750 7250 1650
+Connection ~ 7250 1450
+Wire Wire Line
+	7400 1650 7250 1650
+Connection ~ 7250 1650
+Wire Wire Line
+	7250 1650 7250 1450
+NoConn ~ 7400 2000
+Text GLabel 7150 2800 0    50   Input ~ 0
+PCMCIA-IN-1
+Wire Wire Line
+	7150 2800 7400 2800
+NoConn ~ 7400 2900
+Text GLabel 7300 3600 0    50   Input ~ 0
+~PSX-RD
+Text GLabel 6900 3700 0    50   Input ~ 0
+~PSX-WR
+Wire Wire Line
+	6900 3700 7400 3700
+Wire Wire Line
+	7400 3600 7300 3600
+NoConn ~ 7400 4250
+NoConn ~ 7400 4350
+Text Notes 6800 4350 0    50   ~ 0
+Are these NC?
+NoConn ~ 7400 4450
+NoConn ~ 7400 3950
+NoConn ~ 7400 4050
+NoConn ~ 7400 3850
+Wire Notes Line
+	7400 3800 7400 4500
+Wire Notes Line
+	7400 4500 6750 4500
+Wire Notes Line
+	6750 4500 6750 3800
+Wire Notes Line
+	6750 3800 7400 3800
+NoConn ~ 7400 4750
+NoConn ~ 7400 4850
+NoConn ~ 7400 2300
+NoConn ~ 7400 2400
+NoConn ~ 2550 2400
+NoConn ~ 2550 2300
+NoConn ~ 2550 2000
+Entry Wire Line
+	4650 5500 4750 5600
+Entry Wire Line
+	4750 3100 4650 3000
+Text Label 4650 3000 2    50   ~ 0
+PSX-AD-0
+Wire Wire Line
+	3850 3000 4650 3000
+Entry Wire Line
+	9600 3200 9500 3100
+Entry Wire Line
+	9600 3300 9500 3200
+Entry Wire Line
+	9600 3400 9500 3300
+Entry Wire Line
+	9600 3500 9500 3400
+Entry Wire Line
+	9600 3600 9500 3500
+Entry Wire Line
+	9600 3700 9500 3600
+Entry Wire Line
+	9600 3800 9500 3700
+Entry Wire Line
+	9600 3900 9500 3800
+Entry Wire Line
+	9600 4000 9500 3900
+Entry Wire Line
+	9600 4100 9500 4000
+Entry Wire Line
+	9600 4200 9500 4100
+Entry Wire Line
+	9600 4300 9500 4200
+Entry Wire Line
+	9600 4400 9500 4300
+Entry Wire Line
+	9600 4500 9500 4400
+Text Label 9500 3100 2    50   ~ 0
+PSX-AD-1
+Entry Wire Line
+	9600 4600 9500 4500
+Entry Wire Line
+	9600 4700 9500 4600
+Text Label 9600 5750 2    50   ~ 0
+PSX-AD
+Text Label 9500 3200 2    50   ~ 0
+PSX-AD-2
+Text Label 9500 3300 2    50   ~ 0
+PSX-AD-3
+Text Label 9500 3400 2    50   ~ 0
+PSX-AD-4
+Text Label 9500 3500 2    50   ~ 0
+PSX-AD-5
+Text Label 9500 3600 2    50   ~ 0
+PSX-AD-6
+Text Label 9500 3700 2    50   ~ 0
+PSX-AD-7
+Text Label 9500 3800 2    50   ~ 0
+PSX-AD-8
+Text Label 9500 4000 2    50   ~ 0
+PSX-AD-10
+Text Label 9500 4100 2    50   ~ 0
+PSX-AD-11
+Text Label 9500 4200 2    50   ~ 0
+PSX-AD-12
+Text Label 9500 4300 2    50   ~ 0
+PSX-AD-13
+Text Label 9500 4400 2    50   ~ 0
+PSX-AD-14
+Text Label 9500 4500 2    50   ~ 0
+PSX-AD-15
+Text Label 9500 4600 2    50   ~ 0
+PSX-AD-16
+Text Label 9500 3900 2    50   ~ 0
+PSX-AD-9
+Entry Wire Line
+	9600 4800 9500 4700
+Entry Wire Line
+	9600 4900 9500 4800
+Entry Wire Line
+	9600 5000 9500 4900
+Entry Wire Line
+	9600 5100 9500 5000
+Entry Wire Line
+	9600 5200 9500 5100
+Entry Wire Line
+	9600 5300 9500 5200
+Entry Wire Line
+	9600 5400 9500 5300
+Entry Wire Line
+	9600 5500 9500 5400
+Text Label 9500 4700 2    50   ~ 0
+PSX-AD-17
+Text Label 9500 4800 2    50   ~ 0
+PSX-AD-18
+Text Label 9500 4900 2    50   ~ 0
+PSX-AD-19
+Text Label 9500 5000 2    50   ~ 0
+PSX-AD-20
+Text Label 9500 5100 2    50   ~ 0
+PSX-AD-21
+Text Label 9500 5200 2    50   ~ 0
+PSX-AD-22
+Text Label 9500 5300 2    50   ~ 0
+PSX-AD-23
+Text Label 9500 5400 2    50   ~ 0
+PSX-AD-24
+Text Label 9500 5500 2    50   ~ 0
+PSX-AD-25
+Wire Wire Line
+	8700 3100 9500 3100
+Wire Wire Line
+	8700 3200 9500 3200
+Wire Wire Line
+	8700 3300 9500 3300
+Wire Wire Line
+	8700 3400 9500 3400
+Wire Wire Line
+	8700 3500 9500 3500
+Wire Wire Line
+	8700 3600 9500 3600
+Wire Wire Line
+	8700 3700 9500 3700
+Wire Wire Line
+	8700 3800 9500 3800
+Wire Wire Line
+	8700 3900 9500 3900
+Wire Wire Line
+	8700 4000 9500 4000
+Wire Wire Line
+	8700 4100 9500 4100
+Wire Wire Line
+	8700 4200 9500 4200
+Wire Wire Line
+	8700 4300 9500 4300
+Wire Wire Line
+	8700 4400 9500 4400
+Wire Wire Line
+	8700 4500 9500 4500
+Wire Wire Line
+	8700 4600 9500 4600
+Wire Wire Line
+	8700 4700 9500 4700
+Wire Wire Line
+	8700 4800 9500 4800
+Wire Wire Line
+	8700 4900 9500 4900
+Wire Wire Line
+	8700 5000 9500 5000
+Wire Wire Line
+	8700 5100 9500 5100
+Wire Wire Line
+	8700 5200 9500 5200
+Wire Wire Line
+	8700 5300 9500 5300
+Wire Wire Line
+	8700 5400 9500 5400
+Wire Wire Line
+	8700 5500 9500 5500
+Entry Wire Line
+	9500 5500 9600 5600
+Entry Wire Line
+	9600 3100 9500 3000
+Text Label 9500 3000 2    50   ~ 0
+PSX-AD-0
+Wire Wire Line
+	8700 3000 9500 3000
+Text Notes 8850 1250 0    50   ~ 0
+A0 connects to ROM A0 so are the PCMCIA’s read as 8-bit?\n
+$Comp
+L Connector_Generic:Conn_01x03 25R
+U 1 1 6229E00A
+P 1100 2900
+F 0 "25R" V 1064 2712 50  0000 R CNN
+F 1 "U102" V 973 2712 50  0000 R CNN
+F 2 "" H 1100 2900 50  0001 C CNN
+F 3 "~" H 1100 2900 50  0001 C CNN
+	1    1100 2900
+	0    -1   -1   0   
+$EndComp
+Text Notes 750  2800 0    50   ~ 0
+CE Selection Jumper?\n
+Text GLabel 900  3150 0    50   Input ~ 0
+U17-33
+Wire Wire Line
+	900  3150 1000 3150
+Wire Wire Line
+	1000 3150 1000 3100
+Wire Wire Line
+	2550 3250 1200 3250
+Wire Wire Line
+	1100 3150 1100 3100
+Wire Wire Line
+	1100 3150 2550 3150
+Wire Wire Line
+	1200 3100 1200 3250
+Wire Wire Line
+	1100 3150 1100 3250
+Wire Wire Line
+	1100 3250 1200 3250
+Connection ~ 1100 3150
+Connection ~ 1200 3250
+$Comp
+L Connector_Generic:Conn_01x03 25S
+U 1 1 622E8CC6
+P 10650 3050
+F 0 "25S" V 10614 2862 50  0000 R CNN
+F 1 "U101" V 10523 2862 50  0000 R CNN
+F 2 "" H 10650 3050 50  0001 C CNN
+F 3 "~" H 10650 3050 50  0001 C CNN
+	1    10650 3050
+	0    -1   -1   0   
+$EndComp
+Text Notes 5550 3650 0    50   ~ 0
+CE Selection Jumper?\n
+Wire Wire Line
+	10450 3300 10550 3300
+Wire Wire Line
+	10550 3300 10550 3250
+Wire Wire Line
+	10750 3250 10750 3400
+Wire Wire Line
+	10650 3400 10750 3400
+Wire Wire Line
+	10650 3250 10650 3400
+$Comp
+L Connectors_PC:FCN-565P136 C?
+U 1 1 6231E545
+P 8050 3550
+F 0 "C?" H 8050 6065 50  0000 C CNN
+F 1 "FCN-565P136" H 8050 5974 50  0000 C CNN
+F 2 "" H 9400 2250 50  0001 C CNN
+F 3 "" H 9400 2250 50  0001 C CNN
+	1    8050 3550
+	1    0    0    -1  
+$EndComp
+Text Label 10450 3400 2    50   ~ 0
+PSX-AD-0
+Text Label 10450 3300 2    50   ~ 0
+PSX-AD-9
+Wire Wire Line
+	10450 3400 10650 3400
+Connection ~ 10650 3400
+Text Notes 10500 3500 0    50   ~ 0
+????
+Wire Wire Line
+	7400 3250 7350 3250
+Wire Wire Line
+	7350 3250 7350 3150
+Wire Wire Line
+	7350 3150 7400 3150
+Wire Bus Line
+	5200 1450 5200 3050
+Wire Bus Line
+	10050 1450 10050 3050
+Wire Bus Line
+	4750 3100 4750 5750
+Wire Bus Line
+	9600 3100 9600 5750
+$EndSCHEMATC

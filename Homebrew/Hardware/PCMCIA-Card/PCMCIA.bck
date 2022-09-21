@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCMCIA
+D PCMCIA Card Socket
+K PCMCIA pccard
+$ENDCMP
+#
+#End Doc Library
