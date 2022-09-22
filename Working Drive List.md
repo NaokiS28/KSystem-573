@@ -24,6 +24,7 @@ The following is a list of known working drives for the System 573.
 * SONY DRU-510A         (DVD±RW)
 * SONY DRU-810A         (DVD±RW)
 * TEAC CD-W552E         (CDRW)
+* Toshiba XM-7002B      (Laptop-CD)
 
 ### Known working with DDR Analogue mixes
 * Compaq 179137-701     (Laptop-CD)
