@@ -25,17 +25,22 @@ The following is a list of known working drives for the System 573.
 * SONY DRU-810A         (DVD±RW)
 * TEAC CD-W552E         (CDRW)
 * Toshiba XM-7002B      (Laptop-CD)
+* TDK AI-CDRW241040B    (CDRW)
 
 ### Known working with DDR Analogue mixes
-* Compaq 179137-701     (Laptop-CD)
+* Compaq 179137-701     (Laptop-CD - Works*)
 * LG GDR-8163B          (DVD)
 * LG GDR-8164B          (DVD) (Works with SuperDiscs)
 * Matsushita CR589B     (CD)
 * Lite-On LH-18A1H      (DVD) (Works with SuperDiscs)
+
+#### Notes:
+\* Works to boot and goes in-game but the charts and lights are not synced to the song. For example a song's audio will finish before the last step in a chart is played. It's thought that this might be due to how the drive handles the subcode data in the red book audio tracks.
 
 ### Credits:
 This information has come from the following sources:
 * Post by gtc on Rhythm Game Cabs discord server (https://discord.com/channels/448309553394614272/448309553394614274)
 * NaokiS - Own testing
 * SpicyJpeg 
+* Grandstand
 * Game Repair Info working drive list (https://gamerepair.info/hardware/1_system_573)
