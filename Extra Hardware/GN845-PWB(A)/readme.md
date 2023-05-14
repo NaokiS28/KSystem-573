@@ -1,5 +1,10 @@
 # GN845-PWB(A) - Relay Board
-This PCB is also known as the Relay board sometimes, it is used on DDR/Dancing Stage and possibly other BEMANI games like Drummania and Guitar Freaks. 
+This PCB is also known as the Relay board sometimes, it is used on DDR/Dancing Stage and possibly other BEMANI games like Drummania and Guitar Freaks.
+Update: It appears the board was used in the following games:
+* Dance Dance Revolution / Danicng Stage
+* Punch Mania / Fighting Mania
+* Guitar Freaks
+* Drummania
 
 First used with DDR, it has space for two logic inverters for up to 8 channels (altough DDR only has pats for 6 channels) of high current outputs like the 12v halogen spotlamps on the marquee and the 501 lamps in the start and select buttons. The neon tube driver *does not* go through this board, it uses a separate solid-state relay (SSR) to drive the neon transformer.
 
