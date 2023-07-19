@@ -23,6 +23,7 @@ The following is a list of known working drives for the System 573.
 * MITSUMI CRMC-FX4830T  (CD)
 * NEC CDR-1900A         (CD)
 * Panasonic CR594C      (CD)
+* Sony CRX217E          (CD-RW)
 * SONY DRU-510A         (DVD±RW)
 * SONY DRU-810A         (DVD±RW)
 * TEAC CD-W552E         (CDRW)
