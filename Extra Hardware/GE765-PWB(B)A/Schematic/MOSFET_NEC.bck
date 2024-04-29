@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP 2SC3567
-D 3.0A Ic, 100V Vce, NPN Silicon Power Transistor, TO-220
-K NPN Transistor
-$ENDCMP
-#
-#End Doc Library

@@ -1,4 +1,0 @@
-(sym_lib_table
-  (lib (name MOSFET_NEC)(type Legacy)(uri ${KIPRJMOD}/MOSFET_NEC.lib)(options "")(descr ""))
-  (lib (name IDEC)(type Legacy)(uri ${KIPRJMOD}/IDEC.lib)(options "")(descr ""))
-)

@@ -1,4 +1,0 @@
-# GN874-PWB(C) - Audio Mixing PCB
-This PCB is simply an audio mixing PCB. It takes two inputs, merges them together and then splits into two full range outputs (one going to the output of the cabinet at the back) and a stereo LFO channel. The potentiometers for controlling volumes connects to this PCB. There is a 4 pin connector by the inputs that might be another input but it's not known if this was ever used. Also there is a third output which is positioned to be connected to another GN672 amplifier but it's not populated on most boards.
-
-It's using basic NE5532 circuits powered from a 7805 5V regulator.

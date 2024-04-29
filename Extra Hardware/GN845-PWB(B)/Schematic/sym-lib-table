@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "GN845-PWB-rescue")(type "Legacy")(uri "${KIPRJMOD}/GN845-PWB-rescue.lib")(options "")(descr ""))
-)

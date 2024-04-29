@@ -1,0 +1,2 @@
+# GE675-PWB(B)A - Fishing Reel IO
+This is the Reel IO controller board for the Fisherman's Bait series of games. It is an internal expansion IO board that has an external IO connector. It uses a typical mouse encoder chip to translate the reel spool and has a feedback drive for the spool clutch to add resistance to turning.
