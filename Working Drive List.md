@@ -14,13 +14,16 @@ The following is a list of known working drives for the System 573.
 * Lite-On LTD-163       (DVD)
 * Lite-On LTR-40125S    (CDRW)
 * Lite-On XJ-HD166S     (DVD)
+* Lite-On SHW-160P6S    (DVD±RW)
 * Lite-On LH-18A1H      (DVD)
 * Toshiba XM-5702B      (CD)
+* Toshiba TS-H292C      (CDRW)
 * Matsushita CR589B     (CD)
 * Matsushita SR8589B    (DVD)
 * MITSUMI CRMC-FX4830T  (CD)
 * NEC CDR-1900A         (CD)
 * Panasonic CR594C      (CD)
+* Sony CRX217E          (CD-RW)
 * SONY DRU-510A         (DVD±RW)
 * SONY DRU-810A         (DVD±RW)
 * TEAC CD-W552E         (CDRW)
@@ -43,4 +46,5 @@ This information has come from the following sources:
 * NaokiS - Own testing
 * SpicyJpeg 
 * Grandstand
+* Hydreigon
 * Game Repair Info working drive list (https://gamerepair.info/hardware/1_system_573)
