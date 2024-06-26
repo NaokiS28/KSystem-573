@@ -16,8 +16,10 @@ The following is a list of known working drives for the System 573.
 * Lite-On XJ-HD166S     (DVD)
 * Lite-On SHW-160P6S    (DVD±RW)
 * Lite-On LH-18A1H      (DVD)
+* Toshiba XM-6102B      (CD)
 * Toshiba XM-5702B      (CD)
 * Toshiba TS-H292C      (CDRW)
+* Toshiba XM-7002B      (Laptop-CD)
 * Matsushita CR589B     (CD)
 * Matsushita SR8589B    (DVD)
 * MITSUMI CRMC-FX4830T  (CD)
@@ -27,7 +29,6 @@ The following is a list of known working drives for the System 573.
 * SONY DRU-510A         (DVD±RW)
 * SONY DRU-810A         (DVD±RW)
 * TEAC CD-W552E         (CDRW)
-* Toshiba XM-7002B      (Laptop-CD)
 * TDK AI-CDRW241040B    (CDRW)
 
 ### Known working with DDR Analogue mixes
